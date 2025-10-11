@@ -340,9 +340,14 @@
           <div class="small muted">Total points</div>
         </div>
         <div style="text-align:center">
-          <div class="small">Timer</div>
-          <div id="timerDisplay" style="font-weight:700;font-size:1.4rem">--</div>
+          <div class="small">Answer Time</div>
+          <div id="answerTimerDisplay" style="font-weight:700;font-size:1.4rem">--</div>
           <div id="questionCounter" class="small muted">Q 0 / 0</div>
+        </div>
+        <div style="text-align:center" id="roundTimerContainer">
+          <div class="small">Round Time</div>
+          <div id="roundTimerDisplay" style="font-weight:700;font-size:1.4rem">--</div>
+          <div class="small muted">&nbsp;</div>
         </div>
         <div class="team-score">
           <div class="team-name">Accuracy</div>
@@ -443,6 +448,11 @@
       }
     }
 
+    // Initialize on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      loadQuestions();
+    });
+
     function shuffle(array) {
       const arr = [...array];
       for (let i = arr.length - 1; i > 0; i--) {
@@ -460,6 +470,7 @@
       $('mainMenu').style.display = 'none';
       $('gameArea').style.display = 'block';
       $('challengeBtn').classList.add('hidden');
+      $('roundTimerContainer').style.display = 'none';
       nextQuestion();
     }
 
@@ -471,6 +482,7 @@
       $('mainMenu').style.display = 'none';
       $('gameArea').style.display = 'block';
       $('challengeBtn').classList.remove('hidden');
+      $('roundTimerContainer').style.display = 'block';
       startRoundTimer();
       nextQuestion();
     }
@@ -493,10 +505,10 @@
     }
 
     function startRoundTimer() {
-      $('timerDisplay').textContent = formatTime(gameState.roundTimeLeft);
+      $('roundTimerDisplay').textContent = formatTime(gameState.roundTimeLeft);
       gameState.roundTimer = setInterval(() => {
         gameState.roundTimeLeft--;
-        $('timerDisplay').textContent = formatTime(gameState.roundTimeLeft);
+        $('roundTimerDisplay').textContent = formatTime(gameState.roundTimeLeft);
         if (gameState.roundTimeLeft <= 0) {
           clearInterval(gameState.roundTimer);
           gameState.roundTimer = null;
@@ -568,15 +580,11 @@
       $('answerInput').focus();
       
       let timeLeft = 20;
-      if (gameState.mode === 'full') {
-        $('timerDisplay').textContent = `Answer: ${timeLeft}s | Round: ${formatTime(gameState.roundTimeLeft)}`;
-      }
+      $('answerTimerDisplay').textContent = `${timeLeft}s`;
       
       gameState.answerTimer = setInterval(() => {
         timeLeft--;
-        if (gameState.mode === 'full') {
-          $('timerDisplay').textContent = `Answer: ${timeLeft}s | Round: ${formatTime(gameState.roundTimeLeft)}`;
-        }
+        $('answerTimerDisplay').textContent = `${timeLeft}s`;
         
         if (timeLeft <= 0) {
           clearInterval(gameState.answerTimer);
@@ -841,4 +849,109 @@
           return;
         }
         
-        // Sort by
+        // Sort by score, then accuracy
+        const sorted = scores.sort((a, b) => {
+          if (b.score !== a.score) return b.score - a.score;
+          return b.accuracy - a.accuracy;
+        });
+        
+        const formatDate = (dateStr) => {
+          const date = new Date(dateStr);
+          return date.toLocaleDateString('en-US', { 
+            month: 'short', 
+            day: 'numeric',
+            year: 'numeric'
+          });
+        };
+        
+        container.innerHTML = sorted.map((e, idx) => {
+          let nameStyle = '';
+          let rankStyle = '';
+          let medalEmoji = '';
+          let borderColor = '#2E7D32';
+          
+          if (idx === 0) {
+            nameStyle = 'color:#2E7D32;font-weight:bold;font-size:1.3em;';
+            rankStyle = 'color:#2E7D32;font-weight:800;';
+            borderColor = '#2E7D32';
+            medalEmoji = '🥇';
+          } else if (idx === 1) {
+            nameStyle = 'color:#388E3C;font-weight:bold;font-size:1.25em;';
+            rankStyle = 'color:#388E3C;font-weight:800;';
+            borderColor = '#388E3C';
+            medalEmoji = '🥈';
+          } else if (idx === 2) {
+            nameStyle = 'color:#43A047;font-weight:bold;font-size:1.2em;';
+            rankStyle = 'color:#43A047;font-weight:800;';
+            borderColor = '#43A047';
+            medalEmoji = '🥉';
+          } else {
+            nameStyle = 'color:#1565C0;font-weight:600;';
+            rankStyle = 'color:#1565C0;font-weight:800;';
+            borderColor = '#1565C0';
+          }
+          
+          return `
+            <div style="
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              padding:12px 16px;
+              margin:6px 0;
+              background:rgba(255,255,255,0.9);
+              border-radius:10px;
+              border-left:4px solid ${borderColor};
+              box-shadow:0 2px 8px rgba(0,0,0,0.06);
+            ">
+              ${medalEmoji ? `<span style="font-size:1.4rem;margin-right:8px;">${medalEmoji}</span>` : ''}
+              <span style="${rankStyle}font-size:1.1rem;min-width:35px;text-align:center;margin-right:12px;">${idx + 1}</span>
+              <div style="flex:1;margin:0 12px;">
+                <div style="${nameStyle}margin-bottom:3px;">${e.name || "Anonymous"}</div>
+                <div style="font-size:0.8rem;color:#666;display:flex;gap:10px;">
+                  <span>📊 ${e.accuracy.toFixed(1)}% accuracy</span>
+                  <span>📅 ${formatDate(e.date)}</span>
+                </div>
+              </div>
+              <div style="${rankStyle}font-size:1.3rem;font-weight:800;">${e.score}</div>
+            </div>
+          `;
+        }).join('');
+        
+      } catch (err) {
+        console.error(err);
+        container.innerHTML = '<div style="text-align:center;padding:40px;color:#e53e3e;">Failed to load leaderboard</div>';
+      }
+    }
+
+    function clearAllTimers() {
+      if (gameState.readingInterval) {
+        clearInterval(gameState.readingInterval);
+        gameState.readingInterval = null;
+      }
+      if (gameState.answerTimer) {
+        clearInterval(gameState.answerTimer);
+        gameState.answerTimer = null;
+      }
+      if (gameState.roundTimer) {
+        clearInterval(gameState.roundTimer);
+        gameState.roundTimer = null;
+      }
+    }
+
+    function backToMenu() {
+      clearAllTimers();
+      $('gameArea').style.display = 'none';
+      $('reviewPanel').classList.add('hidden');
+      $('leaderboardPanel').classList.add('hidden');
+      $('mainMenu').style.display = 'grid';
+    }
+
+    // Enter key handler
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !$('answerInput').disabled) {
+        submitAnswer();
+      }
+    });
+  </script>
+</body>
+</html>
