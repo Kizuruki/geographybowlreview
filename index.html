@@ -709,17 +709,169 @@
     }
 
     function checkAnswer(given, answer) {
-      const normalize = s => s.toString().toLowerCase().trim()
-        .replace(/[.,;:!?]/g, '')
-        .replace(/\s+/g, ' ');
-      
-      const givenNorm = normalize(given);
+      // Use the advanced normalization from History Bowl
+      return isStrictCorrect(given, answer) || looseMatch(given, answer);
+    }
+
+    function normalize(s) {
+      return (s || "").toString().trim().toLowerCase();
+    }
+
+    function isStrictCorrect(given, answer) {
+      const normGiven = normalize(given);
       
       if (Array.isArray(answer)) {
-        return answer.some(a => normalize(a) === givenNorm);
+        return answer.some(a => {
+          const normA = normalize(a);
+          return normA === normGiven;
+        });
+      } else {
+        const normA = normalize(answer);
+        return normA === normGiven;
+      }
+    }
+
+    function looseMatch(given, answer) {
+      // Words to ignore in matching
+      const allowedExtras = [
+        "the", "a", "an", "of", "in", "on", "at", "for", "by", "to", "from",
+        "with", "and", "or", "el", "la", "los", "las", "saint", "st", "d", "de",
+        "du", "des", "le", "les", "un", "une", "van", "von", "der", "die", "das"
+      ];
+
+      function normalizeWord(word) {
+        word = word.toLowerCase().replace(/[.,;:!?]/g, '');
+        
+        // Handle "saint" and "st" as equivalent
+        if (word === "saint" || word === "st" || word === "st.") return "saint";
+        
+        // Normalize all number variants
+        if (word.endsWith('st') || word.endsWith('nd') || word.endsWith('rd') || word.endsWith('th')) {
+          const numPart = word.slice(0, -2);
+          if (!isNaN(numPart) && numPart !== '') return numPart;
+        }
+        
+        const wordToNum = {
+          "one": "1", "first": "1",
+          "two": "2", "second": "2",
+          "three": "3", "third": "3",
+          "four": "4", "fourth": "4",
+          "five": "5", "fifth": "5",
+          "six": "6", "sixth": "6",
+          "seven": "7", "seventh": "7",
+          "eight": "8", "eighth": "8",
+          "nine": "9", "ninth": "9",
+          "ten": "10", "tenth": "10"
+        };
+        
+        if (wordToNum[word]) return wordToNum[word];
+        
+        // Generate all plural/singular variations
+        const variations = generateWordVariations(word);
+        return variations.length === 1 ? variations[0] : variations;
       }
       
-      return normalize(answer) === givenNorm;
+      function generateWordVariations(word) {
+        const variations = new Set([word]);
+        
+        // Handle "ies" ending - convert to 'y'
+        if (word.length > 3 && word.endsWith('ies')) {
+          variations.add(word.slice(0, -3) + 'y');
+        }
+        
+        // Handle "es" ending - remove it
+        if (word.length > 2 && word.endsWith('es')) {
+          variations.add(word.slice(0, -2));
+        }
+        
+        // Handle "s" ending - remove it
+        if (word.length > 2 && word.endsWith('s')) {
+          variations.add(word.slice(0, -1));
+        }
+        
+        // Add 's'
+        variations.add(word + 's');
+        
+        // Add 'es'
+        if (!word.endsWith('y')) {
+          variations.add(word + 'es');
+        }
+        
+        // If ends in 'y', convert to 'ies'
+        if (word.length > 1 && word.endsWith('y')) {
+          variations.add(word.slice(0, -1) + 'ies');
+        }
+        
+        return Array.from(variations);
+      }
+
+      function tokenizeAndNormalize(s) {
+        return s
+          .toLowerCase()
+          .replace(/[^a-z0-9' -]/g, ' ')
+          .split(/\s+/)
+          .filter(w => w && !allowedExtras.includes(w.replace(/[.,;:!?]/g, '')))
+          .map(normalizeWord);
+      }
+
+      function possibleAnswers(ans) {
+        if (Array.isArray(ans)) return ans;
+        if (typeof ans === "string" && ans.includes(",")) return ans.split(",").map(s => s.trim());
+        return [ans];
+      }
+
+      const givenNorm = tokenizeAndNormalize(given);
+      
+      function matchWordSets(givenTokens, answerTokens) {
+        const flattenVariations = (tokens) => {
+          const result = [];
+          tokens.forEach(token => {
+            if (Array.isArray(token)) {
+              result.push(...token);
+            } else {
+              result.push(token);
+            }
+          });
+          return result;
+        };
+        
+        const givenFlat = flattenVariations(givenTokens);
+        const answerFlat = flattenVariations(answerTokens);
+        
+        const givenWordCount = givenTokens.length;
+        const answerWordCount = answerTokens.length;
+        
+        // Check if lengths match
+        if (givenWordCount === answerWordCount) {
+          const hasOverlap = givenFlat.some(g => answerFlat.includes(g));
+          if (hasOverlap) return true;
+        }
+        
+        // Allow if user gave MORE words than needed
+        if (answerWordCount < givenWordCount) {
+          const allAnswerWordsInGiven = answerFlat.every(a => givenFlat.includes(a));
+          if (allAnswerWordsInGiven) return true;
+        }
+        
+        return false;
+      }
+      
+      for (let ans of possibleAnswers(answer)) {
+        const ansNorm = tokenizeAndNormalize(ans);
+        
+        if (matchWordSets(givenNorm, ansNorm)) {
+          return true;
+        }
+        
+        // Handle possessive forms
+        const givenNoApostrophe = tokenizeAndNormalize(given.replace(/'s/g, '').replace(/'/g, ''));
+        const ansNoApostrophe = tokenizeAndNormalize(ans.replace(/'s/g, '').replace(/'/g, ''));
+        
+        if (matchWordSets(givenNoApostrophe, ansNoApostrophe)) {
+          return true;
+        }
+      }
+      return false;
     }
 
     function formatAnswer(ans) {
