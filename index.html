@@ -922,8 +922,7 @@
         date: new Date().toISOString(),
         name: playerName,
         score: gameState.score,
-        accuracy: accuracy,
-        questionsAnswered: gameState.questionsAnswered
+        accuracy: accuracy
       };
       
       await saveScore(entry);
@@ -931,6 +930,7 @@
       // Show review
       showReview();
     }
+
 
     function showReview() {
       $('gameArea').style.display = 'none';
@@ -963,13 +963,18 @@
     }
 
     async function saveScore(entry) {
-      const WORKER_URL = "YOUR_CLOUDFLARE_WORKER_URL_HERE";
+      const WORKER_URL = "https://solitary-silence-03ba.javalutionization.workers.dev/scores";
       
       try {
         const res = await fetch(WORKER_URL, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(entry)
+          body: JSON.stringify({
+            date: entry.date,
+            name: entry.name,
+            score: entry.score,
+            accuracy: entry.accuracy
+          })
         });
         
         if (!res.ok) throw new Error('Failed to save');
@@ -986,7 +991,7 @@
     }
 
     async function renderLeaderboard() {
-      const WORKER_URL = "YOUR_CLOUDFLARE_WORKER_URL_HERE";
+      const WORKER_URL = "https://solitary-silence-03ba.javalutionization.workers.dev/scores";
       const container = $('leaderboardList');
       container.innerHTML = '<div style="text-align:center;padding:30px;">Loading...</div>';
       
