@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Geography Bowl Study Program 🌍🗺️</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #2E7D32 0%, #1565C0 100%);
+      min-height: 100vh;
+      color: #222;
+      padding: 24px;
+    }
+    
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    
+    .header {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    
+    .header h1 {
+      font-size: 2.2rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+    }
+    
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    
+    .card {
+      background: rgba(255,255,255,0.95);
+      padding: 18px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+    }
+    
+    .card h3 {
+      color: #2E7D32;
+      margin-bottom: 8px;
+    }
+    
+    .btn {
+      background: linear-gradient(135deg, #2E7D32 0%, #1565C0 100%);
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      font-size: 14px;
+      box-shadow: 0 2px 8px rgba(46,125,50,0.3);
+    }
+    
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(46,125,50,0.4);
+    }
+    
+    .btn:active {
+      transform: translateY(0);
+    }
+    
+    .btn.secondary {
+      background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
+      box-shadow: 0 2px 8px rgba(108,117,125,0.3);
+      margin-left: 8px;
+    }
+    
+    .btn.secondary:hover {
+      box-shadow: 0 4px 12px rgba(108,117,125,0.4);
+    }
+    
+    .btn.warning {
+      background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+      box-shadow: 0 2px 8px rgba(255,152,0,0.3);
+    }
+    
+    .btn.warning:hover {
+      box-shadow: 0 4px 12px rgba(255,152,0,0.4);
+    }
+    
+    .btn:disabled {
+      background: #a0aec0;
+      cursor: not-allowed;
+      box-shadow: none;
+      transform: none;
+    }
+    
+    .game-area {
+      display: none;
+      margin-bottom: 18px;
+    }
+    
+    .scoreboard {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      background: rgba(255,255,255,0.95);
+      padding: 16px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    
+    .team-score {
+      flex: 1;
+      text-align: center;
+      padding: 12px;
+      background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    
+    .team-name {
+      font-weight: 700;
+      color: #2E7D32;
+      margin-bottom: 4px;
+    }
+    
+    .score {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #2d3748;
+    }
+    
+    .question-area {
+      background: rgba(255,255,255,0.95);
+      padding: 20px;
+      border-left: 6px solid #2E7D32;
+      border-radius: 12px;
+      min-height: 110px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    
+    .question-text {
+      font-size: 1.05rem;
+      color: #2d3748;
+      min-height: 62px;
+      line-height: 1.5;
+    }
+    
+    .controls {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+    
+    .answer-input {
+      padding: 12px 16px;
+      border-radius: 10px;
+      border: 2px solid #e2e8f0;
+      font-size: 15px;
+      width: 100%;
+      max-width: 520px;
+      transition: border-color 0.2s;
+      background: white;
+    }
+    
+    .answer-input:focus {
+      border-color: #2E7D32;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(46,125,50,0.1);
+    }
+    
+    .feedback {
+      margin-top: 12px;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-weight: 600;
+      display: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .feedback.correct {
+      background: linear-gradient(135deg, #c6f6d5 0%, #9ae6b4 100%);
+      color: #22543d;
+      border: 1px solid #9ae6b4;
+    }
+    
+    .feedback.incorrect {
+      background: linear-gradient(135deg, #fed7d7 0%, #fc8181 100%);
+      color: #742a2a;
+      border: 1px solid #fc8181;
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+    .leaderboard {
+      background: white;
+      padding: 16px;
+      border-radius: 10px;
+      margin-top: 12px;
+      max-height: 480px;
+      overflow: auto;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    
+    .small {
+      font-size: 0.9rem;
+      color: #000;
+    }
+    
+    .muted {
+      color: #000;
+      font-size: 0.9rem;
+    }
+    
+    #playerNameInput {
+      padding: 10px 16px;
+      border-radius: 10px;
+      border: 2px solid #e2e8f0;
+      font-size: 14px;
+      width: 240px;
+      transition: all 0.2s ease;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    
+    #playerNameInput:focus {
+      border-color: #2E7D32;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(46,125,50,0.1);
+    }
+    
+    .review-panel {
+      background: rgba(255,255,255,0.95);
+      padding: 20px;
+      border-radius: 16px;
+      margin-top: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      max-height: 600px;
+      overflow-y: auto;
+    }
+    
+    .review-item {
+      padding: 12px;
+      margin: 8px 0;
+      background: #fff;
+      border-left: 4px solid #e53e3e;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    }
+    
+    .review-question {
+      font-weight: 600;
+      color: #2d3748;
+      margin-bottom: 6px;
+    }
+    
+    .review-answer {
+      color: #2E7D32;
+      font-weight: 500;
+    }
+    
+    .review-your-answer {
+      color: #e53e3e;
+      font-size: 0.9rem;
+      margin-top: 4px;
+    }
+    
+    footer {
+      margin-top: 24px;
+      color: #fff;
+      text-align: center;
+      font-size: 0.9rem;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    }
+    
+    @media (max-width: 700px) {
+      .scoreboard {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>🌍🗺️ Geography Bowl Study Program</h1>
+      <p class="small">Practice mode + Full game simulation with timed rounds and leaderboards</p>
+    </div>
+
+    <!-- Main Menu -->
+    <div id="mainMenu" class="menu">
+      <div class="card" onclick="startPracticeMode()">
+        <h3>🎯 Practice Mode</h3>
+        <p class="muted">Practice all questions at your own pace with instant feedback.</p>
+        <div style="margin-top:10px"><button class="btn">Start Practice</button></div>
+      </div>
+      <div class="card" onclick="startFullGame()">
+        <h3>🏆 Full Game Simulation</h3>
+        <p class="muted">10-minute timed round with scrolling questions and challenge option.</p>
+        <div style="margin-top:10px"><button class="btn">Start Full Game</button></div>
+      </div>
+      <div class="card" onclick="showLeaderboard()">
+        <h3>🏅 Global Leaderboard</h3>
+        <p class="muted">View top scores from all players worldwide.</p>
+        <div style="margin-top:10px"><button class="btn">View Leaderboard</button></div>
+      </div>
+      <div id="playerNameContainer" style="margin-bottom: 10px;">
+        <input type="text" id="playerNameInput" placeholder="Enter your name" maxlength="20">
+      </div>
+    </div>
+
+    <!-- Game Area -->
+    <div id="gameArea" class="game-area">
+      <div class="scoreboard">
+        <div class="team-score">
+          <div class="team-name">Score</div>
+          <div class="score" id="scoreDisplay">0</div>
+          <div class="small muted">Total points</div>
+        </div>
+        <div style="text-align:center">
+          <div class="small">Timer</div>
+          <div id="timerDisplay" style="font-weight:700;font-size:1.4rem">--</div>
+          <div id="questionCounter" class="small muted">Q 0 / 0</div>
+        </div>
+        <div class="team-score">
+          <div class="team-name">Accuracy</div>
+          <div class="score" id="accuracyDisplay">--%</div>
+          <div class="small muted">Correct answers</div>
+        </div>
+      </div>
+      
+      <div class="question-area">
+        <div id="questionText" class="question-text">Get ready...</div>
+      </div>
+      
+      <div class="controls">
+        <input id="answerInput" class="answer-input" placeholder="Type answer and press Enter..." disabled>
+        <button class="btn" onclick="submitAnswer()">Submit</button>
+        <button id="challengeBtn" class="btn warning hidden" onclick="challengeQuestion()">Challenge (1 left)</button>
+      </div>
+      
+      <div id="feedback" class="feedback"></div>
+      
+      <div class="controls" style="margin-top:12px">
+        <button class="btn secondary" onclick="backToMenu()">Back to Menu</button>
+        <div style="margin-left:auto">
+          <span class="small muted">Mode: </span>
+          <span id="modeDisplay" style="font-weight:700">Practice</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Review Panel -->
+    <div id="reviewPanel" class="hidden">
+      <div class="review-panel">
+        <h3 style="text-align:center;color:#2E7D32;margin-bottom:20px;font-size:1.6rem">📋 Question Review</h3>
+        <div id="reviewList"></div>
+        <div style="text-align:center;margin-top:20px">
+          <button class="btn" onclick="backToMenu()">Back to Menu</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Leaderboard Panel -->
+    <div id="leaderboardPanel" class="hidden">
+      <div class="review-panel">
+        <h3 style="text-align:center;color:#2E7D32;margin-bottom:20px;font-size:1.6rem">🏅 Global Leaderboard</h3>
+        <div class="leaderboard" id="leaderboardList">Loading...</div>
+        <div style="text-align:center;margin-top:20px">
+          <button class="btn secondary" onclick="backToMenu()">Back to Menu</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p><i>Made by Matias</i></p>
+    </footer>
+  </div>
+
+  <script>
+    // Sample question structure - replace with your actual questions.json
+    let QUESTIONS = [
+      { question: "What is the capital of France?", answer: "Paris" },
+      { question: "Which ocean is the largest?", answer: "Pacific Ocean" },
+      { question: "What is the longest river in the world?", answer: ["Nile", "Nile River"] },
+      { question: "What mountain range separates Europe from Asia?", answer: ["Ural Mountains", "Urals"] },
+      { question: "What is the smallest country in the world?", answer: ["Vatican City", "Vatican"] }
+    ];
+
+    let gameState = {
+      mode: null, // 'practice' or 'full'
+      score: 0,
+      currentQuestionIndex: -1,
+      questionsAnswered: 0,
+      correctAnswers: 0,
+      wrongAnswers: [],
+      challengesLeft: 1,
+      roundTimeLeft: 600, // 10 minutes in seconds
+      roundTimer: null,
+      readingInterval: null,
+      answerTimer: null,
+      currentQuestionText: "",
+      currentAnswer: "",
+      readingCharIndex: 0,
+      isReading: false,
+      shuffledQuestions: []
+    };
+
+    const $ = id => document.getElementById(id);
+
+    // Load questions from JSON
+    async function loadQuestions() {
+      try {
+        const response = await fetch('geography_questions.json');
+        if (response.ok) {
+          const data = await response.json();
+          QUESTIONS = data.questions || data;
+        }
+      } catch (err) {
+        console.log('Using sample questions:', err);
+      }
+    }
+
+    function shuffle(array) {
+      const arr = [...array];
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    function startPracticeMode() {
+      gameState.mode = 'practice';
+      gameState.shuffledQuestions = shuffle(QUESTIONS);
+      resetGame();
+      $('modeDisplay').textContent = 'Practice';
+      $('mainMenu').style.display = 'none';
+      $('gameArea').style.display = 'block';
+      $('challengeBtn').classList.add('hidden');
+      nextQuestion();
+    }
+
+    function startFullGame() {
+      gameState.mode = 'full';
+      gameState.shuffledQuestions = shuffle(QUESTIONS);
+      resetGame();
+      $('modeDisplay').textContent = 'Full Game';
+      $('mainMenu').style.display = 'none';
+      $('gameArea').style.display = 'block';
+      $('challengeBtn').classList.remove('hidden');
+      startRoundTimer();
+      nextQuestion();
+    }
+
+    function resetGame() {
+      clearAllTimers();
+      gameState.score = 0;
+      gameState.currentQuestionIndex = -1;
+      gameState.questionsAnswered = 0;
+      gameState.correctAnswers = 0;
+      gameState.wrongAnswers = [];
+      gameState.challengesLeft = 1;
+      gameState.roundTimeLeft = 600;
+      gameState.readingCharIndex = 0;
+      gameState.isReading = false;
+      $('answerInput').value = '';
+      $('answerInput').disabled = true;
+      updateDisplays();
+      clearFeedback();
+    }
+
+    function startRoundTimer() {
+      $('timerDisplay').textContent = formatTime(gameState.roundTimeLeft);
+      gameState.roundTimer = setInterval(() => {
+        gameState.roundTimeLeft--;
+        $('timerDisplay').textContent = formatTime(gameState.roundTimeLeft);
+        if (gameState.roundTimeLeft <= 0) {
+          clearInterval(gameState.roundTimer);
+          gameState.roundTimer = null;
+          // Allow current question to finish
+          if (!gameState.isReading) {
+            finishRound();
+          }
+        }
+      }, 1000);
+    }
+
+    function formatTime(seconds) {
+      const mins = Math.floor(seconds / 60);
+      const secs = seconds % 60;
+      return `${mins}:${secs.toString().padStart(2, '0')}`;
+    }
+
+    function nextQuestion() {
+      if (gameState.mode === 'full' && gameState.roundTimeLeft <= 0) {
+        finishRound();
+        return;
+      }
+
+      gameState.currentQuestionIndex++;
+      
+      if (gameState.currentQuestionIndex >= gameState.shuffledQuestions.length) {
+        if (gameState.mode === 'practice') {
+          alert('You have completed all questions!');
+          backToMenu();
+        } else {
+          finishRound();
+        }
+        return;
+      }
+
+      const q = gameState.shuffledQuestions[gameState.currentQuestionIndex];
+      gameState.currentQuestionText = q.question;
+      gameState.currentAnswer = q.answer;
+      
+      clearFeedback();
+      $('answerInput').value = '';
+      $('answerInput').disabled = true;
+      $('questionCounter').textContent = `Q ${gameState.currentQuestionIndex + 1} / ${gameState.shuffledQuestions.length}`;
+      
+      startReading();
+    }
+
+    function startReading() {
+      gameState.isReading = true;
+      gameState.readingCharIndex = 0;
+      $('questionText').textContent = '';
+      
+      clearInterval(gameState.readingInterval);
+      gameState.readingInterval = setInterval(() => {
+        if (gameState.readingCharIndex < gameState.currentQuestionText.length) {
+          $('questionText').textContent += gameState.currentQuestionText[gameState.readingCharIndex];
+          gameState.readingCharIndex++;
+        } else {
+          clearInterval(gameState.readingInterval);
+          gameState.readingInterval = null;
+          gameState.isReading = false;
+          startAnswerTimer();
+        }
+      }, 30);
+    }
+
+    function startAnswerTimer() {
+      $('answerInput').disabled = false;
+      $('answerInput').focus();
+      
+      let timeLeft = 20;
+      if (gameState.mode === 'full') {
+        $('timerDisplay').textContent = `Answer: ${timeLeft}s | Round: ${formatTime(gameState.roundTimeLeft)}`;
+      }
+      
+      gameState.answerTimer = setInterval(() => {
+        timeLeft--;
+        if (gameState.mode === 'full') {
+          $('timerDisplay').textContent = `Answer: ${timeLeft}s | Round: ${formatTime(gameState.roundTimeLeft)}`;
+        }
+        
+        if (timeLeft <= 0) {
+          clearInterval(gameState.answerTimer);
+          gameState.answerTimer = null;
+          handleTimeout();
+        }
+      }, 1000);
+    }
+
+    function handleTimeout() {
+      $('answerInput').disabled = true;
+      const correctAnswer = formatAnswer(gameState.currentAnswer);
+      
+      gameState.questionsAnswered++;
+      gameState.wrongAnswers.push({
+        question: gameState.currentQuestionText,
+        correctAnswer: correctAnswer,
+        yourAnswer: "(No answer)"
+      });
+      
+      if (gameState.mode === 'practice') {
+        setFeedback(`Time expired! Correct answer: ${correctAnswer}`, false);
+        startFeedbackCountdown(10);
+      } else {
+        setFeedback(`Time expired! Correct answer: ${correctAnswer}`, false);
+        setTimeout(() => {
+          if (gameState.roundTimeLeft > 0) {
+            nextQuestion();
+          } else {
+            finishRound();
+          }
+        }, 2000);
+      }
+      
+      updateDisplays();
+    }
+
+    function submitAnswer() {
+      if ($('answerInput').disabled) return;
+      
+      clearInterval(gameState.answerTimer);
+      gameState.answerTimer = null;
+      
+      const userAnswer = $('answerInput').value.trim();
+      if (!userAnswer) {
+        setFeedback("Please type an answer.", false);
+        return;
+      }
+      
+      $('answerInput').disabled = true;
+      
+      const isCorrect = checkAnswer(userAnswer, gameState.currentAnswer);
+      gameState.questionsAnswered++;
+      
+      if (isCorrect) {
+        gameState.score += 10;
+        gameState.correctAnswers++;
+        setFeedback("✓ Correct! +10 points", true);
+        
+        if (gameState.mode === 'practice') {
+          setTimeout(() => nextQuestion(), 1500);
+        } else {
+          setTimeout(() => {
+            if (gameState.roundTimeLeft > 0) {
+              nextQuestion();
+            } else {
+              finishRound();
+            }
+          }, 1500);
+        }
+      } else {
+        const correctAnswer = formatAnswer(gameState.currentAnswer);
+        gameState.wrongAnswers.push({
+          question: gameState.currentQuestionText,
+          correctAnswer: correctAnswer,
+          yourAnswer: userAnswer
+        });
+        
+        setFeedback(`✗ Incorrect. Correct answer: ${correctAnswer}`, false);
+        
+        if (gameState.mode === 'practice') {
+          startFeedbackCountdown(10);
+        } else {
+          setTimeout(() => {
+            if (gameState.roundTimeLeft > 0) {
+              nextQuestion();
+            } else {
+              finishRound();
+            }
+          }, 2000);
+        }
+      }
+      
+      updateDisplays();
+    }
+
+    function challengeQuestion() {
+      if (gameState.challengesLeft <= 0) return;
+      
+      clearInterval(gameState.answerTimer);
+      gameState.answerTimer = null;
+      
+      gameState.challengesLeft--;
+      gameState.score += 10;
+      gameState.questionsAnswered++;
+      gameState.correctAnswers++;
+      
+      $('challengeBtn').textContent = gameState.challengesLeft > 0 ? 
+        `Challenge (${gameState.challengesLeft} left)` : 'No Challenges Left';
+      $('challengeBtn').disabled = gameState.challengesLeft <= 0;
+      
+      setFeedback("✓ Challenge used! +10 points", true);
+      updateDisplays();
+      
+      setTimeout(() => {
+        if (gameState.roundTimeLeft > 0) {
+          nextQuestion();
+        } else {
+          finishRound();
+        }
+      }, 1500);
+    }
+
+    function checkAnswer(given, answer) {
+      const normalize = s => s.toString().toLowerCase().trim()
+        .replace(/[.,;:!?]/g, '')
+        .replace(/\s+/g, ' ');
+      
+      const givenNorm = normalize(given);
+      
+      if (Array.isArray(answer)) {
+        return answer.some(a => normalize(a) === givenNorm);
+      }
+      
+      return normalize(answer) === givenNorm;
+    }
+
+    function formatAnswer(ans) {
+      if (Array.isArray(ans)) return ans.join(' / ');
+      return ans;
+    }
+
+    function setFeedback(text, isCorrect) {
+      const f = $('feedback');
+      f.textContent = text;
+      f.classList.remove('correct', 'incorrect');
+      f.classList.add(isCorrect ? 'correct' : 'incorrect');
+      f.style.display = 'block';
+    }
+
+    function clearFeedback() {
+      $('feedback').style.display = 'none';
+    }
+
+    function startFeedbackCountdown(seconds) {
+      let timeLeft = seconds;
+      const interval = setInterval(() => {
+        timeLeft--;
+        if (timeLeft <= 0) {
+          clearInterval(interval);
+          nextQuestion();
+        }
+      }, 1000);
+    }
+
+    function updateDisplays() {
+      $('scoreDisplay').textContent = gameState.score;
+      
+      const accuracy = gameState.questionsAnswered > 0 ? 
+        ((gameState.correctAnswers / gameState.questionsAnswered) * 100).toFixed(1) : 0;
+      $('accuracyDisplay').textContent = accuracy + '%';
+    }
+
+    async function finishRound() {
+      clearAllTimers();
+      
+      const playerName = $('playerNameInput').value.trim() || "Anonymous";
+      const accuracy = gameState.questionsAnswered > 0 ? 
+        ((gameState.correctAnswers / gameState.questionsAnswered) * 100) : 0;
+      
+      // Save to leaderboard
+      const entry = {
+        date: new Date().toISOString(),
+        name: playerName,
+        score: gameState.score,
+        accuracy: accuracy,
+        questionsAnswered: gameState.questionsAnswered
+      };
+      
+      await saveScore(entry);
+      
+      // Show review
+      showReview();
+    }
+
+    function showReview() {
+      $('gameArea').style.display = 'none';
+      $('reviewPanel').classList.remove('hidden');
+      
+      const reviewList = $('reviewList');
+      reviewList.innerHTML = `
+        <div style="text-align:center;padding:20px;background:#f8f9fa;border-radius:10px;margin-bottom:20px;">
+          <h2 style="color:#2E7D32;margin-bottom:10px;">Round Complete!</h2>
+          <p style="font-size:1.2rem;"><strong>Final Score:</strong> ${gameState.score} points</p>
+          <p style="font-size:1.1rem;"><strong>Accuracy:</strong> ${$('accuracyDisplay').textContent}</p>
+          <p style="color:#666;margin-top:8px;">${gameState.questionsAnswered} questions answered</p>
+        </div>
+      `;
+      
+      if (gameState.wrongAnswers.length > 0) {
+        reviewList.innerHTML += '<h4 style="margin:20px 0 10px 0;">Questions You Missed:</h4>';
+        gameState.wrongAnswers.forEach((item, idx) => {
+          reviewList.innerHTML += `
+            <div class="review-item">
+              <div class="review-question">${idx + 1}. ${item.question}</div>
+              <div class="review-answer">✓ Correct: ${item.correctAnswer}</div>
+              <div class="review-your-answer">✗ Your answer: ${item.yourAnswer}</div>
+            </div>
+          `;
+        });
+      } else {
+        reviewList.innerHTML += '<p style="text-align:center;color:#2E7D32;font-size:1.2rem;margin-top:20px;">🎉 Perfect score! You got all questions correct!</p>';
+      }
+    }
+
+    async function saveScore(entry) {
+      const WORKER_URL = "YOUR_CLOUDFLARE_WORKER_URL_HERE";
+      
+      try {
+        const res = await fetch(WORKER_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(entry)
+        });
+        
+        if (!res.ok) throw new Error('Failed to save');
+        console.log('Score saved!');
+      } catch (err) {
+        console.error('Error saving score:', err);
+      }
+    }
+
+    async function showLeaderboard() {
+      $('mainMenu').style.display = 'none';
+      $('leaderboardPanel').classList.remove('hidden');
+      await renderLeaderboard();
+    }
+
+    async function renderLeaderboard() {
+      const WORKER_URL = "YOUR_CLOUDFLARE_WORKER_URL_HERE";
+      const container = $('leaderboardList');
+      container.innerHTML = '<div style="text-align:center;padding:30px;">Loading...</div>';
+      
+      try {
+        const res = await fetch(WORKER_URL);
+        if (!res.ok) throw new Error('Failed to fetch');
+        
+        const scores = await res.json();
+        
+        if (!scores.length) {
+          container.innerHTML = '<div style="text-align:center;padding:40px;">🏆 No scores yet - be the first!</div>';
+          return;
+        }
+        
+        // Sort by
