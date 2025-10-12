@@ -672,6 +672,8 @@
       gameState.isReading = true;
       gameState.readingCharIndex = 0;
       $('questionText').textContent = '';
+      $('answerInput').disabled = false;
+      $('answerInput').focus();
       
       clearInterval(gameState.readingInterval);
       gameState.readingInterval = setInterval(() => {
