@@ -504,32 +504,39 @@
           const data = await response.json();
           console.log('Loaded data:', data); // This shows your data is loaded
           
-          // If the data is structured with categories, we'll use that
-          if (data.europe || data.asia || data.africa || data.americas || data.oceania || data.global) {
-            // Flatten the category structure into a single array
-            QUESTIONS = [];
-            Object.keys(data).forEach(category => {
-              if (Array.isArray(data[category])) {
-                data[category].forEach(item => {
-                  QUESTIONS.push({
-                    question: item.question,
-                    answer: item.answer,
-                    category: category
+          // Check if data is valid
+          if (data && typeof data === 'object') {
+            // If the data is structured with categories, we'll use that
+            if (data.europe || data.asia || data.africa || data.americas || data.oceania || data.global) {
+              // Flatten the category structure into a single array
+              QUESTIONS = [];
+              Object.keys(data).forEach(category => {
+                if (Array.isArray(data[category])) {
+                  data[category].forEach(item => {
+                    QUESTIONS.push({
+                      question: item.question,
+                      answer: item.answer,
+                      category: category
+                    });
                   });
-                });
-              }
-            });
-            console.log('Flattened questions:', QUESTIONS); // This should show your questions
+                }
+              });
+              console.log('Flattened questions:', QUESTIONS); // This should show your questions
+            } else {
+              // If it's a simple array, use as is
+              QUESTIONS = data.questions || data;
+            }
+            console.log('Successfully loaded questions:', QUESTIONS.length);
           } else {
-            // If it's a simple array, use as is
-            QUESTIONS = data.questions || data;
+            console.log('Invalid data structure, using sample questions');
           }
         }
       } catch (err) {
-        console.log('Using sample questions:', err);
+        console.log('Using sample questions:', err.message);
         // The sample questions will be used if there's an error
       }
     }
+
 
     // Initialize on page load
     window.addEventListener('DOMContentLoaded', () => {
