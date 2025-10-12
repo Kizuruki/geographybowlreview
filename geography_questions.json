@@ -1,1 +1,2642 @@
-
+{
+  "europe": [
+    {
+      "question": "In what city is the Brandenburg Gate located?",
+      "answer": "Berlin"
+    },
+    {
+      "question": "In what country would you find the city of Limerick?",
+      "answer": "Ireland"
+    },
+    {
+      "question": "Old Trafford stadium is located near what major city?",
+      "answer": "Manchester"
+    },
+    {
+      "question": "Albania and Serbia are located on what peninsula?",
+      "answer": [
+        "Balkans",
+        "Balkan peninsula"
+      ]
+    },
+    {
+      "question": "What country is often described as being shaped like a boot?",
+      "answer": "Italy"
+    },
+    {
+      "question": "Which is the world's largest orphan & abandoned children charity?",
+      "answer": [
+        "SOS Children's Villages UK",
+        "SOS Chilidren's Villages"
+      ]
+    },
+    {
+      "question": "Name the country which is the cradle of western classic music, known as 'The land of music'?",
+      "answer": "Austria"
+    },
+    {
+      "question": "The oracle of Zeus at Dodona is located in which European country?",
+      "answer": "Greece"
+    },
+    {
+      "question": "Name the politically divided island in northwestern Europe that has a Protestant majority in the north and a Catholic majority in the south.",
+      "answer": "Ireland"
+    },
+    {
+      "question": "Kilts, bagpipes, and the sport of tossing the caber are part of the cultural heritage of which political unit of the United Kingdom?",
+      "answer": "Scotland"
+    },
+    {
+      "question": "Transylvania is a region that was made famous by a fictional character, Count Dracula. This region is located in which European country?",
+      "answer": "Romania"
+    },
+    {
+      "question": "Sareks National Park is in one of the most remote parts of which country that borders the Gulf of Bothnia?",
+      "answer": "Sweden"
+    },
+    {
+      "question": "Sweden borders which Gulf?",
+      "answer": "Gulf of Bothnia"
+    },
+    {
+      "question": "An arm of the Mediterranean Sea, located between the southeast coast of Italy and westem Greece, is connected to the Adriatic Sea by the Strait of Otranto. Name this sea.",
+      "answer": [
+        "Ionian Sea",
+        "Ionian"
+      ]
+    },
+    {
+      "question": "The Ionian Sea is between what 2 seas?",
+      "answer": "Adriatic Sea and Mediterranean Sea"
+    },
+    {
+      "question": "What connects the Ionian Sea to the Adriatic Sea?",
+      "answer": "Strait of Otronto"
+    },
+    {
+      "question": "Genoa, the city believed to be the birthplace of Columbus, is in which present-day country?",
+      "answer": "Italy"
+    },
+    {
+      "question": "Which climate characterizes Great Britain?",
+      "answer": [
+        "Marine West Coast",
+        "humid temperate oceanic climate",
+        "cfb",
+        "temperate maritime climate"
+      ]
+    },
+    {
+      "question": "In 1991, Estonia, Latvia, and Lithuania officially gained independence from what former country?",
+      "answer": "Soviet Union"
+    },
+    {
+      "question": "What does USSR stand for?",
+      "answer": "Union of Soviet Socialist Republic"
+    },
+    {
+      "question": "Is the USSR still in existence?",
+      "answer": "No"
+    },
+    {
+      "question": "When was the USSR demolished?",
+      "answer": "1991"
+    },
+    {
+      "question": "Canada's Prairie Provinces were settled by a large number of immigrants from which country that is also a major wheat-producing region in Europe?",
+      "answer": "Ukraine"
+    },
+    {
+      "question": "Ukraine produces what?",
+      "answer": "wheat"
+    },
+    {
+      "question": "Where specifically is Ukraine located?",
+      "answer": "Eastern Europe"
+    },
+    {
+      "question": "What European Union country has had to tighten its border regulations since 2004 because two of its neighboring countries, Belarus and Ukraine, are not part of the European Union?",
+      "answer": "Poland"
+    },
+    {
+      "question": "How many countries are in the EU?",
+      "answer": "27"
+    },
+    {
+      "question": "Asturias, a major mining region in the Cantabrian Mountains, borders what bay?",
+      "answer": "Bay of Biscay"
+    },
+    {
+      "question": "Freeborn boys wore togas with a purple border in which Mediterranean civilization?",
+      "answer": "Roman"
+    },
+    {
+      "question": "Which European country has a larger population? Serbia, Germany, Moldova?",
+      "answer": "Germany"
+    },
+    {
+      "question": "Navigation on France's longest river is limited by silting and periodic flooding. Name this river.",
+      "answer": "Loire"
+    },
+    {
+      "question": "Canary Wharf, part of the Docklands redevelopment, is located on what European river that rises in the Cotswold Hills?",
+      "answer": "Thames"
+    },
+    {
+      "question": "What is the nickname for Cotswold Hills?",
+      "answer": "Heart of England"
+    },
+    {
+      "question": "What is Canary Wharf?",
+      "answer": [
+        "A business district in England",
+        "one of 2 major financial centers in England"
+      ]
+    },
+    {
+      "question": "How many financial centers in England?",
+      "answer": "2"
+    },
+    {
+      "question": "What are the 2 major financial centers in England?",
+      "answer": "Canary Wharf and City of London"
+    },
+    {
+      "question": "What is the longest river that is entirely in England?",
+      "answer": "Thames"
+    },
+    {
+      "question": "What is the 2nd longest river in the UK?",
+      "answer": "Thames"
+    },
+    {
+      "question": "What is the longest river in the UK?",
+      "answer": [
+        "River Severn",
+        "Severn"
+      ]
+    },
+    {
+      "question": "What countries does River Severn go through?",
+      "answer": "England and Wales"
+    },
+    {
+      "question": "The Maritsa River flows through an important agriculture region in a country that borders Greece and Romania. Name this country.",
+      "answer": "Bulgaria"
+    },
+    {
+      "question": "Jersey and Guernsey, dependencies of the British crown, are part of a group of islands located between England and France. Name this island group?",
+      "answer": [
+        "Channel Islands",
+        "Channel"
+      ]
+    },
+    {
+      "question": "What land form are the Channel Islands?",
+      "answer": "Archipelago"
+    },
+    {
+      "question": "What body of water is the Channel Islands located in?",
+      "answer": "English Channel"
+    },
+    {
+      "question": "Which correctly describes the location of Aberdeen, Scotland? west of the Grampian Mountains, on the North Sea, north of Kinnairds Head",
+      "answer": "on the North Sea"
+    },
+    {
+      "question": "Where is Aberdeen in relation to the Grampian Mountains?",
+      "answer": "East"
+    },
+    {
+      "question": "Where is Aberdeen in relation to Kinnairds Head?",
+      "answer": "South"
+    },
+    {
+      "question": "Arabs from Africa named a large rock Gibraltar as they landed on what large European peninsula?",
+      "answer": "Iberian Peninsula"
+    },
+    {
+      "question": "What famous landmark is located on the Iberian Peninsula?",
+      "answer": "Rock of Gibraltar"
+    },
+    {
+      "question": "The Thames Barrier was built to protect which European capital city from tidal flooding?",
+      "answer": "London"
+    },
+    {
+      "question": "Which of the following architectural features is most characteristic of Russian Orthodox churches? onion shaped domes, minarets, Doric columns",
+      "answer": "onion shaped domes"
+    },
+    {
+      "question": "Where would you find onion shaped domes in architecture?",
+      "answer": "Russian Orthodox Churches"
+    },
+    {
+      "question": "Where would you find the 3 main classical column types?",
+      "answer": [
+        "Ancient Greece",
+        "Rome"
+      ]
+    },
+    {
+      "question": "What are the 3 main classical column types?",
+      "answer": "Doric Ionic Corinthian"
+    },
+    {
+      "question": "Whitewashed houses are a common site for tourists visiting the Cyclades islands. The Cyclades are part of which European country?",
+      "answer": "Greece"
+    },
+    {
+      "question": "The only Viking ship ever discovered in Sweden was found in the Göta River near Sweden's second most populous city. Name this city.",
+      "answer": "Gothenburg"
+    },
+    {
+      "question": "The prime meridian is also known by the name of a London borough that was the site of a royal observatory. Name this borough.",
+      "answer": "Greenwich"
+    },
+    {
+      "question": "Magyars are the largest ethnic group in a Central European country that borders Slovakia. Name this country.",
+      "answer": "Hungary"
+    },
+    {
+      "question": "In 1741, explorers discovered large populations of sea otters and fur seals in the waters around the Aleutian Islands. The explorers claimed the area for what country?",
+      "answer": "Russia"
+    },
+    {
+      "question": "Located in a bay between the regions of Normandy and Brittany, the tidal island of Mont-Saint-Michel is regularly separated from the mainland of what country?",
+      "answer": "France"
+    },
+    {
+      "question": "What kind of land form is the Mont-Saint-Michel?",
+      "answer": [
+        "Tidal island",
+        "island"
+      ]
+    },
+    {
+      "question": "The Hanseatic League was formed by German merchants in the 13th century to protect their trade interests along the North Sea and what other sea?",
+      "answer": "Baltic Sea"
+    },
+    {
+      "question": "What European country is dependent on a system of bridges and ferries for transportation between its main peninsula, Jutland, and its Baltic Sea islands?",
+      "answer": "Denmark"
+    },
+    {
+      "question": "Name the Scandinavian capital that is located on Zealand, an island near the entrance to the Baltic Sea.",
+      "answer": "Copenhagen"
+    },
+    {
+      "question": "What sea is Copenhagen located on?",
+      "answer": "Baltic Sea"
+    },
+    {
+      "question": "Which country celebrates an almost 200 kilometer long ice skating race called the Eleven Cities Tour?",
+      "answer": "Netherlands"
+    },
+    {
+      "question": "Barley is an important crop grown in East Anglia, the easternmost region in what country?",
+      "answer": "United Kingdom"
+    },
+    {
+      "question": "Popocatépetl is to Mexico as Stromboli is to WHAT?",
+      "answer": "Italy"
+    },
+    {
+      "question": "One of the world's longest vehicular tunnels was built through the highest mountain in the European Alps. Name this mountain.",
+      "answer": "Mont Blanc"
+    },
+    {
+      "question": "Wine making along the Ebro River in the region of La Rioja has contributed to the economy of what country?",
+      "answer": "Spain"
+    },
+    {
+      "question": "Many legal terms come from the language of ancient Rome. Name this language.",
+      "answer": "Latin"
+    },
+    {
+      "question": "The number of countries that make up the Balkan peninsula in Europe almost doubled in 1992 as a result of the breakup of which country in Eastern Europe?",
+      "answer": "Yugoslavia"
+    },
+    {
+      "question": "The residents of Andorra, a mountainous country located between Spain and France, have the longest life expectancy in the world. Name the mountain range that dominates Andorra's landscape.",
+      "answer": "Pyrenees"
+    },
+    {
+      "question": "An open-air museum east of Interlaken preserves the French, German, and Italian heritage of which mountainous European country?",
+      "answer": "Switzerland"
+    },
+    {
+      "question": "Which language is derived from ancient Celtic? Welsh, Croatian, Basque",
+      "answer": "Welsh"
+    },
+    {
+      "question": "The Lofoten Islands are part of an archipelago that is more than 100 miles long located off the coast of which northern European country?",
+      "answer": "Norway"
+    },
+    {
+      "question": "Piraeus serves as the port for the city that is the chief commercial and transportation center of Greece. Name this city.",
+      "answer": "Athens"
+    },
+    {
+      "question": "Sweden's highest peak, Kebnekaise, is located in the Kjölen Mountains. These mountains run along Sweden's boundary with which country?",
+      "answer": "Norway"
+    },
+    {
+      "question": "In 2005, severe drought caused a decrease in agricultural production in which country whose capital is Madrid?",
+      "answer": "Spain"
+    },
+    {
+      "question": "Stretching from Britain to the Persian Gulf, what empire reached its greatest size in A.D. 117?",
+      "answer": [
+        "Roman Empire",
+        "Roman"
+      ]
+    },
+    {
+      "question": "The ruling group of the Communist Party of the Soviet Union was known by what name?",
+      "answer": "politburo"
+    },
+    {
+      "question": "Name the westernmost capital city on the mainland of Europe.",
+      "answer": "Lisbon"
+    },
+    {
+      "question": "When Mount Vesuvius erupted in A.D. 79, it buried the cities of Herculaneum, Stabiae, and which other Italian city?",
+      "answer": "Pompeii"
+    },
+    {
+      "question": "The Festival of San Fermín at Pamplona is an important festival in which European country?",
+      "answer": "Spain"
+    },
+    {
+      "question": "Which of these present-day countries was NOT a republic of the Soviet Union before that country broke up in 1991? Serbia, Ukraine, Kazakhstan",
+      "answer": "Serbia"
+    },
+    {
+      "question": "Goa, one of the states of western India, was a colony of which country until 1961?",
+      "answer": "Portugal"
+    },
+    {
+      "question": "The Main River, which is a source of hydroelectric power for Germany, is a tributary of what river?",
+      "answer": "Rhine Rover"
+    },
+    {
+      "question": "Which strategically located Mediterranean island was an important British naval base until 1979?",
+      "answer": "Malta"
+    },
+    {
+      "question": "A booming economy has given which European country the nickname the \"Celtic Tiger\"?",
+      "answer": "Ireland"
+    },
+    {
+      "question": "Which of the following is not an island group off the coast of Scotland? Shetland Islands, Orkney Islands, Falkland Islands",
+      "answer": "Falkland Islands"
+    },
+    {
+      "question": "Countries that are members of the Commonwealth of Nations have political and historical ties to which country?",
+      "answer": [
+        "United Kingdom",
+        "UK",
+        "Great Britain",
+        "Britain",
+        "England"
+      ]
+    },
+    {
+      "question": "The La Mancha and Somontano regions are to Spain as the Champagne and Burgundy regions are to WHAT?",
+      "answer": "France"
+    },
+    {
+      "question": "A city that is Switzerland's center for chemicals and pharmaceuticals is near the junction of France, Germany, and Switzerland. Name the city.",
+      "answer": "Basel"
+    },
+    {
+      "question": "Which country in Europe is famous for its fjords?",
+      "answer": "Norway"
+    },
+    {
+      "question": "In terms of area, Ukraine is the largest country that is located entirely within which continent?",
+      "answer": "Europe"
+    },
+    {
+      "question": "The distinctive shape of Europe's Matterhorn was created by which agent of erosion?",
+      "answer": "ice"
+    },
+    {
+      "question": "During the 17th century several European countries vied for whaling rights around the Spitsbergen archipelago. These islands are now part of what country?",
+      "answer": "Norway"
+    },
+    {
+      "question": "In March 1998 violence broke out in Kosovo between Serbian forces and a group of ethnic Albanians. This violence occurred in what country?",
+      "answer": "Yugoslavia"
+    },
+    {
+      "question": "Albany and New York City are major ports on which river?",
+      "answer": [
+        "Hudson",
+        "Hudson river"
+      ]
+    },
+    {
+      "question": "Where are the Dolomites located?",
+      "answer": "Northeastern Italy"
+    }
+  ],
+  "asia": [
+    {
+      "question": "What country is also known as Persia?",
+      "answer": "Iran"
+    },
+    {
+      "question": "What name is given to the northeast part of China?",
+      "answer": "Manchuria"
+    },
+    {
+      "question": "What is the main island of Japan?",
+      "answer": "Honshu"
+    },
+    {
+      "question": "What well-known mountain pass connects Pakistan and Afghanistan?",
+      "answer": "Khyber Pass"
+    },
+    {
+      "question": "What volcano exploded in 1883 with the force of 200 megatons of TNT?",
+      "answer": "Krakatoa"
+    },
+    {
+      "question": "Ceylon is the former name of what country?",
+      "answer": "Sri Lanka"
+    },
+    {
+      "question": "What is Pakistan's longest river?",
+      "answer": "Indus River"
+    },
+    {
+      "question": "Island Aviation Services is the Government run airlines of what country?",
+      "answer": "Maldives"
+    },
+    {
+      "question": "In which country is the Hillary-Tenzing Airport situated?",
+      "answer": "Nepal"
+    },
+    {
+      "question": "Which country is the leading egg producer in the world?",
+      "answer": "China"
+    },
+    {
+      "question": "Which gorge in Nepal is deepest in the world?",
+      "answer": "Kali Village Gorge"
+    },
+    {
+      "question": "Which city was built during the 1960s to become the capital of Pakistan?",
+      "answer": "Islamabad"
+    },
+    {
+      "question": "During the era of the Vietnam War, which major river did most refugees from the war cross to reach safety in Thailand?",
+      "answer": [
+        "Mekong",
+        "Mekong River"
+      ]
+    },
+    {
+      "question": "What country did the people wanting refuge from the Vietnam War go to for safety?",
+      "answer": "Thailand"
+    },
+    {
+      "question": "Egypt's blockade of the Strait of Tiran in 1967 to prevent Israeli shipping was a cause of the Six Day War. This strait is at the southern end of what gulf?",
+      "answer": [
+        "Gulf of Aqaba",
+        "Aqaba"
+      ]
+    },
+    {
+      "question": "The Inland Sea borders three of the four major islands that make up which country in Asia?",
+      "answer": "Japan"
+    },
+    {
+      "question": "How many major islands make up Japan?",
+      "answer": "4"
+    },
+    {
+      "question": "What Sea borders 3 of the 4 major islands in Japan?",
+      "answer": "The Inland Sea"
+    },
+    {
+      "question": "Which country recently reinforced security barriers along its border with Yemen in an effort to stop illegal immigration?",
+      "answer": "Saudi Arabia"
+    },
+    {
+      "question": "Sumo and jujitsu are cultural traditions most closely associated with which Asian country?",
+      "answer": "Japan"
+    },
+    {
+      "question": "A mountain range along the northern edge of the Taklimakan Desert once provided habitat for tigers. Name this mountain range.",
+      "answer": "Tian Shan"
+    },
+    {
+      "question": "Where is the Taklimakan Desert?",
+      "answer": "China"
+    },
+    {
+      "question": "Intricately carved and painted puppets, used in an ancient Southeast Asian form of shadow play, may be seen in religious ceremonies on an island in the Lesser Sundas that is predominantly Hindu. Name this island, where Denpasar is the provincial capital?",
+      "answer": "Bali"
+    },
+    {
+      "question": "For which purpose do people in Mongolia and other regions of Central Asia use yurts?",
+      "answer": "Shelter"
+    },
+    {
+      "question": "The Tarim Basin, which is one of the world's largest lowland areas that does not drain into an ocean, is found in which country?",
+      "answer": "China"
+    },
+    {
+      "question": "Which of these countries has had the largest population growth? Pakistan, Kyrgyzstan or Russia",
+      "answer": "Pakistan"
+    },
+    {
+      "question": "What country has more time zones? Russia, Mongolia, India?",
+      "answer": "Russia"
+    },
+    {
+      "question": "On July 1, 2007, which special administrative region marked the 10th anniversary of its return to China?",
+      "answer": "Hong Kong"
+    },
+    {
+      "question": "What are the 2 Special Administrative Regions of the People's Republic of China?",
+      "answer": "Hong Kong Macau"
+    },
+    {
+      "question": "Who owned Hong Kong before it was turned back over to China?",
+      "answer": [
+        "England",
+        "UK",
+        "United Kingdom",
+        "Great Britain",
+        "Britain"
+      ]
+    },
+    {
+      "question": "Which region, home to Muslims and Hindus, has been the subject of a territorial dispute for 60 years?",
+      "answer": "Kashmir"
+    },
+    {
+      "question": "What are the predominant religious groups in the area of Kashmir?",
+      "answer": [
+        "Muslim and Hindu",
+        "Islam and Hinduism"
+      ]
+    },
+    {
+      "question": "A desert, which has a name meaning \"Black Sands,\" covers more than 70 percent of Turkmenistan. Name this desert.",
+      "answer": [
+        "Kara Kum",
+        "Karakum"
+      ]
+    },
+    {
+      "question": "Where is Kara Kum located?",
+      "answer": "Turkmenistan"
+    },
+    {
+      "question": "Mohandas Gandhi effectively enforced a doctrine of nonviolent protest to help gain independence for which country?",
+      "answer": "India"
+    },
+    {
+      "question": "Who is the person who used non violent protest to gain independence for India?",
+      "answer": "Mohandas Gandhi"
+    },
+    {
+      "question": "The fertile Plain of Sharon is a major citrus-growing region along the Mediterranean coast in what country?",
+      "answer": "Israel"
+    },
+    {
+      "question": "Where is the Plain of Sharon?",
+      "answer": "Israel"
+    },
+    {
+      "question": "What kind of fruits are grown in the Plain of Sharon?",
+      "answer": "Citrus"
+    },
+    {
+      "question": "Which city, devastated by war in the early 1950s, is now a major economic center even though it is only 25 miles from the Demilitarized Zone?",
+      "answer": "Seoul"
+    },
+    {
+      "question": "What country is Seoul located?",
+      "answer": "Korea"
+    },
+    {
+      "question": "What countries does the Yenisey-Angara river system flow through?",
+      "answer": "Russia and Mongolia"
+    },
+    {
+      "question": "Volcanoes in Taal Volcano Island National Park have erupted more than 30 times since the 16th century. This park is in which Asian island country named for a Spanish king?",
+      "answer": "Philippines"
+    },
+    {
+      "question": "The Philippines are what kind of land form?",
+      "answer": "island"
+    },
+    {
+      "question": "Which country does not border the Black Sea? Turkmenistan, Turkey, of Georgia?",
+      "answer": "Turkmenistan"
+    },
+    {
+      "question": "Bengal is a region located in which two countries?",
+      "answer": "India and Bangladesh"
+    },
+    {
+      "question": "Oil production in the United Arab Emirates is centered on the country's capital city. Name this city.",
+      "answer": "Abu Dhabi"
+    },
+    {
+      "question": "What natural resource is found in Abu Dhabi?",
+      "answer": "Oil"
+    },
+    {
+      "question": "What large body of water does the United Arab Emirates border?",
+      "answer": "Persian Gulf"
+    },
+    {
+      "question": "Lucknow, located on the Gomati River, was the site of a mutiny against the British in 1857 in what present-day South Asian country?",
+      "answer": "India"
+    },
+    {
+      "question": "Where is Lucknow?",
+      "answer": "India"
+    },
+    {
+      "question": "Where is the Gomati River?",
+      "answer": [
+        "Lucknow",
+        "India"
+      ]
+    },
+    {
+      "question": "The Java Trench is the deepest point in which ocean?",
+      "answer": "Indian Ocean"
+    },
+    {
+      "question": "What is the deepest point in the Indian Ocean?",
+      "answer": "Java Trench"
+    },
+    {
+      "question": "Name the channel formed by the confluence of the Tigris and Euphrates Rivers that flows into the Persian Gulf.",
+      "answer": "Shatt al Arab"
+    },
+    {
+      "question": "Where does the Shatt al Arab flow into?",
+      "answer": "Persian Gulf"
+    },
+    {
+      "question": "What kind of body of water is the Shatt al Arab?",
+      "answer": "Channel"
+    },
+    {
+      "question": "What present day country does the Tigris and Euphrates run through before meeting at the channel?",
+      "answer": "Iraq"
+    },
+    {
+      "question": "The southern end of the Shatt al Arab creates a border between what 2 countries?",
+      "answer": "Iraq and Iran"
+    },
+    {
+      "question": "Name the inland sea in Central Asia that once was the world's fourth largest lake, but which has been drastically reduced by agricultural use of water flowing into it.",
+      "answer": "Aral Sea"
+    },
+    {
+      "question": "Why was the Aral Sea getting smaller?",
+      "answer": [
+        "It is being used for agriculture",
+        "agriculture"
+      ]
+    },
+    {
+      "question": "What countries are the Aral Sea located in?",
+      "answer": "Uzbekistan and Kazakhstan"
+    },
+    {
+      "question": "Mother Teresa's work among the poor was centered in one of India's most populous cities. Name this city in eastern India.",
+      "answer": "Kolkata"
+    },
+    {
+      "question": "What did Kolkata used to be called?",
+      "answer": "Calcutta"
+    },
+    {
+      "question": "What is Kolkata the capital of?",
+      "answer": "West Bengal"
+    },
+    {
+      "question": "Malaysia, China, and the Philippines are among the countries that claim sovereignty over a group of islands in the South China Sea. Name these islands.",
+      "answer": "Spratly Islands"
+    },
+    {
+      "question": "Where are the Spratly Islands located?",
+      "answer": "South China Sea"
+    },
+    {
+      "question": "The Terai is a region of plains that extends from India's northern border to the foothills of the Himalaya in which Asian country?",
+      "answer": "Nepal"
+    },
+    {
+      "question": "What borders Nepal to the north?",
+      "answer": "China"
+    },
+    {
+      "question": "What is the world's highest mountain?",
+      "answer": "Mt. Everest"
+    },
+    {
+      "question": "What mountain range goes through Nepal?",
+      "answer": "The Himalayas"
+    },
+    {
+      "question": "Which country does not border the South China Sea? Brunei, Philippines, or Saudi Arabia",
+      "answer": "Saudi Arabia"
+    },
+    {
+      "question": "What is the capital of China?",
+      "answer": "Beijing"
+    },
+    {
+      "question": "Beirut, Tripoli, and Tel Aviv all lie on the coast of which body of water?",
+      "answer": "Mediterranean Sea"
+    },
+    {
+      "question": "Where is Beirut?",
+      "answer": "Lebanon"
+    },
+    {
+      "question": "Where is Tel Aviv?",
+      "answer": "Israel"
+    },
+    {
+      "question": "Which country is not part of the Arabian Peninsula? Djibouti, Oman, or Qatar",
+      "answer": "Djibouti"
+    },
+    {
+      "question": "Name the Arab country that borders the eastern shore of the Dead Sea.",
+      "answer": "Jordan"
+    },
+    {
+      "question": "Which river flows from its source on the Tibetan Plateau through Pakistan before draining into the Arabian Sea?",
+      "answer": "Indus River"
+    },
+    {
+      "question": "What sea does the Indus River drain into?",
+      "answer": "Arabian Sea"
+    },
+    {
+      "question": "Which religion originated in India and spread across Asia via trade routes such as the Silk Road?",
+      "answer": "Buddhism"
+    },
+    {
+      "question": "The Bass Strait connects the Tasman Sea and which ocean?",
+      "answer": "Indian Ocean"
+    },
+    {
+      "question": "Scientists study tigers at Way Kumbas National Park on the southeastern coast of Sumatra. What sea borders this park?",
+      "answer": "Java Sea"
+    },
+    {
+      "question": "What country in Asia makes up part of a mainland peninsula and part of the island of Borneo?",
+      "answer": "Malaysia"
+    },
+    {
+      "question": "Name the capital city of Taiwan.",
+      "answer": "Taipei"
+    },
+    {
+      "question": "Name the Asian capital city that was the site of the 1988 Summer Olympic Games.",
+      "answer": "Seoul"
+    },
+    {
+      "question": "The Deccan Plateau makes up much of the peninsula of which country?",
+      "answer": "India"
+    },
+    {
+      "question": "The westernmost of the Lesser Sundra Islands once provided habitat for a now extinct tiger subspecies that shared its name with the island. Name this island.",
+      "answer": "Bali"
+    },
+    {
+      "question": "The Green Line was in place from 1975-1990 to separate the Christian and Muslim areas in the only national capital city located on the eastern shore of the Mediterranean Sea. Name this city.",
+      "answer": "Beirut"
+    },
+    {
+      "question": "Which country does not border Bhutan? India, China, or Afghanistan",
+      "answer": "Afghanistan"
+    },
+    {
+      "question": "Which country does not share a border with Bangladesh? Vietnam, Myanmar, India",
+      "answer": "Vietnam"
+    },
+    {
+      "question": "Which of these Asian countries has a drier climate? Yemen, Philippines, Bangladesh",
+      "answer": "Yemen"
+    },
+    {
+      "question": "Name the capital of the only country in the Middle East that borders the Caspian Sea.",
+      "answer": "Tehran"
+    },
+    {
+      "question": "Myanmar is the official name of the country with the largest land area on the mainland of Southeast Asia. The country was previously known by what other name?",
+      "answer": "Burma"
+    },
+    {
+      "question": "Of Japan's four major islands, which has the lowest population density and the largest rural population?",
+      "answer": "Shikoku"
+    },
+    {
+      "question": "Zionism is a political movement that led to the creation of which country in southwest Asia in 1948?",
+      "answer": "Israel"
+    },
+    {
+      "question": "The Gobi is the main physical feature in the southern half of a country known also as the homeland of Genghis Khan. Name this country.",
+      "answer": "Mongolia"
+    },
+    {
+      "question": "The Potala was the home of the Dalai Lama until he fled into exile in 1959. The Potala overlooks what Himalayan city?",
+      "answer": "Lhasa"
+    },
+    {
+      "question": "The Han are the most populous ethnic group in which mainland Asian country?",
+      "answer": "China"
+    },
+    {
+      "question": "Many Dravidian temples are found in Chennai, a seaside city located in the southern part of which Asian country?",
+      "answer": "India"
+    },
+    {
+      "question": "What present-day country, located at the southwestern edge of the Arabian Peninsula, supplied frankincense and myrrh to the ancient world?",
+      "answer": "Yemen"
+    },
+    {
+      "question": "The Ginza and Shinjuku are famous districts in one of the world's most densely populated cities. Name this city.",
+      "answer": "Tokyo"
+    },
+    {
+      "question": "The island country of Singapore is located at the tip of which peninsula?",
+      "answer": "Malay"
+    },
+    {
+      "question": "Jagged limestone peaks, known as karst formations, are found near the Li River in which Asian country?",
+      "answer": "China"
+    },
+    {
+      "question": "Which country does not have a coastline on the Atlantic Ocean? Malaysia, Brazil, Portugal",
+      "answer": "Malaysia"
+    },
+    {
+      "question": "The ancient city of Bosra, home to a well-preserved theater of the Roman period, can be found in which present-day country located in part along the east coast of the Mediterranean Sea?",
+      "answer": "Syria"
+    },
+    {
+      "question": "Which country is home to \"Bollywood,\" the world's largest movie-making industry?",
+      "answer": "India"
+    },
+    {
+      "question": "A New Year's celebration known as Nowruz takes place in several countries, including an Asian country that borders the Caspian Sea and the Gulf of Oman. Name this country.",
+      "answer": "Iran"
+    },
+    {
+      "question": "The Shan Plateau, where rubies and sapphires have historically been mined, forms the eastern part of which Southeast Asian country famous for its gemstones?",
+      "answer": "Myanmar"
+    },
+    {
+      "question": "Buddhist monks pray at the Gandan Monastery located in which country that was home to Genghis Khan?",
+      "answer": "Mongolia"
+    },
+    {
+      "question": "Buddhism was founded in which Asian country about 500 B.C.?",
+      "answer": "India"
+    },
+    {
+      "question": "Svalbard is to Norway as Lakshadweep is to WHAT?",
+      "answer": "India"
+    }
+  ],
+  "africa": [
+    {
+      "question": "In what country would you find Mount Kilimanjaro?",
+      "answer": "Tanzania"
+    },
+    {
+      "question": "By surface area, what is the largest of Africa's great lakes?",
+      "answer": [
+        "Lake Victoria",
+        "Victoria"
+      ]
+    },
+    {
+      "question": "What canal connects the Red and Mediterranean Seas?",
+      "answer": [
+        "Suez Canal",
+        "Suez"
+      ]
+    },
+    {
+      "question": "The most populous country in the Arab world borders both the Red Sea and the Mediterranean Sea. Name this country.",
+      "answer": "Egypt"
+    },
+    {
+      "question": "What seas does Egypt border?",
+      "answer": "Red Sea Mediterranean Sea"
+    },
+    {
+      "question": "Once known as Upper Volta, which West African country has many descendants of the Mossi people living in Ouagadougou?",
+      "answer": "Burkina Faso"
+    },
+    {
+      "question": "Which city had a lighthouse that was known as one of the Seven Wonders of the Ancient World?",
+      "answer": "Alexandria"
+    },
+    {
+      "question": "Which country does not border Chad? Burkina Faso, Sudan, or Libya.",
+      "answer": "Burkina Faso"
+    },
+    {
+      "question": "Kudus are among many animals that drink at waterholes in Kruger National Park, part of which was set aside by the president of Transvaal in the late 1800s. This park is in what country?",
+      "answer": "South Africa"
+    },
+    {
+      "question": "Which country is not crossed by the Great Rift Valley? Tanzania, Ethiopia, or Central African Republic",
+      "answer": "Central African Republic"
+    },
+    {
+      "question": "Which country, one of Africa's most densely populated, is bordered by Uganda, Tanzania, and the Democratic Republic of the Congo?",
+      "answer": "Rwanda"
+    },
+    {
+      "question": "What countries border Rwanda?",
+      "answer": "Uganda Tanzania Democratic Republic of the Congo"
+    },
+    {
+      "question": "What was the name of the short-lived island republic that united with Tanganyika to form the country of Tanzania in 1964?",
+      "answer": "Zanzibar"
+    },
+    {
+      "question": "Peanuts are the principal export of the African country that is almost completely surrounded by Senegal. Name this country.",
+      "answer": "Gambia"
+    },
+    {
+      "question": "Gambia is almost completely surrounded by what country?",
+      "answer": "Senegal"
+    },
+    {
+      "question": "Peking is to Beijing as Salisbury is to what?",
+      "answer": "Harare"
+    },
+    {
+      "question": "What is the capital of Zimbabwe?",
+      "answer": "Harare"
+    },
+    {
+      "question": "Río Muni is the mainland portion of the only African country that has Spanish as its official language. Name this country.",
+      "answer": "Equatorial Guinea"
+    },
+    {
+      "question": "Where is Tripoli?",
+      "answer": "Libya"
+    },
+    {
+      "question": "The Panama Canal is to the Caribbean Sea and Pacific Ocean as what is to the Red and Mediterranean Seas?",
+      "answer": "Suez Canal"
+    },
+    {
+      "question": "Where is the Suez Canal?",
+      "answer": "Egypt"
+    },
+    {
+      "question": "Which beverage crop provides most of the export incomes for Rwanda and Burundi?",
+      "answer": "tea"
+    },
+    {
+      "question": "Name the judicial capital of South Africa.",
+      "answer": "Bloemfontein"
+    },
+    {
+      "question": "Known for its leather goods and carpets, Marrakech is in the central part of which African country?",
+      "answer": "Morocco"
+    },
+    {
+      "question": "Amboseli National Park, located north of Mount Kilimanjaro, is in what country that borders Tanzania?",
+      "answer": "Kenya"
+    },
+    {
+      "question": "Which African country is larger in area? Ghana, Libya, Cameroon",
+      "answer": "Libya"
+    },
+    {
+      "question": "In March 1998 high winds in parts of Egypt, Lebanon, and other Middle East countries forced the brief closure of what canal?",
+      "answer": "Suez Canal"
+    },
+    {
+      "question": "A glacier-capped peak near the Equator in East Africa shares its name with the country that is known for its game parks and coffee production. Name this mountain.",
+      "answer": "Mount Kenya"
+    },
+    {
+      "question": "Berbers and what other Muslim people make up most of the population in Algeria, Libya, and Morocco? Tuareg, Fulani, Arabs",
+      "answer": "Arabs"
+    },
+    {
+      "question": "Madagascar is the largest island in which ocean?",
+      "answer": [
+        "Indian",
+        "Indian ocean"
+      ]
+    },
+    {
+      "question": "Muslims in the city of Mopti pray at mosques constructed of clay around a wooden frame. Mopti is southeast of Mauritania in what country?",
+      "answer": "Mali"
+    },
+    {
+      "question": "Three volcanoes-Kibo, Mawenzi, and Shira-make up what mountain about 140 miles (225 kilometers) south of Nairobi?",
+      "answer": "Kilimanjaro"
+    },
+    {
+      "question": "Which of these countries is the smallest? Kenya, Angola, Nigeria",
+      "answer": "Kenya"
+    },
+    {
+      "question": "Port Harcourt, a major oil exporting center, is located on the southern coast of which West African country?",
+      "answer": "Nigeria"
+    },
+    {
+      "question": "The Karoo, an arid region known for sheep raising, covers much of the Cape provinces in which African country?",
+      "answer": "South Africa"
+    },
+    {
+      "question": "In terms of export income, which of the following is Egypt's most important crop? soybeans, cotton, bananas",
+      "answer": "Cotton"
+    },
+    {
+      "question": "The Jos Plateau, also known as the Bauchi Plateau, is an area of tin mining located northeast of Abuja in which West African country?",
+      "answer": "Nigeria"
+    },
+    {
+      "question": "Malawi, Mozambique, and what other country border Lake Malawi?",
+      "answer": "Tanzania"
+    },
+    {
+      "question": "Ethiopia is dependent on the seaports of which country to handle much of its foreign commerce?",
+      "answer": "Djibouti"
+    },
+    {
+      "question": "What present-day island country in the Gulf of Guinea is believed to have been uninhabited when it was discovered by the Portuguese in the 1400s?",
+      "answer": "Sao Tome and Principe"
+    },
+    {
+      "question": "Name the landlocked country in eastern Africa that was once known as Abyssinia.",
+      "answer": "Ethiopia"
+    },
+    {
+      "question": "The principal Christian denomination in Egypt shares its name with a form of the ancient Egyptian language. Name this denomination.",
+      "answer": "Coptic Christian"
+    },
+    {
+      "question": "Which country does not contain part of the Kalahari Desert? Tanzania, Namibia, Botswana",
+      "answer": "Tanzania"
+    },
+    {
+      "question": "Tripolitania, Cyrenaica, and Fezzan are historic regions in which present-day African country?",
+      "answer": "Libya"
+    },
+    {
+      "question": "What is the primary religion of Mali, a landlocked country located in West Africa?",
+      "answer": "Islam"
+    },
+    {
+      "question": "Which ocean separates Africa from Australia?",
+      "answer": [
+        "Indian",
+        "Indian Ocean"
+      ]
+    },
+    {
+      "question": "Which river delta has been the site of many rebel attacks on pipelines and facilities near rich oil deposits? Niger, Congo, Zambezi",
+      "answer": "Niger"
+    },
+    {
+      "question": "A swampy region in northern Africa, known as the Sudd, is drained by tributaries of which river?",
+      "answer": "Nile"
+    },
+    {
+      "question": "What West African river flows in a great curve from Guinea through Mali and eventually into the Atlantic Ocean?",
+      "answer": [
+        "Niger River",
+        "Niger"
+      ]
+    },
+    {
+      "question": "Which of these countries is NOT among the leading producers of cocoa? Ethiopia, Ghana, Indonesia",
+      "answer": "Ethiopia"
+    }
+  ],
+  "americas": [
+    {
+      "question": "What major river flows through the Grand Canyon?",
+      "answer": "Colorado River"
+    },
+    {
+      "question": "What city was once called New Amsterdam?",
+      "answer": "New York City"
+    },
+    {
+      "question": "What valley is the site of the Earth's highest-ever recorded temperature, 134°F?",
+      "answer": "Death Valley"
+    },
+    {
+      "question": "Name the country that is the world's leading exporter of wheat.",
+      "answer": "United States"
+    },
+    {
+      "question": "The Mississippi River is to Minnesota as the Rio Grande is to what?",
+      "answer": "Colorado"
+    },
+    {
+      "question": "The Rio Grande goes through what states?",
+      "answer": "Colorado New Mexico Texas"
+    },
+    {
+      "question": "Where does the Rio Grande flow into?",
+      "answer": "Gulf of Mexico"
+    },
+    {
+      "question": "Where does the Mississippi River flow into?",
+      "answer": "Gulf of Mexico"
+    },
+    {
+      "question": "Where does the Mississippi River start?",
+      "answer": "Minnesota"
+    },
+    {
+      "question": "Hockey is to Canada as WHAT is to Brazil?",
+      "answer": "Soccer"
+    },
+    {
+      "question": "The deep roots of the tamarisk, or salt cedar tree, can deprive native plants of water. Although concentrated in the arid southwest, this tree has spread as far as what state located north of Wyoming?",
+      "answer": "Montana"
+    },
+    {
+      "question": "Fort McHenry, site of the British attack that inspired Francis Scott Key to write \"The Star-Spangled Banner\" is in the harbor of what city in Maryland?",
+      "answer": "Baltimore"
+    },
+    {
+      "question": "Which waterway serves as a shortcut for most ships traveling from New York to Los Angeles?",
+      "answer": "Panama Canal"
+    },
+    {
+      "question": "What country does the US have an issue with regarding illegal immigration?",
+      "answer": "Mexico"
+    },
+    {
+      "question": "Which major city is located in North Carolina and was near the site of the first important gold discovery in the United States?",
+      "answer": "Charlotte"
+    },
+    {
+      "question": "Which city is located in the eastern part of Washington State? Olympia, Spokane, or Seattle?",
+      "answer": "Spokane"
+    },
+    {
+      "question": "Which city is in southern Nevada and saw its population grow by more than 80 percent in the 1990s?",
+      "answer": "Las Vegas"
+    },
+    {
+      "question": "Which state is not a leading producer of cheese? Wisconsin, Delaware or California",
+      "answer": "Delaware"
+    },
+    {
+      "question": "Brownsville, an important border city on the Rio Grande, is located in which state?",
+      "answer": "Texas"
+    },
+    {
+      "question": "What Latin American capital city was built on the site of the Aztec Empire's capital, Tenochtitlán?",
+      "answer": "Mexico City"
+    },
+    {
+      "question": "Which state is more populous? New Jersey, Rhode Island or New Hampshire?",
+      "answer": "New Jersey"
+    },
+    {
+      "question": "Badlands National Park and Mount Rushmore are west of the Missouri River in which state?",
+      "answer": "South Dakota"
+    },
+    {
+      "question": "Which city has a harbor that is an important port on the East Coast? Spokane, Orlando, Charleston",
+      "answer": "Charleston"
+    },
+    {
+      "question": "Which island country of the Greater Antilles uses English as its official language? Jamaica, Haiti, Cuba",
+      "answer": "Jamaica"
+    },
+    {
+      "question": "What language is spoken in Cuba?",
+      "answer": "Spanish"
+    },
+    {
+      "question": "What language is spoken in Haiti?",
+      "answer": "French"
+    },
+    {
+      "question": "Uranium mines near the shores of Lake Athabasca are found in two Prairie Provinces in which country?",
+      "answer": "Canada"
+    },
+    {
+      "question": "Which city is located at a higher elevation? Knoxville, Kansas City, or Cleveland",
+      "answer": "Knoxville"
+    },
+    {
+      "question": "In 1954, the Supreme Court ruled that racial segregation in public schools was illegal after hearing a case from which city in Kansas?",
+      "answer": "Topeka"
+    },
+    {
+      "question": "Which Great Lake is bordered by Michigan, Wisconsin, Illinois, and Indiana?",
+      "answer": "Lake Michigan"
+    },
+    {
+      "question": "What are the Great Lakes?",
+      "answer": "Lake Superior Lake Michigan Lake Huron Lake Erie Lake Ontario"
+    },
+    {
+      "question": "\"Forward\" is the motto of which midwestern state that is home to Lake Winnebago?",
+      "answer": "Wisconsin"
+    },
+    {
+      "question": "How many states are in the Midwest?",
+      "answer": "12"
+    },
+    {
+      "question": "Name the Midwest States.",
+      "answer": "Illinois Indiana Iowa Kansas Michigan Minnesota Missouri Nebraska North Dakota Ohio South Dakota and Wisconsin"
+    },
+    {
+      "question": "Chile has extensive copper reserves in what desert?",
+      "answer": "Atacama Desert"
+    },
+    {
+      "question": "Redwoods, the world's tallest trees, are found in which state?",
+      "answer": "California"
+    },
+    {
+      "question": "Managua, a city of more than one million people, is located near a large lake with the same name. Name the country in which it is located.",
+      "answer": "Nicaragua"
+    },
+    {
+      "question": "What is the approximate population of Managua?",
+      "answer": "one million"
+    },
+    {
+      "question": "What states surround Chesapeake Bay?",
+      "answer": "Maryland and Virginia"
+    },
+    {
+      "question": "Death Valley, one of the hottest and driest places in the United States, is just east of which mountains?",
+      "answer": "Sierra Nevada"
+    },
+    {
+      "question": "The Mediterranean fruit fly can destroy fruit crops. These flies have damaged citrus crops in Florida and which other state?",
+      "answer": "California"
+    },
+    {
+      "question": "Which port on the Great Lakes has developed as a major center for rail, plane, and ship traffic?",
+      "answer": "Chicago"
+    },
+    {
+      "question": "Which state has a larger Native American population? Oklahoma, Maryland, or Massachusetts?",
+      "answer": "Oklahoma"
+    },
+    {
+      "question": "Many plants in Monteverde Cloud Forest Preserve get water both from rainfall and the mist that hangs in the air. This preserve is located south of Nicaragua in what country?",
+      "answer": "Costa Rica"
+    },
+    {
+      "question": "Lake Okeechobee is in which state?",
+      "answer": "Florida"
+    },
+    {
+      "question": "Which state is more likely to experience a tornado? New York, Utah, or Oklahoma",
+      "answer": "Oklahoma"
+    },
+    {
+      "question": "One of the world's largest potash deposits is located in Saskatchewan in which country?",
+      "answer": "Canada"
+    },
+    {
+      "question": "In March 1998 fires burned a large area near the rain forest home of the Yanomami people. These fires occurred in the northern part of which country in the Western Hemisphere?",
+      "answer": "Brazil"
+    },
+    {
+      "question": "Which state produces more monument granite and marble? Vermont, Utah, or Mississippi?",
+      "answer": "Vermont"
+    },
+    {
+      "question": "The Pocono Mountains in Pennsylvania link with what mountain group to the northeast?",
+      "answer": "Catskill Mountains"
+    },
+    {
+      "question": "What mountains are in Pennsylvania?",
+      "answer": "Pocono Mountains"
+    },
+    {
+      "question": "Which state is home to the oldest state capital, established by Spanish officials around 1610?",
+      "answer": "New Mexico"
+    },
+    {
+      "question": "Which body of water is partially surrounded by Maryland?",
+      "answer": "Chesapeake Bay"
+    },
+    {
+      "question": "The Chinese tallow tree, whose seeds can be used in candles and soap, has spread throughout the southeastern United States. This tree was first introduced to what state located northeast of Georgia?",
+      "answer": "South Carolina"
+    },
+    {
+      "question": "Baja California, which is almost completely surrounded by water, is an example of what kind of physical feature?",
+      "answer": "Peninsula"
+    },
+    {
+      "question": "Which country does not border Panama? Honduras, Costa Rica, or Colombia?",
+      "answer": "Honduras"
+    },
+    {
+      "question": "A large rodent called the nutria, which was imported from South America, can destroy marsh vegetation. This rodent's destruction of Chesapeake Bay wetlands is a problem in which state?",
+      "answer": "Maryland"
+    },
+    {
+      "question": "What are the 3 Prairie Provinces?",
+      "answer": "Saskatchewan Alberta Manitoba"
+    },
+    {
+      "question": "Which state reaches farther north? West Virginia, Oklahoma, or Wyoming?",
+      "answer": "Wyoming"
+    },
+    {
+      "question": "\"In God We Trust\" is the motto of which southern state that is home to Big Cypress National Preserve?",
+      "answer": "Florida"
+    },
+    {
+      "question": "Where is the Big Cypress National Preserve?",
+      "answer": "Florida"
+    },
+    {
+      "question": "What is the motto of Florida?",
+      "answer": "In God We Trust"
+    },
+    {
+      "question": "Which state borders more Great Lakes? Michigan, New York, or Ohio?",
+      "answer": "Michigan"
+    },
+    {
+      "question": "The Lewis and Clark Expedition explored which region from 1804 to 1806?",
+      "answer": [
+        "Louisiana Purchase",
+        "Louisiana territory"
+      ]
+    },
+    {
+      "question": "New York is the only state that borders which great lake?",
+      "answer": "Lake Ontario"
+    },
+    {
+      "question": "Africanized, or \"killer bees,\" were originally taken to Brazil and accidentally introduced into the wild. These bees entered the U.S. through which state that borders the Rio Grande?",
+      "answer": "Texas"
+    },
+    {
+      "question": "In which Rocky Mountain state can you find Great Sand Dunes National Park, created in 2004 to protect America's tallest sand dunes?",
+      "answer": "Colorado"
+    },
+    {
+      "question": "Which one of the 50 states shares the longest border with Mexico?",
+      "answer": "Texas"
+    },
+    {
+      "question": "Cinco de Mayo is a holiday celebrated in the United States by people who emigrated from which country?",
+      "answer": "Mexico"
+    },
+    {
+      "question": "The Guadalupe River flows past New Braunfels and Victoria in which U.S. state?",
+      "answer": "Texas"
+    },
+    {
+      "question": "What city is located on the Potomac River and was built in the late 1700s according to the plans laid out by Pierre L'Enfant?",
+      "answer": "Washington D.C."
+    },
+    {
+      "question": "Where does The Potomac River flow into?",
+      "answer": "The Chesapeake Bay"
+    },
+    {
+      "question": "Which of these cities is at the highest elevation? San Diego, Denver, Buffalo",
+      "answer": "Denver"
+    },
+    {
+      "question": "Which state is part of the Delmarva Peninsula? Virginia, Pennsylvania, Georgia",
+      "answer": "Virginia"
+    },
+    {
+      "question": "An island that was once the chief point of entry for European immigrants to the United States is claimed by both New York and New Jersey. Name this island.",
+      "answer": "Ellis Island"
+    },
+    {
+      "question": "Ellis Island is part of what National Monument?",
+      "answer": "Statue of Liberty"
+    },
+    {
+      "question": "What 2 islands are part of Statue of Liberty National Monument?",
+      "answer": "Liberty Island and Ellis Island"
+    },
+    {
+      "question": "Lake Powell, a reservoir on the Colorado River, is shared by Arizona and which state?",
+      "answer": "Utah"
+    },
+    {
+      "question": "What river is Lake Powell located on?",
+      "answer": "Colorado"
+    },
+    {
+      "question": "Lake Powell is shared by what 2 states?",
+      "answer": "Arizona and Utah"
+    },
+    {
+      "question": "Which state was a former British colony established as a settlement for debtors as well as a buffer against the Spanish?",
+      "answer": "Georgia"
+    },
+    {
+      "question": "Which river is farther north? Potomac, Rio Grande, or Chattahoochee River",
+      "answer": [
+        "Potomac",
+        "Potomac River"
+      ]
+    },
+    {
+      "question": "Which state is not an important source of coal for the U.S.? West Virginia, Washington, Pennsylvania",
+      "answer": "Washington"
+    },
+    {
+      "question": "English is the official language in what South American country whose population is roughly 50 percent East Indian? Ecuador, Guyana, or Venezuela",
+      "answer": "Guyana"
+    },
+    {
+      "question": "The production of maple syrup is an important economic activity in which state?",
+      "answer": "Vermont"
+    },
+    {
+      "question": "Name the Caribbean country that traces its cultural heritage to West Africa and France.",
+      "answer": "Haiti"
+    },
+    {
+      "question": "What continental US state has a lot of earthquakes?",
+      "answer": "California"
+    },
+    {
+      "question": "Which city has a more arid climate? Amarillo, Chicago, or Charleston",
+      "answer": "Amarillo"
+    },
+    {
+      "question": "Which one of the contiguous United States has the northernmost point? Wisconsin, New York, or Minnesota",
+      "answer": "Minnesota"
+    },
+    {
+      "question": "Which region is closer to the Atlantic Ocean? Piedmont, Great Plains, or Allegheny Plateau",
+      "answer": "Piedmont"
+    },
+    {
+      "question": "In which state is more land used for agriculture? Illinois, Connecticut, or New Jersey",
+      "answer": "Illinois"
+    },
+    {
+      "question": "Which state produces more corn? Nebraska, Maine, or Kentucky",
+      "answer": "Nebraska"
+    },
+    {
+      "question": "The Institutional Revolutionary Party, or PRI, had been the dominant political party in which North American country throughout most of the 20th century?",
+      "answer": "Mexico"
+    },
+    {
+      "question": "In the 20th century what is the dominant political party in Mexico?",
+      "answer": [
+        "The Institutional Revolutionary Party",
+        "PRI"
+      ]
+    },
+    {
+      "question": "Which city has weather affected by its location on a lake? Louisville, Chicago, or Atlanta",
+      "answer": "Chicago"
+    },
+    {
+      "question": "The Chaco, a semiarid plain that is home mostly to cattle ranchers, makes up most of the western half of what landlocked country in South America?",
+      "answer": "Paraguay"
+    },
+    {
+      "question": "Before the rise of cotton, African slaves were used in the Americas to farm indigo, rice, sugarcane, and what other plantation crop?",
+      "answer": "tobacco"
+    },
+    {
+      "question": "Which state capital is closer to the Gulf of Mexico? Little Rock, Olympia, or Columbus",
+      "answer": "Little Rock"
+    },
+    {
+      "question": "The Merrimack River, formed by the junction of the Pemigewasset and Winnipesaukee Rivers, empties into what major body of water?",
+      "answer": "Atlantic Ocean"
+    },
+    {
+      "question": "The Merrimack River is formed by the junction of what 2 rivers?",
+      "answer": "Pemigewasset and Winnipesaukee"
+    },
+    {
+      "question": "Which of the following is not a Great Plains state? Oklahoma, Ohio, or Kansas",
+      "answer": "Ohio"
+    },
+    {
+      "question": "The Rio Grande de Santiago runs through Lake Chapala, the largest natural lake in which country?",
+      "answer": "Mexico"
+    },
+    {
+      "question": "What river runs through Lake Chapala?",
+      "answer": "Rio Grande de Santiago"
+    },
+    {
+      "question": "What is the largest natural lake in Mexico?",
+      "answer": "Lake Chapala"
+    },
+    {
+      "question": "The Shoshone Falls are near the city of Twin Falls in which U.S. state?",
+      "answer": "Idaho"
+    },
+    {
+      "question": "Where are the Shoshone Falls?",
+      "answer": "Idaho"
+    },
+    {
+      "question": "Where is Twin Falls located?",
+      "answer": "Idaho"
+    },
+    {
+      "question": "How many countries are in Central America?",
+      "answer": "7"
+    },
+    {
+      "question": "What are the countries in Central America?",
+      "answer": "Belize Guatemala El Salvador Honduras Nicaragua Costa Rica and Panama"
+    },
+    {
+      "question": "The Cordillera de los Frailes is located in the departments of Potos and Oruro in which country?",
+      "answer": "Bolivia"
+    },
+    {
+      "question": "Bolivia is divided into what kind of divisions?",
+      "answer": "Departments"
+    },
+    {
+      "question": "What are the countries in South America?",
+      "answer": "Columbia Venezuela Guyana Suriname French Guiana Brazil Uruguay Argentina Chile Paraguay Bolivia Peru Ecuador"
+    },
+    {
+      "question": "Which state has more people per square mile? Connecticut, Alaska, Kentucky",
+      "answer": "Connecticut"
+    },
+    {
+      "question": "The Cherokee Indians were forced to relocate to present-day Oklahoma from what region of the United States?",
+      "answer": "Midwest"
+    },
+    {
+      "question": "\"Hope\" is the motto of which northeastern state that is home to Block Island?",
+      "answer": "Rhode Island"
+    },
+    {
+      "question": "Asian long-horned beetles, which probably arrived in wooden pallets shipped from China, have infested many trees in the most populous Midwestern city. This infestation continues to destroy many trees in which city?",
+      "answer": "Chicago"
+    },
+    {
+      "question": "Niagara Falls is on the border between Canada and which state?",
+      "answer": "New York"
+    },
+    {
+      "question": "The southernmost island country in the Caribbean Sea has an ethnic mix of primarily East Indians and Africans. Name this country.",
+      "answer": "Trinidad and Tobago"
+    },
+    {
+      "question": "Which Canadian province produces twice as much wheat as all the other provinces combined?",
+      "answer": "Saskatchewan"
+    },
+    {
+      "question": "If you were in Chicago, Illinois, which would you be closest to? Tropic of Capricorn, Tropic of Cancer, or Equator",
+      "answer": "Tropic of Cancer"
+    },
+    {
+      "question": "Which city is located in an arid climate zone? Santa Fe, Milwaukee, or Eugene",
+      "answer": "Santa Fe"
+    },
+    {
+      "question": "\"Liberty and Union, Now and Forever, One and Inseparable\" is the motto of which northern state that is home to Theodore Roosevelt National Park?",
+      "answer": "North Dakota"
+    },
+    {
+      "question": "Which U.S. city, founded by Dutch immigrants, was once called New Amsterdam?",
+      "answer": "New York"
+    },
+    {
+      "question": "Which city lies along the Willamette River?",
+      "answer": "Portland"
+    },
+    {
+      "question": "Which state is located closer to the Tropic of Cancer? Louisiana, Maine, South Dakota",
+      "answer": "Louisiana"
+    },
+    {
+      "question": "Which is more likely to be found in the American Southwest? cacti, glaciers, boreal forests",
+      "answer": "cacti"
+    },
+    {
+      "question": "Name the country along the northern coast of South America that is the continent's only member of the oil cartel known as OPEC.",
+      "answer": "Venezuela"
+    },
+    {
+      "question": "Which of the following South American capital cities is not on the banks of the Rio de la Plata? Montevideo, Buenos Aires, Brasilia",
+      "answer": "Brasilia"
+    },
+    {
+      "question": "The Brooks Range in Alaska acts as a divide for waters flowing north into the Arctic Ocean and south into which river that flows across the state into the Bering Sea?",
+      "answer": "Yukon"
+    },
+    {
+      "question": "In 1885, the completion of which kind of transportation system encouraged the settlement of western Canada?",
+      "answer": "railroad"
+    },
+    {
+      "question": "Which river forms the southeastern boundary of Illinois?",
+      "answer": [
+        "Ohio",
+        "Ohio River"
+      ]
+    },
+    {
+      "question": "Which bay bordered by Virginia and Maryland is connected to the Atlantic Ocean?",
+      "answer": "Chesapeake Bay"
+    },
+    {
+      "question": "Which state's capital is not named after a President of the United States? South Dakota, Nebraska, Mississippi",
+      "answer": "South Dakota"
+    },
+    {
+      "question": "The capital of Nova Scotia is Canada's chief seaport on the Atlantic. Name this port city.",
+      "answer": "Halifax"
+    },
+    {
+      "question": "Baffin Bay and Davis Strait separate Baffin Island, in Canada, from which other island?",
+      "answer": "Greenland"
+    },
+    {
+      "question": "Which crop is more important to the economy of Florida? Wheat, oranges, lumber",
+      "answer": "oranges"
+    },
+    {
+      "question": "Which river forms the eastern boundary of Missouri?",
+      "answer": "Mississippi"
+    },
+    {
+      "question": "Nickel is mined near Pico Duarte, one of the highest peaks in the West Indies. This peak is located in which country west of Puerto Rico?",
+      "answer": "Dominican Republic"
+    },
+    {
+      "question": "Which state produces more wood pulp? Georgia, Florida, Nevada",
+      "answer": "Georgia"
+    },
+    {
+      "question": "Which Canadian province is home to Banff National Park, a popular tourist stop?",
+      "answer": "Alberta"
+    },
+    {
+      "question": "Victoria is to Vancouver Island as Iqaluit is to WHAT?",
+      "answer": "Baffin Island"
+    },
+    {
+      "question": "Which South American country has approximately 4,600 miles (7,400 kilometers) of coastline along the Atlantic Ocean, contributing to the large tourism trade in that country?",
+      "answer": "Brazil"
+    },
+    {
+      "question": "Hurricanes are more likely to strike where in the United States? Atlantic or Pacific coast",
+      "answer": "Atlantic coast"
+    },
+    {
+      "question": "Which city is in western Texas and lies directly across the border from the Mexican city of Ciudad Juarez? Amarillo, Houston, El Paso",
+      "answer": "El Paso"
+    },
+    {
+      "question": "Which city was an important Confederate port during the Civil War? San Francisco, Mobile, Atlanta",
+      "answer": "Mobile"
+    },
+    {
+      "question": "The Merrimack River runs through Manchester, the largest city in which state?",
+      "answer": "New Hampshire"
+    },
+    {
+      "question": "A U.S. football team, the San Francisco 49ers, takes its name from what important event in California history?",
+      "answer": "Gold Rush of 1849"
+    },
+    {
+      "question": "What Alabama city was the subject of a 1955 and 1956 bus boycott organized by Martin Luther King, Jr., to protest bus segregation?",
+      "answer": "Montgomery"
+    },
+    {
+      "question": "Which state does not border Saskatchewan? Wisconsin, North Dakota, Montana",
+      "answer": "Wisconsin"
+    },
+    {
+      "question": "Cuzco, a city in the mountains of Peru, was the capital of which pre-Columbian empire?",
+      "answer": [
+        "Inca",
+        "Inca empire"
+      ]
+    },
+    {
+      "question": "Which city is the westernmost point on the Erie Canal?",
+      "answer": "Buffalo"
+    },
+    {
+      "question": "Cape Breton Highlands National Park is the site of an annual festival that celebrates the Scottish heritage of people living in an eastern Canadian province. Name this Maritime province.",
+      "answer": "Nova Scotia"
+    },
+    {
+      "question": "The Gila River flows west from New Mexico across which other state?",
+      "answer": "Arizona"
+    },
+    {
+      "question": "Lima is home to more than a quarter of the population of a country on the Pacific Ocean. Name the country in which it is located.",
+      "answer": "Peru"
+    },
+    {
+      "question": "Which city was named after the founder of a famous stagecoach line that once crisscrossed the West?",
+      "answer": "Fargo"
+    },
+    {
+      "question": "The city of San Jose, located in a fertile valley, grew rapidly in the 19th century as a coffee-producing center. Name the country in which it is located.",
+      "answer": "Costa Rica"
+    },
+    {
+      "question": "In 1994, the exiled President Aristide returned to his homeland after United Nations forces restored democracy to what Caribbean island country?",
+      "answer": "Haiti"
+    },
+    {
+      "question": "Which body of water is due east of Washington, D.C.? Lake Champlain, Georgian Bay, Chesapeake Bay",
+      "answer": "Chesapeake Bay"
+    },
+    {
+      "question": "What town, located at the junction of the Potomac and Shenandoah Rivers, was the site of an 1859 raid on a U.S. armory just before the outbreak of the Civil War?",
+      "answer": "Harpers Ferry"
+    },
+    {
+      "question": "Which state was home to more textile mills during the Industrial Revolution?",
+      "answer": "Massachusetts"
+    },
+    {
+      "question": "Which city is located on Biscayne Bay in southeast Florida?",
+      "answer": "Miami"
+    },
+    {
+      "question": "Which state is bordered by both the Mississippi and Missouri Rivers?",
+      "answer": "Iowa"
+    },
+    {
+      "question": "On a Canadian ten-dollar bill, the word dix means ten in which language?",
+      "answer": "French"
+    },
+    {
+      "question": "Cape Mendocino, southwest of the town of Eureka, is the westernmost point of which U.S. state?",
+      "answer": "California"
+    },
+    {
+      "question": "European starlings were brought to the U.S. in the 1890s by a man who wanted to introduce every bird mentioned in Shakespeare's plays. He released more than 60 starlings into which city's famous Central Park?",
+      "answer": "New York City"
+    },
+    {
+      "question": "Which country has a shorter coastline? El Salvador, India, Venezuela",
+      "answer": "El Salvador"
+    },
+    {
+      "question": "Lumbering and paper milling are two important economic activities in Missoula, a city located just south of the Flathead Indian Reservation, in which state?",
+      "answer": "Montana"
+    },
+    {
+      "question": "Gannett Peak, at 13,804 feet, is located in the Rocky Mountains and is which state's highest point?",
+      "answer": "Wyoming"
+    },
+    {
+      "question": "Which Bay has a larger total area? Monterey Bay, Chesapeake Bay, Prudhoe Bay",
+      "answer": "Chesapeake Bay"
+    },
+    {
+      "question": "Independence, a starting point for expeditions along the Oregon Trail, is a town in which state?",
+      "answer": "Missouri"
+    },
+    {
+      "question": "Santos, a major coffee-exporting port, is on the Atlantic coast of what country?",
+      "answer": "Brazil"
+    },
+    {
+      "question": "\"Industry\" is the motto of which western state that is home to most of the Wasatch Range?",
+      "answer": "Utah"
+    },
+    {
+      "question": "The melaleuca tree is believed to be drying up parts of a large swamp, making it uninhabitable to native plants and animals. This process is occurring in what swampy region?",
+      "answer": "Everglades"
+    },
+    {
+      "question": "Valparaíso, which was founded by the Spanish in the mid-1500s, is the oldest and largest port on the Pacific coast of which country?",
+      "answer": "Chile"
+    },
+    {
+      "question": "Which state borders Alabama, Georgia, and Mississippi to the north?",
+      "answer": "Tennessee"
+    },
+    {
+      "question": "Panama separates the Pacific Ocean from which body of water?",
+      "answer": "Caribbean Sea"
+    },
+    {
+      "question": "If you took a raft trip through the Grand Canyon, which river would you be navigating?",
+      "answer": [
+        "Colorado",
+        "Colorado River"
+      ]
+    },
+    {
+      "question": "Which river is not located in South America? Amazon, Mekong, Orinoco",
+      "answer": "Mekong"
+    },
+    {
+      "question": "Which New England city is located north of Boston and witnessed the execution of alleged witches in 1692?",
+      "answer": "Salem"
+    },
+    {
+      "question": "Which country is NOT crossed by the Tropic of Capricorn? Peru, Argentina, Paraguay",
+      "answer": "Peru"
+    },
+    {
+      "question": "Bogota and Medellin are cities in which South American country?",
+      "answer": "Colombia"
+    },
+    {
+      "question": "Other than tourism, what is the primary industry of the Bahamas?",
+      "answer": "banking"
+    },
+    {
+      "question": "Name North America's most populous capital city.",
+      "answer": "Mexico City"
+    },
+    {
+      "question": "European wild boars, descended from animals that escaped from a nearby hunting preserve in the early 1900s, are known to disturb the natural vegetation in Great Smoky Mountains National Park in which state?",
+      "answer": "North Carolina"
+    },
+    {
+      "question": "Which phrase was used to gain support for the westward expansion of the United States in the 1800s?",
+      "answer": "Manifest Destiny"
+    },
+    {
+      "question": "Oil refining is an important economic activity on the largest island in the Netherlands Antilles. Name this island.",
+      "answer": "Curacao"
+    },
+    {
+      "question": "Baja California and Yucatan are peninsulas of what country?",
+      "answer": "Mexico"
+    },
+    {
+      "question": "Which state is more likely to experience a blizzard? Idaho, Tennessee, Arkansas",
+      "answer": "Idaho"
+    },
+    {
+      "question": "Baffin Bay and the Davis Strait separate Canada from Denmark's largest overseas possession. Name this island possession.",
+      "answer": "Greenland"
+    },
+    {
+      "question": "Which body of water lies near the southern end of Greenland?",
+      "answer": "Labrador Sea"
+    },
+    {
+      "question": "Some of the world's most severe weather, including the strongest gust of surface wind, has been recorded on top of a mountain in the state of New Hampshire. Name this mountain.",
+      "answer": "Mount Washington"
+    },
+    {
+      "question": "Which state is more mountainous? Utah, Florida, Nebraska",
+      "answer": "Utah"
+    },
+    {
+      "question": "Which of the following states was not on the Oregon Trail? Wyoming, Tennessee, Nebraska",
+      "answer": "Tennessee"
+    },
+    {
+      "question": "The Otavalo Indians, who are known for their ponchos, blankets, and other woven goods, are native to which mountain range?",
+      "answer": "Andes"
+    },
+    {
+      "question": "The Freedom Trail, a walking tour past such historic landmarks as Paul Revere's house and Old North Church, is in which New England port city?",
+      "answer": "Boston"
+    },
+    {
+      "question": "Red imported fire ants, native to South America, have a painful sting and can be found in parts of the southern U.S. These ants were first seen in Mobile, a city in which state bordering the Gulf of Mexico?",
+      "answer": "Alabama"
+    },
+    {
+      "question": "The Great Northern Peninsula, which extends approximately 170 miles from Bonne Bay on the west to Cape Bauld at the tip, is located in Newfoundland in which country?",
+      "answer": "Canada"
+    },
+    {
+      "question": "Which state borders more states? Kentucky, Alaska, Rhode Island",
+      "answer": "Kentucky"
+    },
+    {
+      "question": "Which state is known for producing more potatoes? Idaho, Alaska, Missouri",
+      "answer": "Idaho"
+    },
+    {
+      "question": "Which city was once a Spanish fort and is now home to an important naval base? San Diego, Houston, Honolulu",
+      "answer": "San Diego"
+    },
+    {
+      "question": "Which state borders Lake Champlain?",
+      "answer": "Vermont"
+    },
+    {
+      "question": "The building of railroads caused which Canadian province, the easternmost of the Prairie Provinces, to expand in population several times in the late 19th and early 20th centuries?",
+      "answer": "Manitoba"
+    },
+    {
+      "question": "New York is in the same time zone as which other state? South Carolina, Montana, Indiana",
+      "answer": "South Carolina"
+    },
+    {
+      "question": "Newark is the largest city and an industrial center in which mid-Atlantic state?",
+      "answer": "New Jersey"
+    },
+    {
+      "question": "A ship canal connects which port city with the Gulf of Mexico? San Diego, Norfolk, Houston",
+      "answer": "Houston"
+    },
+    {
+      "question": "Flagstaff, known as an astronomical center and home to the Lowell Observatory, is a city in the northern part of which state?",
+      "answer": "Arizona"
+    },
+    {
+      "question": "The Equator is to Kenya as the Tropic of Cancer is to WHAT?",
+      "answer": "Mexico"
+    },
+    {
+      "question": "Which state has the lowest per capita income? Texas, Massachusetts, Mississippi",
+      "answer": "Mississippi"
+    },
+    {
+      "question": "Which state does not have a continental climate? Texas, Massachusetts, Mississippi",
+      "answer": "Mississippi"
+    },
+    {
+      "question": "The Lewis and Clark expedition of 1804 to 1806 began at the mouth of the Missouri River and ended at the mouth of what other North American river?",
+      "answer": [
+        "Columbia",
+        "Columbia river"
+      ]
+    },
+    {
+      "question": "Which state has more wildlife refuges? Oregon, New Jersey, Kentucky",
+      "answer": "Oregon"
+    },
+    {
+      "question": "Which state produces more corn? Iowa, Georgia, Mississippi",
+      "answer": "Iowa"
+    },
+    {
+      "question": "Which state is about 80 percent farmland? Rhode Island, Illinois, Alabama",
+      "answer": "Illinois"
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa"
+    },
+    {
+      "question": "What is the capital of the United States?",
+      "answer": "Washington D.C."
+    },
+    {
+      "question": "Where are the Appalachians?",
+      "answer": "Eastern North America"
+    }
+  ],
+  "oceania": [
+    {
+      "question": "Geographe Bay, a popular vacation spot, is located about 150 miles (240 kilometers) south of which city?",
+      "answer": "Perth"
+    },
+    {
+      "question": "Large ranches occupy a region called the Great Artesian Basin in which country that borders the Indian Ocean?",
+      "answer": "Australia"
+    },
+    {
+      "question": "Where is the Great Artesian basin?",
+      "answer": "Australia"
+    },
+    {
+      "question": "Honiara is the capital of an island country in the South Pacific. Name this country.",
+      "answer": "Solomon Islands"
+    },
+    {
+      "question": "What Island is Honiara on?",
+      "answer": "Guadalcanal"
+    },
+    {
+      "question": "Gold is an important export for a Pacific island country in which the population speaks more than 700 distinct languages. Name this country.",
+      "answer": "Papua New Guinea"
+    },
+    {
+      "question": "The Atherton Tableland, at the northern end of the Great Dividing Range, is known for its relatively high amount of rainfall. This tableland is located in which Australian state?",
+      "answer": "Queensland"
+    },
+    {
+      "question": "Australia is divided into 6 states and 2 main territories. Name them.",
+      "answer": "New South Wales Queensland South Australia Tasmania Victoria Western Australia Northern Territory Australian Capital Territory"
+    },
+    {
+      "question": "About three-quarters of the population of which state lives in the Honolulu metropolitan area?",
+      "answer": "Hawaii"
+    },
+    {
+      "question": "New Zealand's two main islands are separated by what strait?",
+      "answer": "Cook Strait"
+    },
+    {
+      "question": "Monotremes, or egg-laying mammals, are found in Tasmania, the southernmost state of what country?",
+      "answer": "Australia"
+    },
+    {
+      "question": "Tasmania is the island state of which country?",
+      "answer": "Australia"
+    },
+    {
+      "question": "Which country has Lake Eyre as its lowest point and Mount Kosciuszko as its highest point?",
+      "answer": "Australia"
+    },
+    {
+      "question": "What is the lowest point in Australia?",
+      "answer": "Lake Eyre"
+    },
+    {
+      "question": "What is the highest point in Australia?",
+      "answer": "Mount Kosciuszko"
+    },
+    {
+      "question": "Poi is a food commonly associated with people native to which state?",
+      "answer": "Hawaii"
+    },
+    {
+      "question": "The term outback is commonly associated with the dry interior region of which country?",
+      "answer": "Australia"
+    },
+    {
+      "question": "Cradle Mountain-Lake St. Clair National Park, which is located northwest of the city of Hobart, is on an island that is part of what country?",
+      "answer": "Australia"
+    },
+    {
+      "question": "The echidna, or spiny anteater, is native to Australia and the large island directly north of that country. Name this large island?",
+      "answer": "New Guinea"
+    },
+    {
+      "question": "Most of central Australia has which type of climate?",
+      "answer": "arid"
+    },
+    {
+      "question": "The highest mountain in Papua New Guinea has the same name as the last kaiser, or emperor, of Germany. Name this peak.",
+      "answer": "Mount Wilhelm"
+    },
+    {
+      "question": "About one-third of New Zealand's population lives in the area around its largest city. Name this city.",
+      "answer": "Auckland"
+    }
+  ],
+  "global": [
+    {
+      "question": "What strait divides Morocco and Spain?",
+      "answer": "Strait of Gibraltar"
+    },
+    {
+      "question": "What is the largest island in the Mediterranean Sea?",
+      "answer": "Sicily"
+    },
+    {
+      "question": "What is the term for people who want to seek safety from their country?",
+      "answer": "Refugees"
+    },
+    {
+      "question": "The Nansen Cordillera, an undersea ridge named for explorer Fridtjof Nansen, is found in which ocean?",
+      "answer": "Arctic"
+    },
+    {
+      "question": "The small African country of Djibouti is located on the Bab al Mandab, a strait that connects the Red Sea to which ocean?",
+      "answer": "Indian"
+    },
+    {
+      "question": "What does arid mean?",
+      "answer": "dry"
+    },
+    {
+      "question": "What are the 5 categories of the climate system?",
+      "answer": "Tropical Dry Temperate Continental Polar"
+    },
+    {
+      "question": "What is the most widely used climate categorization system?",
+      "answer": "Koppen"
+    },
+    {
+      "question": "What does the Tropical climate system mean?",
+      "answer": "High annual temperatures large amount of rain"
+    },
+    {
+      "question": "What does the Dry climate system mean?",
+      "answer": "Little rain huge daily temperature ranges"
+    },
+    {
+      "question": "What does the Moderate climate system mean?",
+      "answer": "Warm dry summers cool wet winters"
+    },
+    {
+      "question": "What does the Continental climate system mean?",
+      "answer": "Low annual precipitation seasonal temperatures vary widely"
+    },
+    {
+      "question": "What does the Polar climate system mean?",
+      "answer": "Very cold has permanent ice temperature typically not above freezing more than 4 months of the year"
+    },
+    {
+      "question": "Sri Lanka is to island as Panama is to what?",
+      "answer": "Isthmus"
+    },
+    {
+      "question": "What does a barometer measure?",
+      "answer": "Atmospheric pressure"
+    },
+    {
+      "question": "Which of the Earth's oceans is the smallest?",
+      "answer": "Arctic"
+    },
+    {
+      "question": "Amundsen, Scott, and Byrd all explored which continent?",
+      "answer": "Antarctica"
+    },
+    {
+      "question": "Name the explorer who was killed in the Philippines in 1521 after becoming the first European to sail across the Pacific Ocean.",
+      "answer": "Ferdinand Magellan"
+    },
+    {
+      "question": "Which country does not contain a desert? Romania, Algeria or Chile",
+      "answer": "Romania"
+    },
+    {
+      "question": "To fly the shortest route from Santiago, Chile, to Perth, Australia, you would fly over which continent?",
+      "answer": "Antarctica"
+    },
+    {
+      "question": "The Dardanelles and Bosporus are examples of what kind of physical feature?",
+      "answer": "Strait"
+    },
+    {
+      "question": "The Blue Ridge are to the Appalachians as the Dolomites are to the what?",
+      "answer": "Alps"
+    },
+    {
+      "question": "Which country has more of the world's forested landcover? Russia, Libya, Chile?",
+      "answer": "Russia"
+    },
+    {
+      "question": "What are the 7 Wonders of the Ancient World?",
+      "answer": "The Great Pyramid of Giza The Hanging Gardens of Babylon The Temple of Artemis The Statue of Zeus at Olympia The Mausoleum of Halicarnassus The Colossus of Rhodes and The Lighthouse of Alexandria"
+    },
+    {
+      "question": "Lesotho is to the Republic of South Africa as San Marino is to what?",
+      "answer": "Italy"
+    },
+    {
+      "question": "Mahogany and rosewood are valuable timber trees that grow in what kind of climate?",
+      "answer": "tropical wet"
+    },
+    {
+      "question": "Which sea separates most of northeastern Africa from Asia?",
+      "answer": "Red Sea"
+    },
+    {
+      "question": "What are the world's tallest trees?",
+      "answer": "Redwoods"
+    },
+    {
+      "question": "Although it is called a bay, the Chesapeake Bay is actually a river mouth that was submerged by rising sea levels. What is the term for this feature, which is characterized by the mixing of salt and fresh water?",
+      "answer": "Estuary"
+    },
+    {
+      "question": "Name the portion of Earth's stratosphere that is being diminished by chlorofluorocarbons, or CFCs.",
+      "answer": [
+        "ozone layer",
+        "ozone"
+      ]
+    },
+    {
+      "question": "What are the 5 layers of the earth's atmosphere?",
+      "answer": "Exosphere Thermosphere mesosphere stratosphere troposphere"
+    },
+    {
+      "question": "What are CFC's?",
+      "answer": "chlorofluorocarbons"
+    },
+    {
+      "question": "The Plain of Catania is to Italy as the Plain of Adana is to what?",
+      "answer": "Turkey"
+    },
+    {
+      "question": "Which of the following is not a country in Eastern Europe? Romania, Mauritania, or Albania.",
+      "answer": "Mauritania"
+    },
+    {
+      "question": "The International Date Line runs through which two oceans?",
+      "answer": "Pacific and Arctic"
+    },
+    {
+      "question": "What large island is located 200 miles northwest of Iceland?",
+      "answer": "Greenland"
+    },
+    {
+      "question": "What term is used for a region that served as an origin for important new ideas and innovations?",
+      "answer": "culture hearth"
+    },
+    {
+      "question": "Since the 1970s, most of the immigrants in the United States have come from other countries in the Americas and which other continent?",
+      "answer": "Asia"
+    },
+    {
+      "question": "The deflection of moving objects, including cyclones, caused by Earth's rotation is known as what?",
+      "answer": "Coriolis Force"
+    },
+    {
+      "question": "What is the 3rd longest mountain range in the world?",
+      "answer": "Great Dividing Range"
+    },
+    {
+      "question": "The Yenisey-Angara river system is the second longest river system on which continent?",
+      "answer": "Asia"
+    },
+    {
+      "question": "Where does the Yenisey-Angara river system flow into?",
+      "answer": "Arctic Ocean"
+    },
+    {
+      "question": "Which of these countries is NOT a constitutional monarchy? Mexico, Morocco, Malaysia",
+      "answer": "Mexico"
+    },
+    {
+      "question": "What condition is necessary for the formation of coral reefs? warm ocean temperature, deep water, annual rainfall of 300 inches",
+      "answer": "Warm ocean temperature"
+    },
+    {
+      "question": "Which term is Russian for the region of coniferous forest located south of the tundra?",
+      "answer": "Taiga"
+    },
+    {
+      "question": "Where would you find minarets?",
+      "answer": [
+        "Islamic mosques",
+        "mosques"
+      ]
+    },
+    {
+      "question": "Seismographs are used to detect and record which natural hazard?",
+      "answer": "Earthquakes"
+    },
+    {
+      "question": "What is used to detect and record earthquakes?",
+      "answer": "Seismographs"
+    },
+    {
+      "question": "What other name is the Prime Meridian known as?",
+      "answer": [
+        "International Meridian",
+        "Greenwich"
+      ]
+    },
+    {
+      "question": "What is the term for the flow of cultural ideas and traits from one culture group to another?",
+      "answer": "Cultural diffusion"
+    },
+    {
+      "question": "The circumference of, or distance around, the Earth is commonly measured at which parallel of latitude?",
+      "answer": [
+        "Equator",
+        "0 latitude"
+      ]
+    },
+    {
+      "question": "What term describes the highest elevation at which continuous tree growth occurs?",
+      "answer": "timberline"
+    },
+    {
+      "question": "The Andes are to the Amazon River as the Great Dividing Range is to what?",
+      "answer": "Darling River"
+    },
+    {
+      "question": "Lesotho is to the Drakensberg Mountains as Andorra is to the what?",
+      "answer": "Pyrenees"
+    },
+    {
+      "question": "Which softwood, indigenous to California, has become an important source of timber in Australia?",
+      "answer": "Monterey Pine"
+    },
+    {
+      "question": "What is the term for a tax that makes goods imported by a country more costly than similar goods produced within that country?",
+      "answer": "tariff"
+    },
+    {
+      "question": "Oceans are to oceanography as fossils are to what?",
+      "answer": "Paleontology"
+    },
+    {
+      "question": "Which modern-day country was not a part of the Roman Empire at any time? Italy, Spain, or South Africa",
+      "answer": "South Africa"
+    },
+    {
+      "question": "Which of these island countries has a smaller total land area? Cuba, Malta, Jamaica",
+      "answer": "Malta"
+    },
+    {
+      "question": "How many degrees of latitude are there south of the Equator?",
+      "answer": "90"
+    },
+    {
+      "question": "By using the Suez Canal, ships avoid sailing around which continent?",
+      "answer": "Africa"
+    },
+    {
+      "question": "Qanats, an ancient system of tunnels built by the Persians, are still used by people in Iran and Afghanistan. Qanats are used for what purpose?",
+      "answer": "irrigation"
+    },
+    {
+      "question": "Name the belt of volcanic and seismic activity that borders most of the Pacific Rim.",
+      "answer": "Ring of Fire"
+    },
+    {
+      "question": "The protective layer in Earth's atmosphere that absorbs some of the sun's ultraviolet rays and reduces the amount of radiation reaching the surface is known by what term?",
+      "answer": [
+        "ozone layer",
+        "ozone"
+      ]
+    },
+    {
+      "question": "In the Treaty of Tordesillas, Spain and Portugal settled their conflict over lands in the New World using a dividing line near which line of longitude?",
+      "answer": "50 degrees west"
+    },
+    {
+      "question": "Which country has a larger population of Maori people? New Zealand, Italy, Japan",
+      "answer": "New Zealand"
+    },
+    {
+      "question": "Long, narrow fields that resemble stair steps on steep hillsides are commonly known by what name?",
+      "answer": "terraces"
+    },
+    {
+      "question": "A meteorologist is to weather as a geologist is to WHAT?",
+      "answer": "rocks"
+    },
+    {
+      "question": "What is the term for a hot spring through which jets of heated water and steam erupt?",
+      "answer": "geyser"
+    },
+    {
+      "question": "What is the name of the solid fossil fuel found in sedimentary rock?",
+      "answer": "coal"
+    },
+    {
+      "question": "The wildebeest is to the savanna as the caribou is to the WHAT?",
+      "answer": "tundra"
+    },
+    {
+      "question": "The South Shetland Islands, which are claimed by the United Kingdom, Chile, and Argentina, are off the coast of which continent?",
+      "answer": "Antarctica"
+    },
+    {
+      "question": "What term is used for the two halves of Earth that are divided by the Equator?",
+      "answer": "hemispheres"
+    },
+    {
+      "question": "The Mozambique and Benguela Currents flow along the coast of which continent?",
+      "answer": "Africa"
+    },
+    {
+      "question": "Which of the following is not a name for a rotating storm? typhoon, monsoon, hurricane",
+      "answer": "monsoon"
+    },
+    {
+      "question": "Which country does not lie on the Eurasian Plate? India, Russia, Greece",
+      "answer": "India"
+    },
+    {
+      "question": "The lithosphere is part of which region of the earth?",
+      "answer": "crust"
+    },
+    {
+      "question": "The range of the giant panda in the wild is limited in part by the availability of a kind of plant necessary to the panda's diet. Name this plant.",
+      "answer": "bamboo"
+    },
+    {
+      "question": "In which country do more tornadoes occur? United States, Thailand, France",
+      "answer": "United States"
+    },
+    {
+      "question": "The Great Circle at zero degrees latitude is primarily known by what name?",
+      "answer": "Equator"
+    },
+    {
+      "question": "The Arab League, which promotes economic cooperation among its members, is made up of countries on which two continents?",
+      "answer": "Africa and Asia"
+    },
+    {
+      "question": "What is the term for the ecosystem generally consisting of broadleaf evergreen trees that is found in wet tropical areas such as the Amazon basin?",
+      "answer": [
+        "rain forest",
+        "rainforest"
+      ]
+    },
+    {
+      "question": "Ninety percent of the world's deaths from malaria, a disease spread by mosquitos, occur in which region? Sub Saharan Africa, Southeast Asia, Middle East",
+      "answer": "Sub Saharan Africa"
+    },
+    {
+      "question": "The rupee is to India as the WHAT is to China?",
+      "answer": "yuan"
+    },
+    {
+      "question": "The Cape Verde Plain is an undersea region in which ocean?",
+      "answer": "Atlantic Ocean"
+    },
+    {
+      "question": "Llamas are to the people of the Andes as yaks are to the people of the WHAT? Tibetan plateau, Atlas Mountains, Balkan Mountains",
+      "answer": "Tibetan Plateau"
+    },
+    {
+      "question": "What language do more people speak as their mother tongue than any other language?",
+      "answer": [
+        "Mandarin Chinese",
+        "Chinese",
+        "Mandarin"
+      ]
+    },
+    {
+      "question": "The Amu Darya is to the Aral Sea as the Volga River is to WHAT?",
+      "answer": "Caspian Sea"
+    },
+    {
+      "question": "Couscous is a popular dish from the northern part of which continent?",
+      "answer": "Africa"
+    },
+    {
+      "question": "What term describes the air circulation pattern of rising air at the Equator and sinking air around 30 degrees latitude?",
+      "answer": "Hadley Cell"
+    },
+    {
+      "question": "Which historical era resulted in the greatest growth of cities in Europe and North America?",
+      "answer": [
+        "Industrial revolution",
+        "industrial"
+      ]
+    },
+    {
+      "question": "Most people of which continent speak either Portuguese or Spanish?",
+      "answer": "South America"
+    },
+    {
+      "question": "Which continent includes the Atlas Mountains and the Kalahari Desert?",
+      "answer": "Africa"
+    },
+    {
+      "question": "Öland, Corsica, and Malta are islands that are part of which continent?",
+      "answer": "Europe"
+    },
+    {
+      "question": "What term is used to identify the difference in value between a country's exports and imports?",
+      "answer": "balance of trade"
+    },
+    {
+      "question": "What flat-topped landform feature found in arid regions is often created by weathering and erosion of a mesa?",
+      "answer": "butte"
+    },
+    {
+      "question": "A large portion of the population in which country does not speak Spanish? Spain, Mexico, Finland",
+      "answer": "Finland"
+    },
+    {
+      "question": "Mandarin is to Chinese as Castilian is to WHAT?",
+      "answer": "Spanish"
+    },
+    {
+      "question": "Puget Sound, which lies between the Olympic Mountains and the Cascade Range, is a major inlet of which ocean?",
+      "answer": "Pacific"
+    },
+    {
+      "question": "Where are lines of longitude farthest apart?",
+      "answer": "at the equator"
+    },
+    {
+      "question": "Which of the following is a nonrenewable energy source? coal, water, wind",
+      "answer": "coal"
+    },
+    {
+      "question": "High birthrates and falling death rates would cause which demographic trend?",
+      "answer": "rapid population growth"
+    },
+    {
+      "question": "Which of the following countries has the highest population density? Indonesia, New Zealand, Australia",
+      "answer": "Indonesia"
+    },
+    {
+      "question": "What is the term for the lower limit of permanent snow cover on a mountain?",
+      "answer": "snow line"
+    },
+    {
+      "question": "Sailors on sailing ships, fearful of being becalmed, try to avoid a region where trade winds converge in a low-pressure belt. What is the term for this region?",
+      "answer": "doldrums"
+    },
+    {
+      "question": "The Kara Sea and the East Siberian Sea are part of which ocean?",
+      "answer": [
+        "Arctic",
+        "Arctic ocean"
+      ]
+    },
+    {
+      "question": "Saguaro, prickly pear, and cholla are varieties of a kind of plant most commonly associated with what kind of climate?",
+      "answer": "arid"
+    },
+    {
+      "question": "The West Bank, the Shatt al Arab, and Kashmir are all disputed regions on which continent?",
+      "answer": "Asia"
+    },
+    {
+      "question": "What is an island?",
+      "answer": "A land mass that is entirely surrounded by water"
+    },
+    {
+      "question": "What is an isthmus?",
+      "answer": "A small strip of land that connects two larger land masses"
+    },
+    {
+      "question": "What is a canal?",
+      "answer": "A man-made waterway used to travel"
+    },
+    {
+      "question": "What is illegal immigration?",
+      "answer": "Sneaking into another country to live or work without  permission from that country's government"
+    },
+    {
+      "question": "What is precipitation?",
+      "answer": "Water deposited on the earth"
+    },
+    {
+      "question": "What is a strait?",
+      "answer": "A narrow body of water that connects two other larger bodies of water"
+    },
+    {
+      "question": "What is racial segregation?",
+      "answer": "Separating people due to their skin color"
+    },
+    {
+      "question": "What is an enclave?",
+      "answer": "An area of one country completely surrounded by another"
+    },
+    {
+      "question": "What is an exclave?",
+      "answer": "An area politically connected to another country but not physically"
+    },
+    {
+      "question": "What is an estuary?",
+      "answer": "A body of water that transitions a river to the ocean"
+    },
+    {
+      "question": "What is the purpose of the International Date Line?",
+      "answer": "to determine the calendar day in a particular region"
+    },
+    {
+      "question": "Where is the International Date line?",
+      "answer": [
+        "Approximately 180° Longitude",
+        "across from the Prime Meridian"
+      ]
+    },
+    {
+      "question": "Is the International Date Line a straight line?",
+      "answer": "No"
+    },
+    {
+      "question": "Why isn't the International Date Line a straight line?",
+      "answer": "In order to avoid making one country have 2 different dates at once"
+    },
+    {
+      "question": "What does coniferous mean?",
+      "answer": "cone bearing"
+    },
+    {
+      "question": "Name the 5 oceans.",
+      "answer": "Atlantic Ocean Pacific Ocean Indian Ocean Arctic Ocean and Southern Ocean"
+    }
+  ]
+}
