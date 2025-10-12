@@ -610,6 +610,7 @@
       gameState.roundTimeLeft = 600;
       gameState.readingCharIndex = 0;
       gameState.isReading = false;
+      gameState.roundFinished = false;  // ADD THIS LINE
       $('answerInput').value = '';
       $('answerInput').disabled = true;
       updateDisplays();
@@ -1030,6 +1031,10 @@
     }
 
     async function finishRound() {
+      // Prevent duplicate submissions
+      if (gameState.roundFinished) return;
+      gameState.roundFinished = true;
+      
       clearAllTimers();
       
       const playerName = $('playerNameInput').value.trim() || "Anonymous";
