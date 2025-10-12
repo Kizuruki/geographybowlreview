@@ -737,6 +737,14 @@
     function submitAnswer() {
       if ($('answerInput').disabled) return;
       
+      // If we're still reading, stop the reading process
+      if (gameState.isReading) {
+        clearInterval(gameState.readingInterval);
+        gameState.readingInterval = null;
+        gameState.isReading = false;
+        $('questionText').textContent = gameState.currentQuestionText;
+      }
+      
       clearInterval(gameState.answerTimer);
       gameState.answerTimer = null;
       
