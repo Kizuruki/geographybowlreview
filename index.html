@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Geography Bowl Study Program 🌍🗺️</title>
   <style>
+    /* (existing CSS unchanged) */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -294,6 +295,44 @@
       text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     }
     
+    .category-selection {
+      background: rgba(255,255,255,0.95);
+      padding: 20px;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    
+    .category-buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin-top: 15px;
+    }
+    
+    .category-btn {
+      padding: 12px;
+      border: 2px solid #e2e8f0;
+      background: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-weight: 500;
+      text-align: center;
+    }
+    
+    .category-btn:hover {
+      border-color: #5a67d8;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(90,103,216,0.15);
+    }
+    
+    .category-btn.selected {
+      background: linear-gradient(135deg,#5a67d8 0%,#764ba2 100%);
+      color: white;
+      border-color: #5a67d8;
+    }
+    
     @media (max-width: 700px) {
       .scoreboard {
         flex-direction: column;
@@ -328,6 +367,24 @@
       </div>
       <div id="playerNameContainer" style="margin-bottom: 10px;">
         <input type="text" id="playerNameInput" placeholder="Enter your name" maxlength="20">
+      </div>
+    </div>
+
+    <!-- Category Selection for Practice Mode -->
+    <div id="categorySelection" class="category-selection hidden">
+      <h3>Select Categories for Practice</h3>
+      <p class="muted">Choose which categories you want to practice with</p>
+      <div class="category-buttons">
+        <div class="category-btn" data-category="europe">Europe</div>
+        <div class="category-btn" data-category="asia">Asia</div>
+        <div class="category-btn" data-category="africa">Africa</div>
+        <div class="category-btn" data-category="americas">Americas</div>
+        <div class="category-btn" data-category="oceania">Oceania</div>
+        <div class="category-btn" data-category="global">Global/Miscellaneous</div>
+      </div>
+      <div style="margin-top: 20px;">
+        <button class="btn" onclick="startSelectedCategoryPractice()">Start Practice with Selected Categories</button>
+        <button class="btn secondary" onclick="backToMenu()">Back to Menu</button>
       </div>
     </div>
 
@@ -407,11 +464,14 @@
   <script>
     // Sample question structure - replace with your actual questions.json
     let QUESTIONS = [
-      { question: "What is the capital of France?", answer: "Paris" },
-      { question: "Which ocean is the largest?", answer: "Pacific Ocean" },
-      { question: "What is the longest river in the world?", answer: ["Nile", "Nile River"] },
-      { question: "What mountain range separates Europe from Asia?", answer: ["Ural Mountains", "Urals"] },
-      { question: "What is the smallest country in the world?", answer: ["Vatican City", "Vatican"] }
+      { question: "What is the capital of France?", answer: "Paris", category: "europe" },
+      { question: "Which ocean is the largest?", answer: "Pacific Ocean", category: "global" },
+      { question: "What is the longest river in the world?", answer: ["Nile", "Nile River"], category: "africa" },
+      { question: "What mountain range separates Europe from Asia?", answer: ["Ural Mountains", "Urals"], category: "europe" },
+      { question: "What is the smallest country in the world?", answer: ["Vatican City", "Vatican"], category: "europe" },
+      { question: "What is the largest desert in the world?", answer: "Sahara", category: "africa" },
+      { question: "Which country is known as the Land of the Rising Sun?", answer: "Japan", category: "asia" },
+      { question: "What is the largest island in the world?", answer: "Greenland", category: "americas" }
     ];
 
     let gameState = {
@@ -430,7 +490,8 @@
       currentAnswer: "",
       readingCharIndex: 0,
       isReading: false,
-      shuffledQuestions: []
+      shuffledQuestions: [],
+      selectedCategories: []
     };
 
     const $ = id => document.getElementById(id);
@@ -441,7 +502,25 @@
         const response = await fetch('geography_questions.json');
         if (response.ok) {
           const data = await response.json();
-          QUESTIONS = data.questions || data;
+          // If the data is structured with categories, we'll use that
+          if (data.europe || data.asia || data.africa || data.americas || data.oceania || data.global) {
+            // Flatten the category structure into a single array
+            QUESTIONS = [];
+            Object.keys(data).forEach(category => {
+              if (Array.isArray(data[category])) {
+                data[category].forEach(item => {
+                  QUESTIONS.push({
+                    question: item.question,
+                    answer: item.answer,
+                    category: category
+                  });
+                });
+              }
+            });
+          } else {
+            // If it's a simple array, use as is
+            QUESTIONS = data.questions || data;
+          }
         }
       } catch (err) {
         console.log('Using sample questions:', err);
@@ -463,11 +542,33 @@
     }
 
     function startPracticeMode() {
+      // Show category selection instead of directly starting practice
+      $('mainMenu').style.display = 'none';
+      $('categorySelection').classList.remove('hidden');
+    }
+
+    function startSelectedCategoryPractice() {
+      // Check if at least one category is selected
+      if (gameState.selectedCategories.length === 0) {
+        alert('Please select at least one category');
+        return;
+      }
+
+      // Filter questions by selected categories
+      const filteredQuestions = QUESTIONS.filter(q => 
+        gameState.selectedCategories.includes(q.category)
+      );
+
+      if (filteredQuestions.length === 0) {
+        alert('No questions found for the selected categories');
+        return;
+      }
+
       gameState.mode = 'practice';
-      gameState.shuffledQuestions = shuffle(QUESTIONS);
+      gameState.shuffledQuestions = shuffle(filteredQuestions);
       resetGame();
       $('modeDisplay').textContent = 'Practice';
-      $('mainMenu').style.display = 'none';
+      $('categorySelection').classList.add('hidden');
       $('gameArea').style.display = 'block';
       $('challengeBtn').classList.add('hidden');
       $('roundTimerContainer').style.display = 'none';
@@ -931,7 +1032,6 @@
       showReview();
     }
 
-
     function showReview() {
       $('gameArea').style.display = 'none';
       $('reviewPanel').classList.remove('hidden');
@@ -1100,8 +1200,25 @@
       $('gameArea').style.display = 'none';
       $('reviewPanel').classList.add('hidden');
       $('leaderboardPanel').classList.add('hidden');
+      $('categorySelection').classList.add('hidden');
       $('mainMenu').style.display = 'grid';
     }
+
+    // Category selection for practice mode
+    document.querySelectorAll('.category-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        this.classList.toggle('selected');
+        const category = this.dataset.category;
+        
+        if (this.classList.contains('selected')) {
+          if (!gameState.selectedCategories.includes(category)) {
+            gameState.selectedCategories.push(category);
+          }
+        } else {
+          gameState.selectedCategories = gameState.selectedCategories.filter(c => c !== category);
+        }
+      });
+    });
 
     // Enter key handler
     document.addEventListener('keydown', (e) => {
