@@ -502,6 +502,8 @@
         const response = await fetch('geography_questions.json');
         if (response.ok) {
           const data = await response.json();
+          console.log('Loaded data:', data); // This shows your data is loaded
+          
           // If the data is structured with categories, we'll use that
           if (data.europe || data.asia || data.africa || data.americas || data.oceania || data.global) {
             // Flatten the category structure into a single array
@@ -517,6 +519,7 @@
                 });
               }
             });
+            console.log('Flattened questions:', QUESTIONS); // This should show your questions
           } else {
             // If it's a simple array, use as is
             QUESTIONS = data.questions || data;
@@ -524,6 +527,7 @@
         }
       } catch (err) {
         console.log('Using sample questions:', err);
+        // The sample questions will be used if there's an error
       }
     }
 
