@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practice Geography Bowl by region, play a full 20-minute game, or challenge an adjustable AI opponent.">
+  <title>Geography Bowl Review</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23091b2b'/%3E%3Ccircle cx='32' cy='30' r='19' fill='none' stroke='%2357dfc6' stroke-width='4'/%3E%3Cpath d='M13 30h38M32 11c7 7 10 13 10 19S39 42 32 49M32 11c-7 7-10 13-10 19s3 12 10 19' fill='none' stroke='%23ffca6a' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" type="button" data-view="home" aria-label="Geography Bowl Review home">
+        <span class="brand-mark" aria-hidden="true">◎</span>
+        <span><strong>Geography Bowl</strong><small>Review Program</small></span>
+      </button>
+      <nav aria-label="Primary navigation">
+        <button type="button" class="nav-link active" data-view="home">Home</button>
+        <button type="button" class="nav-link" data-view="compendium">Compendium</button>
+        <button type="button" class="nav-link" data-view="stats">Progress</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="homeView" class="view active" aria-labelledby="homeTitle">
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">One quarter. Every question worth one point.</p>
+            <h1 id="homeTitle">Train broadly. Specialize deeply.</h1>
+            <p class="hero-copy">Practice one of five balanced regional specialties, review the full question compendium, or run a timed Geography Bowl match with steals and throwouts.</p>
+          </div>
+          <div class="snapshot" aria-label="Game format summary">
+            <div><strong id="questionCount">—</strong><span>starter questions</span></div>
+            <div><strong>5</strong><span>main regions</span></div>
+            <div><strong>20:00</strong><span>full-game clock</span></div>
+          </div>
+        </div>
+
+        <section class="section-block" aria-labelledby="playTitle">
+          <div class="section-heading">
+            <div><p class="section-kicker">Play & compete</p><h2 id="playTitle">Choose a mode</h2></div>
+            <button class="text-button" type="button" id="rulesButton">How scoring works</button>
+          </div>
+          <div class="mode-grid">
+            <article class="mode-card practice-card">
+              <span class="mode-icon" aria-hidden="true">⌖</span>
+              <div><p class="card-label">Untimed</p><h3>Category Practice</h3><p>Choose one main region and an optional subcategory. Questions stay inside that pool.</p></div>
+              <button type="button" class="primary-button" data-setup="practice">Choose category</button>
+            </article>
+            <article class="mode-card full-card">
+              <span class="mode-icon" aria-hidden="true">◫</span>
+              <div><p class="card-label">Two teams</p><h3>Full Game</h3><p>Play locally for 20 minutes. Teams alternate first attempts, with steals and two throwouts each.</p></div>
+              <button type="button" class="primary-button" data-setup="full">Start full game</button>
+            </article>
+            <article class="mode-card ai-card">
+              <span class="mode-icon" aria-hidden="true">✦</span>
+              <div><p class="card-label">Levels 1–10</p><h3>AI Challenge</h3><p>Face a bot whose accuracy rises from 20% to 95%. Both sides receive two throwouts.</p></div>
+              <button type="button" class="primary-button" data-setup="ai">Choose AI level</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block" aria-labelledby="regionsTitle">
+          <div class="section-heading">
+            <div><p class="section-kicker">Five-player split</p><h2 id="regionsTitle">Regional specialties</h2></div>
+            <p class="section-note">Topic types such as rivers, cities, and mountains remain tags within each region.</p>
+          </div>
+          <div id="categoryGrid" class="category-grid"></div>
+        </section>
+
+        <section class="section-block" aria-labelledby="reviewTitle">
+          <div class="section-heading"><div><p class="section-kicker">Review & progress</p><h2 id="reviewTitle">Build breadth for prelims</h2></div></div>
+          <div class="tool-grid">
+            <button class="tool-card" type="button" data-view="compendium"><span>▤</span><strong>Question Compendium</strong><small>Browse, search, or practice the entire bank.</small></button>
+            <button class="tool-card" type="button" id="missedButton"><span>↺</span><strong>Missed Questions</strong><small>Retry the questions saved on this device.</small></button>
+            <button class="tool-card" type="button" data-view="stats"><span>◒</span><strong>Progress</strong><small>See overall and regional practice accuracy.</small></button>
+          </div>
+        </section>
+      </section>
+
+      <section id="gameView" class="view" aria-labelledby="gameModeTitle">
+        <div class="game-topline">
+          <button type="button" class="back-button" data-view="home">← Home</button>
+          <div><p class="section-kicker" id="gameModeKicker">Practice</p><h1 id="gameModeTitle">Category Practice</h1></div>
+          <button type="button" class="danger-button" id="endGameButton">End session</button>
+        </div>
+
+        <div id="scoreboard" class="scoreboard">
+          <article class="team-score active" id="team0Card">
+            <span id="team0Name">You</span><strong id="team0Score">0</strong><small><b id="team0Throwouts">2</b> throwouts left</small>
+          </article>
+          <div class="clock-wrap"><span>Time remaining</span><strong id="gameClock">Untimed</strong><small id="questionNumber">Question 1</small></div>
+          <article class="team-score" id="team1Card">
+            <span id="team1Name">AI</span><strong id="team1Score">0</strong><small><b id="team1Throwouts">2</b> throwouts left</small>
+          </article>
+        </div>
+
+        <article class="question-stage" aria-live="polite">
+          <div class="question-meta"><span id="regionChip">Region</span><span id="subregionChip">Subcategory</span><span id="topicChip">Topic</span></div>
+          <p class="turn-label" id="turnLabel">Your question</p>
+          <h2 id="questionText">Loading question bank…</h2>
+          <div id="answerArea" class="answer-area">
+            <label for="answerInput">Your answer</label>
+            <div class="answer-row"><input id="answerInput" autocomplete="off" placeholder="Type an answer"><button type="button" class="primary-button" id="submitAnswerButton">Submit</button></div>
+          </div>
+          <div id="feedback" class="feedback" role="status"></div>
+          <div id="decisionActions" class="decision-actions"></div>
+          <div class="question-actions">
+            <button type="button" class="secondary-button" id="throwoutButton">Throw out question</button>
+            <button type="button" class="secondary-button" id="revealButton">Reveal answer</button>
+            <button type="button" class="primary-button hidden" id="nextQuestionButton">Next question</button>
+          </div>
+        </article>
+      </section>
+
+      <section id="compendiumView" class="view" aria-labelledby="compendiumTitle">
+        <div class="page-heading"><div><p class="section-kicker">All questions</p><h1 id="compendiumTitle">Question Compendium</h1><p>Use this mixed bank for broad prelim review, or narrow it to a region and subcategory.</p></div><button type="button" class="primary-button" id="practiceFilteredButton">Practice these questions</button></div>
+        <div class="filter-bar">
+          <label>Search<input type="search" id="compendiumSearch" placeholder="Question, answer, place, or topic"></label>
+          <label>Main category<select id="compendiumCategory"></select></label>
+          <label>Subcategory<select id="compendiumSubcategory"></select></label>
+        </div>
+        <p id="compendiumResultCount" class="result-count"></p>
+        <div id="compendiumList" class="question-list"></div>
+      </section>
+
+      <section id="statsView" class="view" aria-labelledby="statsTitle">
+        <div class="page-heading"><div><p class="section-kicker">Saved on this device</p><h1 id="statsTitle">Practice Progress</h1><p>Competitive games and practice attempts contribute to these totals.</p></div><button type="button" class="secondary-button" id="resetStatsButton">Reset progress</button></div>
+        <div id="statsSummary" class="stats-summary"></div>
+        <div id="statsRegions" class="stats-regions"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="setupDialog" class="modal">
+    <form method="dialog" id="setupForm">
+      <div class="modal-heading"><div><p class="section-kicker" id="setupKicker">Set up</p><h2 id="setupTitle">Choose a mode</h2></div><button type="button" id="closeSetupButton" class="icon-button" aria-label="Close">×</button></div>
+      <div id="setupFields"></div>
+      <div class="modal-actions"><button type="button" id="cancelSetupButton" class="secondary-button">Cancel</button><button type="submit" value="default" class="primary-button" id="confirmSetupButton">Start</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="rulesDialog" class="modal">
+    <form method="dialog">
+      <div class="modal-heading"><div><p class="section-kicker">Game rules</p><h2>Simple Geography Bowl format</h2></div><button value="close" class="icon-button" aria-label="Close">×</button></div>
+      <ul class="rules-list">
+        <li>Every question is worth <strong>one point</strong>. There is only one quarter.</li>
+        <li>Full Game and AI Challenge last <strong>20 minutes</strong>; the highest score at time wins.</li>
+        <li>Teams alternate who receives the first attempt. A miss can be offered to the other team as a steal.</li>
+        <li>Each team has <strong>two throwouts</strong>. A team may throw out its question before answering or immediately after missing, before a steal begins.</li>
+        <li>A thrown-out question is removed from that play and replaced with a new question for the same team.</li>
+      </ul>
+      <div class="modal-actions"><button value="close" class="primary-button">Got it</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="endDialog" class="modal">
+    <form method="dialog">
+      <div id="endSummary"></div>
+      <div class="modal-actions"><button value="close" class="secondary-button" data-view="home">Return home</button><button value="close" class="primary-button" id="playAgainButton">Play again</button></div>
+    </form>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
