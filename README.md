@@ -1,6 +1,19 @@
 # Geography Bowl Review
 
-This folder contains the complete static Geography Bowl Review site. It does not require Node.js, a database, or a build command.
+This folder contains the complete static Geography Bowl Review site. It keeps the green card layout and study dashboard of the supplied History Bowl site, but replaces the game and content with Geography Bowl rules. It does not require Node.js, a database, or a build command.
+
+## Included features
+
+- Category and subcategory practice across five balanced regional specialties
+- One-round, 20-minute full games with equal-value questions
+- 20-minute AI games with ten mildly concave-down difficulty levels (20% through 95%)
+- Two throwouts per team; the AI automatically uses its first two on questions it misses
+- Automatic steals after an incorrect answer unless the original team uses a throwout
+- Compendium search and filters, missed-question review, spaced repetition, mastered-question tracking, detailed statistics, and local leaderboards
+- Practice-packet PDF printing, study tips, and optional text-to-speech
+- Optional local profiles whose progress remains in that browser
+
+Videos and the knowledge graph are intentionally not included.
 
 ## Publish with GitHub Pages
 
@@ -21,6 +34,8 @@ GitHub will show the public Pages URL after deployment finishes.
 - `app.js` — practice, full-game, AI, throwout, steal, compendium, and progress logic
 - `questions.json` — question bank
 - `.nojekyll` — tells GitHub Pages to serve the files directly
+
+All profiles, progress, settings, and leaderboards use browser storage. They do not sync across devices because GitHub Pages is a static host.
 
 ## Add or replace questions
 
