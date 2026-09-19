@@ -741,8 +741,10 @@ async function fetchJSON(url) {
   const response = await fetch(url, {cache: 'no-cache'});
   if (!response.ok) throw new Error(`${url} → HTTP ${response.status}`);
   const text = await response.text();
-  if (text.trimStart().startsWith('<')) throw new Error(`${url} returned an HTML page instead of JSON (wrong path or filename)`);
-  return JSON.parse(text);
+  if (!text.trim()) throw new Error(`${url} is EMPTY (0 bytes) on the server`);
+  if (text.trimStart().startsWith('<')) throw new Error(`${url} returned HTML instead of JSON`);
+  try { return JSON.parse(text); }
+  catch (e) { throw new Error(`${url} is not valid JSON (${text.length} characters received, ends with "${text.slice(-30)}")`); }
 }
 
 async function loadQuestionBank() {
