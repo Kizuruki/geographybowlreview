@@ -649,8 +649,8 @@ function exportPDF() {
     addWrappedText(text, margin, maxWidth); yPos += 4;
   });
 
-  const blob = pdf.output('blob');
-  const url = URL.createObjectURL(blob);
+  const file = new File([pdf.output('arraybuffer')], 'GeographyBowl_Practice.pdf', { type: 'application/pdf' });
+  const url = URL.createObjectURL(file);
   const win = window.open(url, '_blank');
   if (!win) alert('Your browser blocked the new tab. Allow pop-ups for this site, then click Export again.');
   setTimeout(() => URL.revokeObjectURL(url), 60000);
