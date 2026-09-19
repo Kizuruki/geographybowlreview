@@ -918,19 +918,76 @@ function updateAdminUI() {
   card.classList.toggle('hidden', !isAdmin());
   if (isAdmin()) refreshAdminFlagsCount();
 }
- 
+
 async function refreshAdminFlagsCount() {
   try {
-    const res = await fetch(`${WORKER_URL}/geo-flags`, { headers: { 'x-admin-key': getAdminKey() } });
+    const res = await fetch(`${WORKER_URL}/geo-flags?pending=1`, { headers: { 'X-Admin-Key': getAdminKey() } });
     if (!res.ok) return;
-    const data = await res.json();
-    const pending = (data.flags || []).filter((f) => f.status === 'pending');
-    $('adminFlagsCount').textContent = pending.length;
+    const pending = await res.json();
+    $('adminFlagsCount').textContent = (pending || []).length;
   } catch {
     /* silent — the panel itself will show the error when opened */
   }
 }
  
+async function renderAdminFlags() {
+  $('adminFlagsList').innerHTML = '<div class="empty-state">Loading…</div>';
+  try {
+    const res = await fetch(`${WORKER_URL}/geo-flags?pending=1`, { headers: { 'X-Admin-Key': getAdminKey() } });
+    if (!res.ok) {
+      $('adminFlagsList').innerHTML = '<div class="empty-state">Could not load flags — check your admin key.</div>';
+      return;
+    }
+    const pending = await res.json();
+    $('adminFlagsCount').textContent = (pending || []).length;
+    $('adminFlagsList').innerHTML = pending.length
+      ? pending.map((f) => `
+        <div class="leader-row" data-flag-id="${escapeHTML(f.id)}">
+          <div style="flex:1">
+            <strong>${escapeHTML(f.category)} — ${escapeHTML(f.subcategory)}</strong>
+            <div class="small">${escapeHTML(f.questionText)}</div>
+            <div class="small muted">Answer: ${escapeHTML(f.answer)}</div>
+            ${f.reason ? `<div class="small">Reported reason: ${escapeHTML(f.reason)}</div>` : ''}
+            <div class="small muted">Reported by ${escapeHTML(f.reportedBy || 'guest')} × ${f.reportCount || 1}</div>
+          </div>
+          <div class="button-wrap">
+            <button class="btn success" type="button" data-action="verify" data-id="${escapeHTML(f.id)}" data-qid="${escapeHTML(f.questionId)}">✅ Keep (mark verified)</button>
+            <button class="btn danger" type="button" data-action="remove" data-id="${escapeHTML(f.id)}" data-qid="${escapeHTML(f.questionId)}">🗑️ Remove for good</button>
+          </div>
+        </div>
+      `).join('')
+      : '<div class="empty-state">No pending reports.</div>';
+    $('adminFlagsList').querySelectorAll('button[data-action]').forEach((btn) => {
+      btn.addEventListener('click', () => resolveFlag(btn.dataset.id, btn.dataset.qid, btn.dataset.action));
+    });
+  } catch {
+    $('adminFlagsList').innerHTML = '<div class="empty-state">Could not reach the server.</div>';
+  }
+}
+ 
+async function resolveFlag(flagId, questionId, action) {
+  try {
+    const res = await fetch(`${WORKER_URL}/geo-flags`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json', 'X-Admin-Key': getAdminKey() },
+      body: JSON.stringify({ id: Number(flagId), action }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || data.success === false) {
+      alert(data.message || 'Could not resolve report.');
+      return;
+    }
+    if (action === 'remove' && questionId) {
+      REMOVED_QUESTION_IDS.add(questionId);
+      QUESTIONS = QUESTIONS.filter((q) => q.id !== questionId);
+      updateHomeCounts();
+    }
+    renderAdminFlags();
+  } catch {
+    alert('Could not reach the server.');
+  }
+}
+
 function openAdminFlagsPanel() {
   $('gameArea').classList.add('hidden');
   $('homeScreen').classList.add('hidden');
@@ -944,64 +1001,5 @@ function closeAdminFlagsPanel() {
   $('homeScreen').classList.remove('hidden');
 }
  
-async function renderAdminFlags() {
-  $('adminFlagsList').innerHTML = '<div class="empty-state">Loading…</div>';
-  try {
-    const res = await fetch(`${WORKER_URL}/geo-flags`, { headers: { 'x-admin-key': getAdminKey() } });
-    if (!res.ok) {
-      $('adminFlagsList').innerHTML = '<div class="empty-state">Could not load flags — check your admin key.</div>';
-      return;
-    }
-    const data = await res.json();
-    const pending = (data.flags || []).filter((f) => f.status === 'pending');
-    $('adminFlagsCount').textContent = pending.length;
-    $('adminFlagsList').innerHTML = pending.length
-      ? pending.map((f) => `
-        <div class="leader-row" data-flag-id="${escapeHTML(f.id)}">
-          <div style="flex:1">
-            <strong>${escapeHTML(f.category)} — ${escapeHTML(f.subcategory)}</strong>
-            <div class="small">${escapeHTML(f.question)}</div>
-            <div class="small muted">Answer: ${escapeHTML(f.answer)}</div>
-            ${f.reason ? `<div class="small">Reported reason: ${escapeHTML(f.reason)}</div>` : ''}
-            <div class="small muted">Reported by ${escapeHTML(f.reportedBy || f.reported_by || 'guest')} × ${f.reportCount || f.report_count || 1}</div>
-          </div>
-          <div class="button-wrap">
-            <button class="btn success" type="button" data-action="verify" data-id="${escapeHTML(f.id)}">✅ Keep (mark verified)</button>
-            <button class="btn danger" type="button" data-action="remove" data-id="${escapeHTML(f.id)}">🗑️ Remove for good</button>
-          </div>
-        </div>
-      `).join('')
-      : '<div class="empty-state">No pending reports.</div>';
-    $('adminFlagsList').querySelectorAll('button[data-action]').forEach((btn) => {
-      btn.addEventListener('click', () => resolveFlag(btn.dataset.id, btn.dataset.action));
-    });
-  } catch {
-    $('adminFlagsList').innerHTML = '<div class="empty-state">Could not reach the server.</div>';
-  }
-}
- 
-async function resolveFlag(flagId, action) {
-  try {
-    const res = await fetch(`${WORKER_URL}/geo-flags/${encodeURIComponent(flagId)}/resolve`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-admin-key': getAdminKey() },
-      body: JSON.stringify({ action }),
-    });
-    const data = await res.json().catch(() => ({}));
-    if (!res.ok || data.success === false) {
-      alert(data.message || 'Could not resolve report.');
-      return;
-    }
-    if (action === 'remove' && data.questionId) {
-      REMOVED_QUESTION_IDS.add(data.questionId);
-      QUESTIONS = QUESTIONS.filter((q) => q.id !== data.questionId);
-      updateHomeCounts();
-    }
-    renderAdminFlags();
-  } catch {
-    alert('Could not reach the server.');
-  }
-}
-
 window.__geoBowl = {aiAccuracy,accuracyPercent};
 init();
