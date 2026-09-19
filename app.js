@@ -606,15 +606,55 @@ function renderCompendium() {
   $('compendiumList').innerHTML = filteredCompendium.length?filteredCompendium.map((q)=>`<details class="compendium-item"><summary><span class="compendium-tags"><span>${escapeHTML(q.category)}</span><span>${escapeHTML(q.subcategory)}</span><span>${escapeHTML(q.topic)}</span></span>${escapeHTML(q.question)}</summary><p>${escapeHTML(q.answer)}</p></details>`).join(''):'<div class="empty-state">No questions match these filters.</div>';
 }
 
-function buildPrintPacket() {
+function exportPDF() {
   const ids = new Set(loadUserData().pdfQueue);
-  const questions = QUESTIONS.filter((q)=>ids.has(q.id));
-  if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 20-question packet first.'); return false; }
-  $('printPacket').innerHTML = `<h1>Geography Bowl Practice Packet</h1><p class="print-meta">${questions.length} questions • Generated ${new Date().toLocaleDateString()}</p><ol>${questions.map((q)=>`<li>${escapeHTML(q.question)}</li>`).join('')}</ol><section class="answer-key"><h1>Answer Key</h1><ol>${questions.map((q)=>`<li><strong>${escapeHTML(q.answer)}</strong> <span>(${escapeHTML(q.category)} — ${escapeHTML(q.subcategory)})</span></li>`).join('')}</ol></section>`;
-  return true;
-}
+  const questions = QUESTIONS.filter((q) => ids.has(q.id));
+  if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 20-question packet first.'); return; }
+  if (typeof window.jspdf === 'undefined') { alert('PDF library is still loading. Please try again in a moment.'); return; }
+  const sanitize = (s) => String(s ?? '').replace(/\r\n?/g, '\n').replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
+  const { jsPDF } = window.jspdf;
+  const pdf = new jsPDF();
+  const margin = 20, maxWidth = 170, pageHeight = pdf.internal.pageSize.getHeight(), underscoreLen = 75;
+  const lhFromFont = (doc) => Math.round(doc.getFontSize() * 0.5);
+  let yPos = 20;
+  const needsNewPage = (requiredSpace) => yPos + requiredSpace > (pageHeight - 10);
+  const addNewPage = () => { pdf.addPage(); yPos = 20; };
+  const addWrappedText = (text, x, maxW) => {
+    const clean = sanitize(text);
+    const lh = lhFromFont(pdf);
+    const lines = pdf.splitTextToSize(clean, maxW);
+    const requiredSpace = lines.length * lh;
+    if (yPos + requiredSpace > pageHeight - 10) addNewPage();
+    lines.forEach((line) => { pdf.text(line, x, yPos); yPos += lh; });
+  };
 
-function exportPDF() { if (buildPrintPacket()) setTimeout(()=>window.print(),60); }
+  pdf.setFontSize(16); pdf.setFont(undefined,'bold'); pdf.text('Geography Bowl Practice Packet', margin, yPos); yPos += 10;
+  const today = new Date().toLocaleDateString();
+  pdf.setFontSize(10); pdf.setFont(undefined,'normal'); pdf.text(`${questions.length} questions • Generated ${today}`, margin, yPos); yPos += 16;
+  pdf.setFontSize(13); pdf.setFont(undefined,'normal');
+  questions.forEach((q,i) => {
+    const text = `${i + 1}. ${sanitize(q.question)}`;
+    const lh = lhFromFont(pdf); const req = pdf.splitTextToSize(text, maxWidth).length * lh + 14;
+    if (needsNewPage(req)) addNewPage();
+    addWrappedText(text, margin, maxWidth); yPos += 2; pdf.text('_'.repeat(underscoreLen), margin, yPos); yPos += 12;
+  });
+
+  addNewPage();
+  pdf.setFontSize(16); pdf.setFont(undefined,'bold'); pdf.text('Answer Key', margin, yPos); yPos += 12;
+  pdf.setFontSize(13); pdf.setFont(undefined,'normal');
+  questions.forEach((q,i) => {
+    const text = `${i + 1}. ${sanitize(q.answer)}  (${sanitize(q.category)} — ${sanitize(q.subcategory)})`;
+    const lh = lhFromFont(pdf); const req = pdf.splitTextToSize(text, maxWidth).length * lh + 4;
+    if (needsNewPage(req)) addNewPage();
+    addWrappedText(text, margin, maxWidth); yPos += 4;
+  });
+
+  const blob = pdf.output('blob');
+  const url = URL.createObjectURL(blob);
+  const win = window.open(url, '_blank');
+  if (!win) alert('Your browser blocked the new tab. Allow pop-ups for this site, then click Export again.');
+  setTimeout(() => URL.revokeObjectURL(url), 60000);
+}
 
 function generatePDFQueue() {
   mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(20,QUESTIONS.length)).map((q)=>q.id); });
@@ -770,6 +810,9 @@ async function loadQuestionBank() {
 }
   
 async function init() {
+  const jspdfScript = document.createElement('script');
+  jspdfScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js';
+  document.head.appendChild(jspdfScript);
   bindEvents();
   renderSpecialties();
   updateAuthUI();
