@@ -1,0 +1,4202 @@
+[
+  {
+    "id": "j-1042-0c6b9a4ba72bf729",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "PERSIA",
+    "question": "The palace at ancient Susa was built with silver from Egypt & cedars from this land",
+    "answer": "Lebanon",
+    "aliases": [],
+    "source": {
+      "show_number": "1042",
+      "air_date": "Tuesday, February 28, 1989",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_1042.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Cedar source — resource geography of Lebanon."
+    }
+  },
+  {
+    "id": "j-1063-3b680b22d00d2e24",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD GEOGRAPHY",
+    "question": "Technically, this entire continent is a desert",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "1063",
+      "air_date": "Wednesday, March 29, 1989",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_1063.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "Antarctica described as a desert biome."
+    }
+  },
+  {
+    "id": "j-1069-cd0b3184a6512203",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE PACIFIC ISLANDS",
+    "question": "The No.1 agricultural product of the islands is copra, the dried meat of this fruit",
+    "answer": "a coconut",
+    "aliases": [],
+    "source": {
+      "show_number": "1069",
+      "air_date": "Thursday, April 6, 1989",
+      "round": "J",
+      "value": "$300",
+      "file": "show_1069.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "Copra is a Pacific islands agricultural resource."
+    }
+  },
+  {
+    "id": "j-110-8e4398e5760e4adc",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIA",
+    "question": "\"Satanic\" mammal found only on island S. of Australia",
+    "answer": "Tasmanian devil",
+    "aliases": [],
+    "source": {
+      "show_number": "110",
+      "air_date": "Friday, February 8, 1985",
+      "round": "J",
+      "value": "$300",
+      "file": "show_110.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "Endemic to Tasmania, tests species distribution."
+    }
+  },
+  {
+    "id": "j-1185-8bd13feac4f9aab6",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE MYSTERIOUS EAST",
+    "question": "From the Malay word for unhusked rice, it's a field where rice is grown",
+    "answer": "a paddy",
+    "aliases": [],
+    "source": {
+      "show_number": "1185",
+      "air_date": "Friday, October 27, 1989",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1185.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Defines rice paddy; agricultural geography."
+    }
+  },
+  {
+    "id": "j-1229-a622e165b7b192a7",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CITIES",
+    "question": "As in Great Britain, the town of Newcastle in Australia is known for mining this fuel",
+    "answer": "coal",
+    "aliases": [],
+    "source": {
+      "show_number": "1229",
+      "air_date": "Thursday, December 28, 1989",
+      "round": "J",
+      "value": "$200",
+      "file": "show_1229.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: australia, coal, cities, town"
+    }
+  },
+  {
+    "id": "j-1278-a14782812de3a0a2",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE FAR EAST",
+    "question": "Of 240 acres, 24 acres or 2.4 acres. the size of the average Japanese farm",
+    "answer": "2.4. acres",
+    "aliases": [],
+    "source": {
+      "show_number": "1278",
+      "air_date": "Wednesday, March 7, 1990",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1278.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Japanese farm size tests agricultural geography."
+    }
+  },
+  {
+    "id": "j-1442-b1ca5b79bce1df9b",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIA",
+    "question": "Australia has about 500 species of this tree, the most widespread on the continent",
+    "answer": "eucalyptus",
+    "aliases": [],
+    "source": {
+      "show_number": "1442",
+      "air_date": "Tuesday, December 4, 1990",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_1442.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Asks about a tree widespread across Australia."
+    }
+  },
+  {
+    "id": "j-1449-582a9fe2b974c72d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE EARTH",
+    "question": "If this \"effect\" did not exist the Earth would be 60º F colder than it currently is",
+    "answer": "the greenhouse effect",
+    "aliases": [],
+    "source": {
+      "show_number": "1449",
+      "air_date": "Thursday, December 13, 1990",
+      "round": "J",
+      "value": "$200",
+      "file": "show_1449.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.88,
+      "reason": "Describes a global climate process."
+    }
+  },
+  {
+    "id": "j-1455-52b05935a08e9b31",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CHINESE HISTORY",
+    "question": "In the 2nd century this export was sent as far as Rome, fetching as much per ounce as gold",
+    "answer": "silk",
+    "aliases": [],
+    "source": {
+      "show_number": "1455",
+      "air_date": "Friday, December 21, 1990",
+      "round": "DJ",
+      "value": "DD: $1,200",
+      "file": "show_1455.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "Silk is a major historical natural resource from China"
+    }
+  },
+  {
+    "id": "j-1496-71a4c58aff430095",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE CONTINENTS",
+    "question": "Most of its land lies below ice & snow a mile thick",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "1496",
+      "air_date": "Monday, February 18, 1991",
+      "round": "J",
+      "value": "$100",
+      "file": "show_1496.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-153-020b77ebec37621b",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ASIA",
+    "question": "Formerly the capital of Japan, it's also an anagram of the current capital",
+    "answer": "Kyoto",
+    "aliases": [],
+    "source": {
+      "show_number": "153",
+      "air_date": "Wednesday, April 10, 1985",
+      "round": "J",
+      "value": "$400",
+      "file": "show_153.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.87,
+      "reason": "Geographic terms: asia, japan, current, capital"
+    }
+  },
+  {
+    "id": "j-1576-13711ef38e36683d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SINGAPORE",
+    "question": "Checking a map, you'll find Singapore is just a little over one degree north of this line",
+    "answer": "the equator",
+    "aliases": [],
+    "source": {
+      "show_number": "1576",
+      "air_date": "Monday, June 10, 1991",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_1576.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Asks latitude line (equator), a climate/geography topic"
+    }
+  },
+  {
+    "id": "j-1619-7dcb7a78cb7784e2",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD FACTS",
+    "question": "Pere David's deer are native to this Asian country & were once found only on the Emperor's hunting grounds",
+    "answer": "China",
+    "aliases": [],
+    "source": {
+      "show_number": "1619",
+      "air_date": "Thursday, September 19, 1991",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_1619.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Asks country native to Pere David's deer."
+    }
+  },
+  {
+    "id": "j-1637-274e6f249cb26fa0",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "It's the more common name for the Earth's glacial period",
+    "answer": "the ice age",
+    "aliases": [],
+    "source": {
+      "show_number": "1637",
+      "air_date": "Tuesday, October 15, 1991",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_1637.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "Refers to Earth's glacial period, a climate event."
+    }
+  },
+  {
+    "id": "j-1657-ea8c08fa4b597dd2",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NEW ZEALAND",
+    "question": "New Zealand leads the world in the production of this fruit also known as the Chinese gooseberry",
+    "answer": "kiwi fruit",
+    "aliases": [],
+    "source": {
+      "show_number": "1657",
+      "air_date": "Tuesday, November 12, 1991",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1657.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "Country leads global agricultural production"
+    }
+  },
+  {
+    "id": "j-1661-2699d092a2c96a16",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BIRD ORIGINS",
+    "question": "Several species of this large shaggy bird native to Australia were exterminated by settlers",
+    "answer": "the emu",
+    "aliases": [],
+    "source": {
+      "show_number": "1661",
+      "air_date": "Monday, November 18, 1991",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_1661.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.86,
+      "reason": "Native Australian bird; biogeography"
+    }
+  },
+  {
+    "id": "j-1679-884e596a36f670b1",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIA",
+    "question": "When Edward Hargraves found this at Bathurst in 1851, the whole continent felt a rush",
+    "answer": "gold",
+    "aliases": [],
+    "source": {
+      "show_number": "1679",
+      "air_date": "Thursday, December 12, 1991",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1679.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "Gold discovery triggered Australian gold rush."
+    }
+  },
+  {
+    "id": "j-1837-424280c0782c4dea",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD FACTS",
+    "question": "The world's lowest measured mean temperature, -70°F., is at Plateau Station on this continent",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "1837",
+      "air_date": "Tuesday, September 8, 1992",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1837.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-1907-3b2fc3d904a788f7",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE EARTH",
+    "question": "An atoll is a circular one of these that has grown around a sunken volcanic island",
+    "answer": "a coral reef",
+    "aliases": [],
+    "source": {
+      "show_number": "1907",
+      "air_date": "Tuesday, December 15, 1992",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1907.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-1913-f6df3051a4572c42",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE ORIENT",
+    "question": "A forest in Qufu, China is the burial site of this philosopher & over 70 generations of his descendents",
+    "answer": "Confucius",
+    "aliases": [],
+    "source": {
+      "show_number": "1913",
+      "air_date": "Wednesday, December 23, 1992",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1913.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from china, forest"
+    }
+  },
+  {
+    "id": "j-2028-2f0e25e9de4a4369",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ASIAN CITIES",
+    "question": "Bandar Seri Begawan is the capital of this oil-rich sultanate on Borneo",
+    "answer": "Brunei",
+    "aliases": [],
+    "source": {
+      "show_number": "2028",
+      "air_date": "Wednesday, June 2, 1993",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_2028.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: asian, brunei, oil, capital, cities"
+    }
+  },
+  {
+    "id": "j-2030-fc8c51ff84a0d8af",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "\"GREAT\" GEOGRAPHY",
+    "question": "Fodor's says the No. 1 law for people viewing this Aussie landmark is \"don't remove the coral\"",
+    "answer": "the Great Barrier Reef",
+    "aliases": [],
+    "source": {
+      "show_number": "2030",
+      "air_date": "Friday, June 4, 1993",
+      "round": "J",
+      "value": "$300",
+      "file": "show_2030.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2074-405693832ba4fe18",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD FACTS",
+    "question": "This product accounts for about 85% of Saudi Arabia's exports",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "2074",
+      "air_date": "Thursday, September 16, 1993",
+      "round": "J",
+      "value": "$200",
+      "file": "show_2074.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from saudi arabia, oil"
+    }
+  },
+  {
+    "id": "j-2178-158e21f40fde1796",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CITIES OF INDIA",
+    "question": "In this capital of India, the average temperature in May is 92°",
+    "answer": "New Delhi",
+    "aliases": [],
+    "source": {
+      "show_number": "2178",
+      "air_date": "Wednesday, February 9, 1994",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_2178.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: india, temperature, capital, cities"
+    }
+  },
+  {
+    "id": "j-2194-fbec214b2fb58084",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIAN HISTORY",
+    "question": "The 1851 discovery of this precious metal in Victoria caused its population to more than quadruple by 1855",
+    "answer": "gold",
+    "aliases": [],
+    "source": {
+      "show_number": "2194",
+      "air_date": "Thursday, March 3, 1994",
+      "round": "J",
+      "value": "$100",
+      "file": "show_2194.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2262-c03e1f55f3caaaa7",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD FACTS",
+    "question": "Natural gas & this product account for about 99% of Brunei's exports",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "2262",
+      "air_date": "Tuesday, June 7, 1994",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_2262.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from brunei, natural gas, oil"
+    }
+  },
+  {
+    "id": "j-2289-3d1c44fb46251f8d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "KOREA",
+    "question": "An electric power plant & this grain, the chief crop, adorn North Korea's coat of arms",
+    "answer": "rice",
+    "aliases": [],
+    "source": {
+      "show_number": "2289",
+      "air_date": "Thursday, July 14, 1994",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_2289.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from korea, crop"
+    }
+  },
+  {
+    "id": "j-2387-b05ffc1181f6403a",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IRAN",
+    "question": "In 1901 W.K. D'Arcy was granted a 60-year monopoly to explore for & exploit this in Iran",
+    "answer": "oil/petroleum",
+    "aliases": [],
+    "source": {
+      "show_number": "2387",
+      "air_date": "Tuesday, January 10, 1995",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_2387.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from iran, oil"
+    }
+  },
+  {
+    "id": "j-2507-646e088123caddcf",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SAUDI ARABIA",
+    "question": "The major oil-producing entity is the Arabian American Oil Company, called this for short",
+    "answer": "Aramco",
+    "aliases": [],
+    "source": {
+      "show_number": "2507",
+      "air_date": "Tuesday, June 27, 1995",
+      "round": "J",
+      "value": "$500",
+      "file": "show_2507.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from saudi arabia, oil"
+    }
+  },
+  {
+    "id": "j-2507-f5460e6ae412f6a5",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SAUDI ARABIA",
+    "question": "Before oil, the primary source of foreign exchange was pilgrimages to this holiest Muslim city",
+    "answer": "Mecca",
+    "aliases": [],
+    "source": {
+      "show_number": "2507",
+      "air_date": "Tuesday, June 27, 1995",
+      "round": "J",
+      "value": "$200",
+      "file": "show_2507.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from saudi arabia, oil"
+    }
+  },
+  {
+    "id": "j-2523-f19abe56099e3332",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ISLANDS",
+    "question": "This principal crop of the Banda Islands keeps eggnog drinkers well supplied",
+    "answer": "nutmeg",
+    "aliases": [],
+    "source": {
+      "show_number": "2523",
+      "air_date": "Wednesday, July 19, 1995",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_2523.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2535-1836fb6e6bb505e7",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "PLAINS",
+    "question": "The Plains of Assam are among the few habitats of the Indian species of this large, one-horned animal",
+    "answer": "rhinoceros",
+    "aliases": [],
+    "source": {
+      "show_number": "2535",
+      "air_date": "Friday, September 15, 1995",
+      "round": "J",
+      "value": "$200",
+      "file": "show_2535.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2572-658d6f9e1011980d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD GEOGRAPHY",
+    "question": "This continent's Polyus Nedostupnosti, the pole of inaccessibility, is Guinness' coldest place",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "2572",
+      "air_date": "Tuesday, November 7, 1995",
+      "round": "J",
+      "value": "$500",
+      "file": "show_2572.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.65,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2636-f97210c463dfc86d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIA",
+    "question": "There are over 500 species of this kind of tree in Australia",
+    "answer": "the eucalyptus",
+    "aliases": [],
+    "source": {
+      "show_number": "2636",
+      "air_date": "Monday, February 5, 1996",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_2636.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from australia, species"
+    }
+  },
+  {
+    "id": "j-2778-f2a419d2c0454183",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OMAN",
+    "question": "It's the principle natural resource of Oman",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "2778",
+      "air_date": "Wednesday, October 2, 1996",
+      "round": "J",
+      "value": "$100",
+      "file": "show_2778.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from oman, oil, resource"
+    }
+  },
+  {
+    "id": "j-285-b97c3c69fd0bf6df",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GEOGRAPHY",
+    "question": "During the winter this continent is said to double in area",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "285",
+      "air_date": "Friday, October 11, 1985",
+      "round": "J",
+      "value": "$200",
+      "file": "show_285.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2960-3867e3a605c387b2",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD TRAVEL",
+    "question": "If you go to Goa, you may try feni, a local liquor that can be made from these kidney-shaped nuts",
+    "answer": "cashews",
+    "aliases": [],
+    "source": {
+      "show_number": "2960",
+      "air_date": "Friday, June 13, 1997",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_2960.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2974-6401361f75cbe1e0",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DUE \"SOUTH\"",
+    "question": "In 1956 the U.S. established the Amundsen-Scott Station here",
+    "answer": "South Pole",
+    "aliases": [],
+    "source": {
+      "show_number": "2974",
+      "air_date": "Thursday, July 3, 1997",
+      "round": "J",
+      "value": "$200",
+      "file": "show_2974.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2982-2d45e8325a341aca",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD GEOGRAPHY",
+    "question": "Since 1980 most of this Indonesian island known for its giant monitor lizards has been a national park",
+    "answer": "Komodo",
+    "aliases": [],
+    "source": {
+      "show_number": "2982",
+      "air_date": "Tuesday, July 15, 1997",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_2982.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3112-14011d7b0ffc3aca",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WHERE'S MY COFFEE?",
+    "question": "Java is a synonym for coffee; a high-grade bean also comes from this next most populous Indonesian island",
+    "answer": "Sumatra",
+    "aliases": [],
+    "source": {
+      "show_number": "3112",
+      "air_date": "Tuesday, February 24, 1998",
+      "round": "J",
+      "value": "$300",
+      "file": "show_3112.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3124-4618001fd3429325",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EVERYBODY TALKS ABOUT IT...",
+    "question": "Meaning of the meteorological symbol seen here :",
+    "answer": "partly cloudy",
+    "aliases": [],
+    "source": {
+      "show_number": "3124",
+      "air_date": "Thursday, March 12, 1998",
+      "round": "DJ",
+      "value": "DD: $1,200",
+      "file": "show_3124.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3124-837ecb3ae2a2549d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EVERYBODY TALKS ABOUT IT...",
+    "question": "U.S. bomber pilots in World War II discovered this \"river\" flowing through the upper troposphere",
+    "answer": "the jet stream",
+    "aliases": [],
+    "source": {
+      "show_number": "3124",
+      "air_date": "Thursday, March 12, 1998",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_3124.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3155-5b8893fa68ad186f",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AROUND THE WORLD",
+    "question": "1,250-mile-long wonder seen here:",
+    "answer": "Great Barrier Reef",
+    "aliases": [],
+    "source": {
+      "show_number": "3155",
+      "air_date": "Friday, April 24, 1998",
+      "round": "J",
+      "value": "$500",
+      "file": "show_3155.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3186-1610dc5f71c48e14",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE OCEAN",
+    "question": "There are 3 major types of these structures in the tropics: fringing, barrier & atolls",
+    "answer": "Reefs",
+    "aliases": [],
+    "source": {
+      "show_number": "3186",
+      "air_date": "Monday, June 8, 1998",
+      "round": "J",
+      "value": "$200",
+      "file": "show_3186.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3221-f4b3c7d1ff5c6a46",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IT'S A BREEZE",
+    "question": "These steady winds of the tropics are so named because they aid commerce",
+    "answer": "Trade winds",
+    "aliases": [],
+    "source": {
+      "show_number": "3221",
+      "air_date": "Monday, September 14, 1998",
+      "round": "J",
+      "value": "$100",
+      "file": "show_3221.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3328-9fea76e1a1f6353d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "INDONESIA",
+    "question": "Indonesia is a member of OPEC as one of the chief producers of this in the Far East",
+    "answer": "Oil",
+    "aliases": [],
+    "source": {
+      "show_number": "3328",
+      "air_date": "Wednesday, February 10, 1999",
+      "round": "J",
+      "value": "$300",
+      "file": "show_3328.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from indonesia, oil"
+    }
+  },
+  {
+    "id": "j-3384-62bd776fcee668c1",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GEOGRAPHIC TERMS",
+    "question": "Normally, an atoll is made of this or nothing atoll",
+    "answer": "Coral",
+    "aliases": [],
+    "source": {
+      "show_number": "3384",
+      "air_date": "Thursday, April 29, 1999",
+      "round": "J",
+      "value": "DD: $1,000",
+      "file": "show_3384.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3440-a6fd7ca06193e576",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ROOF OF THE WORLD",
+    "question": "This shaggy ox is used by Tibetans as a beast of burden, its hair for tents",
+    "answer": "Yak",
+    "aliases": [],
+    "source": {
+      "show_number": "3440",
+      "air_date": "Friday, July 16, 1999",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_3440.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3449-b11f499f5f54c633",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IT'S A DISASTER!",
+    "question": "It's a long period without rain that causes a lot of crop damage",
+    "answer": "Drought",
+    "aliases": [],
+    "source": {
+      "show_number": "3449",
+      "air_date": "Thursday, September 9, 1999",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_3449.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.86,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3504-a2ea4c44e495c329",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TURKEY",
+    "question": "Turkey is a major producer of this mineral particularly valued by pipe smokers",
+    "answer": "meerschaum",
+    "aliases": [],
+    "source": {
+      "show_number": "3504",
+      "air_date": "Thursday, November 25, 1999",
+      "round": "J",
+      "value": "$500",
+      "file": "show_3504.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from turkey, mineral"
+    }
+  },
+  {
+    "id": "j-3586-d6449968f34e3663",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE INDIAN OCEAN",
+    "question": "The most valuable mineral resource under the ocean, it's been found in the Bay of Bengal as well as the Persian Gulf",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "3586",
+      "air_date": "Monday, March 20, 2000",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_3586.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3596-be989eadf495cc45",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ISLAND GROUPS",
+    "question": "A source of nutmeg & cloves, the Moluccas are also known by this aromatic name",
+    "answer": "Spice Islands",
+    "aliases": [],
+    "source": {
+      "show_number": "3596",
+      "air_date": "Monday, April 3, 2000",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_3596.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3701-fb317622277a4012",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OCEANS",
+    "question": "These marine habitats are called the \"rainforests of the oceans\"",
+    "answer": "coral reefs",
+    "aliases": [],
+    "source": {
+      "show_number": "3701",
+      "air_date": "Monday, October 9, 2000",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_3701.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3720-591448d68d06d298",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TROPICAL ISLANDS",
+    "question": "Sepilok is a sanctuary on Borneo established primarily for these rare creatures",
+    "answer": "orangutans",
+    "aliases": [],
+    "source": {
+      "show_number": "3720",
+      "air_date": "Friday, November 3, 2000",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_3720.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3760-e0a334eec94e45a8",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "JUST DESERTS",
+    "question": "This whole continent is considered a polar desert",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "3760",
+      "air_date": "Friday, December 29, 2000",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_3760.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3793-079bbc2b5cc0a60f",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TAKE ME OUT TO...",
+    "question": "Take me out to the Royal Calcutta Turf Club, with 2 racing seasons: winter & this storm-named one",
+    "answer": "Monsoon season",
+    "aliases": [],
+    "source": {
+      "show_number": "3793",
+      "air_date": "Wednesday, February 14, 2001",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_3793.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3887-bb7148829c1c257d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "U.S. ISLANDS",
+    "question": "The U.S. acquired Baker Island through an act of Congress named for this type of manure",
+    "answer": "guano",
+    "aliases": [],
+    "source": {
+      "show_number": "3887",
+      "air_date": "Tuesday, June 26, 2001",
+      "round": "J",
+      "value": "$400",
+      "file": "show_3887.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3911-eba11e519c3237cf",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EXPORTS",
+    "question": "90% of Qatar's income comes from the export of this product",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "3911",
+      "air_date": "Monday, September 10, 2001",
+      "round": "J",
+      "value": "$100",
+      "file": "show_3911.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from qatar, oil"
+    }
+  },
+  {
+    "id": "j-4064-125598d9f8c9092d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD OF WEATHER",
+    "question": "Ocean waters give this state Australia's most moderate climate",
+    "answer": "Tasmania",
+    "aliases": [],
+    "source": {
+      "show_number": "4064",
+      "air_date": "Thursday, April 11, 2002",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_4064.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.87,
+      "reason": "Geographic terms: australia, weather, climate, state, ocean"
+    }
+  },
+  {
+    "id": "j-418-e97b5b4cf5329b48",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SOUTH OF THE EQUATOR",
+    "question": "Line marking southern boundary of Earth's tropical zone, or a hot Henry Miller novel",
+    "answer": "Tropic of Capricorn",
+    "aliases": [],
+    "source": {
+      "show_number": "418",
+      "air_date": "Wednesday, April 16, 1986",
+      "round": "J",
+      "value": "$100",
+      "file": "show_418.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.65,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4208-c8134e86e3c67f1e",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SOUTH OF THE EQUATOR",
+    "question": "In 1947 Edith Ronne & Jenny Darlington became the first women to winter on this continent",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "4208",
+      "air_date": "Wednesday, December 11, 2002",
+      "round": "J",
+      "value": "$600",
+      "file": "show_4208.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4269-8e2c2ae7c221eae8",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AROUND THE GLOBE",
+    "question": "To avoid storms, planes will often fly in this relatively peaceful atmosphere layer that's just below the mesosphere",
+    "answer": "stratosphere",
+    "aliases": [],
+    "source": {
+      "show_number": "4269",
+      "air_date": "Thursday, March 6, 2003",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_4269.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4314-2b4b7f9fd484d5d4",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "YEMEN-Y SNIPPET",
+    "question": "Though still relying on foreign aid, Yemen has begun tapping into its 4-billion-barrel reserve of this for funds",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "4314",
+      "air_date": "Thursday, May 8, 2003",
+      "round": "J",
+      "value": "$400",
+      "file": "show_4314.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from yemen, oil"
+    }
+  },
+  {
+    "id": "j-443-8e50adbede71e33f",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GEOGRAPHY",
+    "question": "Since these were named 2000 years ago, the solstices have shifted to occur in Gemini & Sagittarius",
+    "answer": "the Tropics of Cancer & Capricorn",
+    "aliases": [],
+    "source": {
+      "show_number": "443",
+      "air_date": "Wednesday, May 21, 1986",
+      "round": "DJ",
+      "value": "DD: $1,400",
+      "file": "show_443.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4451-8fceed6169ba0fd4",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "COME HERE OFTEN?",
+    "question": "In 1998 it became the seventh continent to get an ESPN feed",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "4451",
+      "air_date": "Monday, January 5, 2004",
+      "round": "J",
+      "value": "$200",
+      "file": "show_4451.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4466-5ad7da9a4506b873",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HI YA, IRIAN JAYA!",
+    "question": "With its tropical jungles, Irian Jaya is home to nearly 3,000 species of this plant",
+    "answer": "orchids",
+    "aliases": [],
+    "source": {
+      "show_number": "4466",
+      "air_date": "Monday, January 26, 2004",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_4466.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.82,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4514-96c9c157f30b52c0",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HOT SPOTS",
+    "question": "On December 27, 1978 this spot on Earth reached a balmy record high of 7.5 degrees",
+    "answer": "the South Pole",
+    "aliases": [],
+    "source": {
+      "show_number": "4514",
+      "air_date": "Thursday, April 1, 2004",
+      "round": "J",
+      "value": "DD: $1,600",
+      "file": "show_4514.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4533-031b1dc27dc00ef5",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "It's not just oil -- Saudi Arabia has reserves of over 200 trillion cubic feet of this",
+    "answer": "natural gas",
+    "aliases": [],
+    "source": {
+      "show_number": "4533",
+      "air_date": "Wednesday, April 28, 2004",
+      "round": "J",
+      "value": "$600",
+      "file": "show_4533.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from saudi arabia, natural gas, oil"
+    }
+  },
+  {
+    "id": "j-4547-52fb822484d70644",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WATER, WATER EVERYWHERE",
+    "question": "1-word name for the large masses that contain the majority of the world's fresh water",
+    "answer": "glaciers",
+    "aliases": [],
+    "source": {
+      "show_number": "4547",
+      "air_date": "Tuesday, May 18, 2004",
+      "round": "J",
+      "value": "$800",
+      "file": "show_4547.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4568-60bcd0358d583fa0",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "COOL PLACES TO GO",
+    "question": "With temperatures as low as -94 F., Oymyakon in this large region is the world's coldest inhabited place",
+    "answer": "Siberia",
+    "aliases": [],
+    "source": {
+      "show_number": "4568",
+      "air_date": "Wednesday, June 16, 2004",
+      "round": "DJ",
+      "value": "DD: $1,200",
+      "file": "show_4568.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-463-e7af00178ccdf608",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE EARTH",
+    "question": "Term for the top of the earth's zone of saturation; wells are drilled to it",
+    "answer": "the water table",
+    "aliases": [],
+    "source": {
+      "show_number": "463",
+      "air_date": "Wednesday, September 17, 1986",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_463.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4847-f2e28b578748a43d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ON THE MAP",
+    "question": "There are lines of latitude called this of Cancer & this of Capricorn",
+    "answer": "Tropics",
+    "aliases": [],
+    "source": {
+      "show_number": "4847",
+      "air_date": "Tuesday, October 11, 2005",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_4847.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4893-3eef0e77bce68eb0",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DESERTS",
+    "question": "The world's largest unbroken expanse of sand is the Rub Al-Khali, or \"Empty Quarter\", of this desert",
+    "answer": "the Arabian desert",
+    "aliases": [],
+    "source": {
+      "show_number": "4893",
+      "air_date": "Wednesday, December 14, 2005",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_4893.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 1.0,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5087-d44d904979a87c7b",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SAUDI ARABIA",
+    "question": "Seen here at Ras Tanura is the world's largest of these facilities",
+    "answer": "an oil refinery",
+    "aliases": [],
+    "source": {
+      "show_number": "5087",
+      "air_date": "Tuesday, October 24, 2006",
+      "round": "J",
+      "value": "$400",
+      "file": "show_5087.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from saudi arabia, oil"
+    }
+  },
+  {
+    "id": "j-513-1dff6de14511b98b",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ASIA",
+    "question": "Last name of the current prime minister of India",
+    "answer": "Gandhi",
+    "aliases": [],
+    "source": {
+      "show_number": "513",
+      "air_date": "Wednesday, November 26, 1986",
+      "round": "J",
+      "value": "$300",
+      "file": "show_513.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: asia, india, current"
+    }
+  },
+  {
+    "id": "j-5155-abbc263e2be24879",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SINGAPORE",
+    "question": "Singapore's national flower is the Vanda Miss Joaquim, a purple species of this exotic corsage flower",
+    "answer": "an orchid",
+    "aliases": [],
+    "source": {
+      "show_number": "5155",
+      "air_date": "Friday, January 26, 2007",
+      "round": "J",
+      "value": "$400",
+      "file": "show_5155.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from singapore, species"
+    }
+  },
+  {
+    "id": "j-5211-311bca53ebed89fb",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CHICKS RULE!",
+    "question": "The Philippines has had 2 female presidents, current leader Gloria Arroyo & this woman from 1986 to 1992",
+    "answer": "(Corazon) Aquino",
+    "aliases": [],
+    "source": {
+      "show_number": "5211",
+      "air_date": "Monday, April 16, 2007",
+      "round": "DJ",
+      "value": "DD: $4,000",
+      "file": "show_5211.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from philippines, current"
+    }
+  },
+  {
+    "id": "j-5250-68b051adfddc84d6",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE SOLOMON ISLANDS",
+    "question": "The main industries in the Solomons include mining, timber & fishing for this fish",
+    "answer": "tuna",
+    "aliases": [],
+    "source": {
+      "show_number": "5250",
+      "air_date": "Friday, June 8, 2007",
+      "round": "J",
+      "value": "$400",
+      "file": "show_5250.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: solomon islands, timber"
+    }
+  },
+  {
+    "id": "j-533-09145ca05716afa7",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "INDIA",
+    "question": "This term for the rainy season comes from the wind that brings the rain",
+    "answer": "the monsoon",
+    "aliases": [],
+    "source": {
+      "show_number": "533",
+      "air_date": "Wednesday, December 24, 1986",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_533.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from india, monsoon"
+    }
+  },
+  {
+    "id": "j-5340-5ab348224554bce6",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GREEN ACRES",
+    "question": "James Breasted gave this \"shapely\" name to a luxuriant Middle Eastern region of antiquity",
+    "answer": "the Fertile Crescent",
+    "aliases": [],
+    "source": {
+      "show_number": "5340",
+      "air_date": "Friday, November 23, 2007",
+      "round": "DJ",
+      "value": "DD: $2,000",
+      "file": "show_5340.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5402-7fa660298ce523e8",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIAN HISTORY",
+    "question": "As a result of the 1851 discovery of this in New South Wales & Victoria, Australia's population almost tripled by 1860",
+    "answer": "gold",
+    "aliases": [],
+    "source": {
+      "show_number": "5402",
+      "air_date": "Tuesday, February 19, 2008",
+      "round": "J",
+      "value": "$200",
+      "file": "show_5402.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5416-2c3dda8cb082923a",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HOW'S THE WEATHER?",
+    "question": "Sept. 4, 2007 was the first time that 2 of these, Henriette & Felix, made landfall on the same day",
+    "answer": "hurricanes",
+    "aliases": [],
+    "source": {
+      "show_number": "5416",
+      "air_date": "Monday, March 10, 2008",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_5416.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5432-84053a5c47ebe29a",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "COLD",
+    "question": "Charlotte Pass in this 3-named state holds Australia's cold-temperature record with -9° F. in 1994",
+    "answer": "New South Wales",
+    "aliases": [],
+    "source": {
+      "show_number": "5432",
+      "air_date": "Tuesday, April 1, 2008",
+      "round": "J",
+      "value": "$800",
+      "file": "show_5432.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5693-068a271c3cc16fac",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE WORLD COMES TO YOU",
+    "question": "This geographic extreme has no sunshine for 182 days a year",
+    "answer": "the South Pole",
+    "aliases": [],
+    "source": {
+      "show_number": "5693",
+      "air_date": "Wednesday, May 13, 2009",
+      "round": "J",
+      "value": "$200",
+      "file": "show_5693.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-571-97fdfd3ee3cf6dee",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE WORLD",
+    "question": "On the 1st day of spring or fall, the Sun is directly over this imaginary line",
+    "answer": "the Equator",
+    "aliases": [],
+    "source": {
+      "show_number": "571",
+      "air_date": "Monday, February 16, 1987",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_571.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5748-208bedf1ab83ba16",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIAN GEOGRAPHY",
+    "question": "The world's largest world heritage area, it extends for 1,250 miles & covers an area of about 134,000 sq. miles",
+    "answer": "the Great Barrier Reef",
+    "aliases": [],
+    "source": {
+      "show_number": "5748",
+      "air_date": "Wednesday, September 16, 2009",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_5748.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5748-89871c121b21e04f",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIAN GEOGRAPHY",
+    "question": "An Australian territory, this island named for a holiday is known for its annual migration of millions of crabs",
+    "answer": "Christmas Island",
+    "aliases": [],
+    "source": {
+      "show_number": "5748",
+      "air_date": "Wednesday, September 16, 2009",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_5748.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-580-63571297972b6303",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIA",
+    "question": "Species of this aromatic Australian tree are the tallest hardwood in the world",
+    "answer": "eucalyptus",
+    "aliases": [],
+    "source": {
+      "show_number": "580",
+      "air_date": "Friday, February 27, 1987",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_580.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from australia, species"
+    }
+  },
+  {
+    "id": "j-582-c41d4091bdd7d539",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OCEANOGRAPHY",
+    "question": "A major source of iodine, they are used for making medicines, ice cream, jellies, salad dressings, & cosmetics",
+    "answer": "seaweed",
+    "aliases": [],
+    "source": {
+      "show_number": "582",
+      "air_date": "Tuesday, March 3, 1987",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_582.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5837-f4d422e564a44323",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MAN, OMAN!",
+    "question": "Oman's major export is this, discovered there in 1964",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "5837",
+      "air_date": "Tuesday, January 19, 2010",
+      "round": "J",
+      "value": "$400",
+      "file": "show_5837.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from oman, oil"
+    }
+  },
+  {
+    "id": "j-5844-686c5255c80569c2",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SAUDI ARABIA",
+    "question": "You can treat this man like royalty in Saudi Arabia; he's the current king",
+    "answer": "Abdullah",
+    "aliases": [],
+    "source": {
+      "show_number": "5844",
+      "air_date": "Thursday, January 28, 2010",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_5844.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from saudi arabia, current"
+    }
+  },
+  {
+    "id": "j-589-b179fa9ca2daed93",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ISRAEL",
+    "question": "To promote saving water during 1986 drought, Israel advised citizens to do this \"with a friend\"",
+    "answer": "take a shower",
+    "aliases": [],
+    "source": {
+      "show_number": "589",
+      "air_date": "Thursday, March 12, 1987",
+      "round": "J",
+      "value": "$100",
+      "file": "show_589.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from israel, drought"
+    }
+  },
+  {
+    "id": "j-589-e78e2c69ac5e4e47",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ISRAEL",
+    "question": "While Israel is called \"The land of milk & honey\", World Book says this fruit is the major crop",
+    "answer": "orange",
+    "aliases": [],
+    "source": {
+      "show_number": "589",
+      "air_date": "Thursday, March 12, 1987",
+      "round": "J",
+      "value": "$200",
+      "file": "show_589.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from israel, crop"
+    }
+  },
+  {
+    "id": "j-5913-cf0e203dc671956d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THAT'S HOT!",
+    "question": "In 1974 the temp reached a balmy 59 at Vanda Station on this continent (hey, that's hot for there)",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "5913",
+      "air_date": "Wednesday, May 5, 2010",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_5913.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5947-927fae18b5ac2b86",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WE GOTTA GO NOW",
+    "question": "Head to this island east of Sumatra to see the orangutans before they become extinct",
+    "answer": "Borneo",
+    "aliases": [],
+    "source": {
+      "show_number": "5947",
+      "air_date": "Tuesday, June 22, 2010",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_5947.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5947-a99548c70169328e",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WE GOTTA GO NOW",
+    "question": "Check out this, an Australian marine park since 1975, before the coral is destroyed",
+    "answer": "the Great Barrier Reef",
+    "aliases": [],
+    "source": {
+      "show_number": "5947",
+      "air_date": "Tuesday, June 22, 2010",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_5947.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5949-1f49384d99c01491",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IRAQ'S PROVINCES",
+    "question": "Basra, Thi-Qar & Missan tried to break away in 2004 & might have made a go of it, as they have 80% of Iraq's this beneath them",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "5949",
+      "air_date": "Thursday, June 24, 2010",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_5949.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from iraq, oil"
+    }
+  },
+  {
+    "id": "j-5998-5d64627210b8f147",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ALL ABOUT ANTARCTICA",
+    "question": "( Tom Ritchie presents the clue from Antarctica. ) Lifeless boats and rusted tanks that once held the precious oil are relics of Deception Island's past: from 1906 to 1931, it was a processing center for this brutal trade",
+    "answer": "whaling",
+    "aliases": [],
+    "source": {
+      "show_number": "5998",
+      "air_date": "Wednesday, October 13, 2010",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_5998.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5998-9543b00e9955e4ce",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ALL ABOUT ANTARCTICA",
+    "question": "( Tom Ritchie presents the clue from Antarctica. ) The 1959 Antarctic Treaty opened the continent to science & made possible such findings as this hole in the atmosphere in the 1980s",
+    "answer": "the ozone",
+    "aliases": [],
+    "source": {
+      "show_number": "5998",
+      "air_date": "Wednesday, October 13, 2010",
+      "round": "J",
+      "value": "$200",
+      "file": "show_5998.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6015-1d755f5fafe95205",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL GEOGRAPHIC CHANNEL GREAT MIGRATIONS",
+    "question": "Red crabs need moisture to breed, so they await this season of heavy rains to troop to the ocean to breed",
+    "answer": "the monsoon season",
+    "aliases": [],
+    "source": {
+      "show_number": "6015",
+      "air_date": "Friday, November 5, 2010",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_6015.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-606-9ccf7c5ddf71e4dc",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE EARTH",
+    "question": "An ocean wave's speed largely depends on the speed of this phenomenon in the air above",
+    "answer": "the wind",
+    "aliases": [],
+    "source": {
+      "show_number": "606",
+      "air_date": "Monday, April 6, 1987",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_606.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-606-b1f97a7d2655fa76",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE EARTH",
+    "question": "You find one of these at the point where an aquifer intersects the slope of a hillside",
+    "answer": "a spring",
+    "aliases": [],
+    "source": {
+      "show_number": "606",
+      "air_date": "Monday, April 6, 1987",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_606.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6115-228a5f36c27a7375",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "INDONESIA",
+    "question": "In 2003, remains were found in Indonesia of what many have called a small species of humans nicknamed these, from Tolkien",
+    "answer": "hobbits",
+    "aliases": [],
+    "source": {
+      "show_number": "6115",
+      "air_date": "Friday, March 25, 2011",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_6115.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from indonesia, species"
+    }
+  },
+  {
+    "id": "j-6291-1868c6306e8e0e6d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "COATS OF ARMS",
+    "question": "The coat of arms of Norfolk Island in the South Pacific features the Norfolk species of this conifer",
+    "answer": "a pine tree",
+    "aliases": [],
+    "source": {
+      "show_number": "6291",
+      "air_date": "Monday, January 16, 2012",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_6291.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6459-f92158160bf48cdd",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE TROPIC OF CAPRICORN",
+    "question": "( Sarah of the Clue Crew shows an animation of the globe on the monitor. ) The tropic of Capricorn separates two climatic zones -- the tropical one & this zone that extends south to the Antarctic circle",
+    "answer": "the Temperate Zone",
+    "aliases": [],
+    "source": {
+      "show_number": "6459",
+      "air_date": "Thursday, October 18, 2012",
+      "round": "J",
+      "value": "DD: $800",
+      "file": "show_6459.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6466-e0c6c92e7546f9fe",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GEOGRAPHIC TERMS",
+    "question": "Also a term for brewing coffee, this is the movement of water from the earth's surface to its subsurface",
+    "answer": "percolation",
+    "aliases": [],
+    "source": {
+      "show_number": "6466",
+      "air_date": "Monday, October 29, 2012",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_6466.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6469-5b21226ac29927cd",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "POLYNESIA",
+    "question": "( Kelly of the Clue Crew reports from Molokai, HI. ) A staple starch of traditional Polynesian cuisine, this cultivated plant & its tuber are used to make laulau & poi",
+    "answer": "the taro",
+    "aliases": [],
+    "source": {
+      "show_number": "6469",
+      "air_date": "Thursday, November 1, 2012",
+      "round": "J",
+      "value": "$600",
+      "file": "show_6469.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-655-1fc5599cbc00b202",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIA",
+    "question": "Amazingly, commercial field production of this energy source didn't begin in Australia until the 1960s",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "655",
+      "air_date": "Friday, June 12, 1987",
+      "round": "J",
+      "value": "$400",
+      "file": "show_655.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from australia, oil"
+    }
+  },
+  {
+    "id": "j-6634-18ea896fe4e80a12",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIAN CAPITALS",
+    "question": "Brisbane, Queensland is home to the world's first sanctuary for these cuddly looking creatures",
+    "answer": "koalas",
+    "aliases": [],
+    "source": {
+      "show_number": "6634",
+      "air_date": "Thursday, June 20, 2013",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_6634.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6664-63db6663feac43de",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GEOGRAPHY 101",
+    "question": "About 23 degrees N. of the equator is the Tropic of Cancer; about 23 degrees S. of the equator is the Tropic of this",
+    "answer": "Capricorn",
+    "aliases": [],
+    "source": {
+      "show_number": "6664",
+      "air_date": "Thursday, August 1, 2013",
+      "round": "J",
+      "value": "$800",
+      "file": "show_6664.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-667-a31061555a59caba",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE MIDDLE EAST",
+    "question": "In February 1987, the United Arab Emirates experienced this weather for 1st time in history",
+    "answer": "snow",
+    "aliases": [],
+    "source": {
+      "show_number": "667",
+      "air_date": "Tuesday, June 30, 1987",
+      "round": "J",
+      "value": "$300",
+      "file": "show_667.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from middle east, united arab emirates, weather"
+    }
+  },
+  {
+    "id": "j-667-ef6ab361805f49ec",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE MIDDLE EAST",
+    "question": "The Middle East has more than half of the world's proven reserves of this",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "667",
+      "air_date": "Tuesday, June 30, 1987",
+      "round": "J",
+      "value": "$100",
+      "file": "show_667.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from middle east, oil"
+    }
+  },
+  {
+    "id": "j-6703-347e93612b017a8f",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ON THE GLOBE",
+    "question": "Of the 5 named circles of latitude on a standard Earth globe, it's the one with the longest name",
+    "answer": "the Tropic of Capricorn",
+    "aliases": [],
+    "source": {
+      "show_number": "6703",
+      "air_date": "Wednesday, November 6, 2013",
+      "round": "FJ",
+      "value": "None",
+      "file": "show_6703.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6728-60d89006ad501ed5",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORDS IN ASIAN COUNTRIES",
+    "question": "An open space in Dhaka's forest",
+    "answer": "a glade (in Ban glade sh)",
+    "aliases": [],
+    "source": {
+      "show_number": "6728",
+      "air_date": "Wednesday, December 11, 2013",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_6728.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.87,
+      "reason": "Geographic terms: asian, forest, countries"
+    }
+  },
+  {
+    "id": "j-6778-41acd238f953aeee",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ISLANDS OF THE PACIFIC",
+    "question": "A big tourist activity in Tonga is whale watching, & since the whales are mainly this singing species, whale listening too",
+    "answer": "humpback whales",
+    "aliases": [],
+    "source": {
+      "show_number": "6778",
+      "air_date": "Wednesday, February 19, 2014",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_6778.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: tonga, species"
+    }
+  },
+  {
+    "id": "j-6816-feb5826bb069c504",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WARM",
+    "question": "The \"Love\" part of the memoir \"Eat, Pray, Love\" is set on this balmy Indonesian island",
+    "answer": "Bali",
+    "aliases": [],
+    "source": {
+      "show_number": "6816",
+      "air_date": "Monday, April 14, 2014",
+      "round": "J",
+      "value": "$800",
+      "file": "show_6816.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6958-2b89385745325a46",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIAN HISTORY",
+    "question": "In 2014 a new, more conservative government made Oz the world's first country to repeal a tax on emissions of this",
+    "answer": "carbon",
+    "aliases": [],
+    "source": {
+      "show_number": "6958",
+      "air_date": "Wednesday, December 10, 2014",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_6958.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6988-7cbcd9d115805318",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DANGEROUS WEATHER",
+    "question": "( Sarah of the Clue Crew shows time-elapse satellite imagery of a storm on the monitor. ) On November 5, 2013, with 74-plus-mile-per-hour winds, the storm called Haiyan was classified as this; winds hit 195 miles per hour by the time it reached the Philippines",
+    "answer": "a typhoon",
+    "aliases": [],
+    "source": {
+      "show_number": "6988",
+      "air_date": "Wednesday, January 21, 2015",
+      "round": "J",
+      "value": "$800",
+      "file": "show_6988.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from philippines, weather"
+    }
+  },
+  {
+    "id": "j-7001-5ea01466ab31e6af",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SOUTH OF THE EQUATOR",
+    "question": "South of the equator, winter begins in this month",
+    "answer": "June",
+    "aliases": [],
+    "source": {
+      "show_number": "7001",
+      "air_date": "Monday, February 9, 2015",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_7001.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7007-0b7181fe73635782",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "COLD WORLD OUT THERE",
+    "question": "In July 1968 Plateau Station on this continent averaged -99.8 degrees; bottom of the world, Ma!",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "7007",
+      "air_date": "Tuesday, February 17, 2015",
+      "round": "J",
+      "value": "$200",
+      "file": "show_7007.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7035-204c9e828c033f54",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TALK ABOUT THE CLIMATE",
+    "question": "( Sarah of the Clue Crew shows an animation of a stormcloud moving over a mountain on the monitor. ) Stormclouds tend to drop more precipitation on the windward side of a mountain range; when that happens, the dryer side is in what's called a \"rain\" one of these dark areas",
+    "answer": "a shadow",
+    "aliases": [],
+    "source": {
+      "show_number": "7035",
+      "air_date": "Friday, March 27, 2015",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_7035.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7035-9c73dd79c640aecf",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TALK ABOUT THE CLIMATE",
+    "question": "An important climate component is the amount of water vapor in the air, or atmospheric this",
+    "answer": "humidity",
+    "aliases": [],
+    "source": {
+      "show_number": "7035",
+      "air_date": "Friday, March 27, 2015",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_7035.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-706-e3b288dae5bfc611",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NEW ZEALAND",
+    "question": "This name can be applied to all humans living in New Zealand, but only 3 species of birds",
+    "answer": "Kiwi",
+    "aliases": [],
+    "source": {
+      "show_number": "706",
+      "air_date": "Monday, October 5, 1987",
+      "round": "J",
+      "value": "$200",
+      "file": "show_706.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from new zealand, species"
+    }
+  },
+  {
+    "id": "j-7154-3760c6617b0acca7",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LINES ON THE MAP",
+    "question": "Lines called isobars & isotherms show up on these maps",
+    "answer": "weather maps",
+    "aliases": [],
+    "source": {
+      "show_number": "7154",
+      "air_date": "Thursday, October 22, 2015",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_7154.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7154-71ee4135de958761",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LINES ON THE MAP",
+    "question": "During a solstice, the sun is directly over one of these lines of latitude whose names suggest easy days & fruity drinks",
+    "answer": "tropic",
+    "aliases": [],
+    "source": {
+      "show_number": "7154",
+      "air_date": "Thursday, October 22, 2015",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_7154.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7208-e7e8cab5155f38b9",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OPEC NATIONS",
+    "question": "Oil & Al Jazeera are major products of this land ruled by the Al Thani family",
+    "answer": "Qatar",
+    "aliases": [],
+    "source": {
+      "show_number": "7208",
+      "air_date": "Wednesday, January 6, 2016",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_7208.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from qatar, oil"
+    }
+  },
+  {
+    "id": "j-7251-25ff55774a6b737a",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE INDIAN OCEAN",
+    "question": "The area north of 10 degrees south latitude is this \"zone\", for the wet wind system that reverses direction with the seasons",
+    "answer": "monsoon",
+    "aliases": [],
+    "source": {
+      "show_number": "7251",
+      "air_date": "Monday, March 7, 2016",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_7251.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7259-0770948c1e93577e",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NEW ZEALAND",
+    "question": "New Zealand's only native land mammals are 2 species of this, short- & long-tailed; they live in trees, not caves",
+    "answer": "bats",
+    "aliases": [],
+    "source": {
+      "show_number": "7259",
+      "air_date": "Thursday, March 17, 2016",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_7259.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from new zealand, species"
+    }
+  },
+  {
+    "id": "j-7296-751eb0ff16d4a2f5",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WOMEN WORLD LEADERS",
+    "question": "Family name of the current president of South Korea, whose father was assassinated when he was president",
+    "answer": "Park",
+    "aliases": [],
+    "source": {
+      "show_number": "7296",
+      "air_date": "Monday, May 9, 2016",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_7296.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from korea, current"
+    }
+  },
+  {
+    "id": "j-7333-e0528ea80e9548d4",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SRI LANKA",
+    "question": "An important Sri Lankan crop is this curry spice that can end with \"-om\" or \"-on\"",
+    "answer": "cardamom",
+    "aliases": [],
+    "source": {
+      "show_number": "7333",
+      "air_date": "Wednesday, June 29, 2016",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_7333.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from sri lanka, crop"
+    }
+  },
+  {
+    "id": "j-7358-a98d8b24a0704ff3",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LANGUAGES",
+    "question": "Enets, a Samoyedic language of Siberia, has 2 dialects: Forest Enets & this type named for a permafrost region",
+    "answer": "Tundra",
+    "aliases": [],
+    "source": {
+      "show_number": "7358",
+      "air_date": "Wednesday, September 14, 2016",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_7358.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7395-951fa8460661e486",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TRAVEL & TOURISM",
+    "question": "While in Fiji see this ceremony natives call vilavilairevo, or \"jumping into the oven\", & listen for \"Ow! Ow! Ow!\"",
+    "answer": "hot coal walking",
+    "aliases": [],
+    "source": {
+      "show_number": "7395",
+      "air_date": "Friday, November 4, 2016",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_7395.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from fiji, coal"
+    }
+  },
+  {
+    "id": "j-740-ce7c86c54961090b",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MAPS",
+    "question": "Distinction that makes a collection of maps an atlas",
+    "answer": "they are bound",
+    "aliases": [],
+    "source": {
+      "show_number": "740",
+      "air_date": "Friday, November 20, 1987",
+      "round": "J",
+      "value": "$200",
+      "file": "show_740.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7411-7a90515d4e6bdd80",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "Ancient Greek for \"slope\" gives us this weather word much in the news for the way it's changing",
+    "answer": "climate",
+    "aliases": [],
+    "source": {
+      "show_number": "7411",
+      "air_date": "Monday, November 28, 2016",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_7411.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.78,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7424-c1b392d34641bac9",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE OCEANS",
+    "question": "Hurricanes originate in this region of the world's oceans near the equator marked by calm, light winds",
+    "answer": "the doldrums",
+    "aliases": [],
+    "source": {
+      "show_number": "7424",
+      "air_date": "Thursday, December 15, 2016",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_7424.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7451-d44c8bba795a2135",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL PARKS OF THE WORLD",
+    "question": "This giant monitor lizard is a must-see on a visit to the Indonesian park located on 3 of the Lesser Sunda Islands",
+    "answer": "the Komodo dragon",
+    "aliases": [],
+    "source": {
+      "show_number": "7451",
+      "air_date": "Monday, January 23, 2017",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_7451.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7470-10a0ee1b410de246",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GEOGRAPHER'S DICTIONARY",
+    "question": "These structures of accumulated skeletal deposits have been called Earth's most complex aquatic ecosystems",
+    "answer": "coral reefs",
+    "aliases": [],
+    "source": {
+      "show_number": "7470",
+      "air_date": "Friday, February 17, 2017",
+      "round": "J",
+      "value": "$600",
+      "file": "show_7470.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-754-a46e84d63824b61f",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GEOGRAPHIC AKA's",
+    "question": "In the current Ency. Americana, Britannica & World Book, Cambodia is found under this heading",
+    "answer": "Kampuchea",
+    "aliases": [],
+    "source": {
+      "show_number": "754",
+      "air_date": "Thursday, December 10, 1987",
+      "round": "DJ",
+      "value": "DD: $500",
+      "file": "show_754.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.97,
+      "reason": "Approved category; labels from cambodia, current"
+    }
+  },
+  {
+    "id": "j-7562-fe6b3778cab58f25",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD HERITAGE SITES",
+    "question": "134,000 square miles of this Australian wonder were added to the list in 1981",
+    "answer": "the Great Barrier Reef",
+    "aliases": [],
+    "source": {
+      "show_number": "7562",
+      "air_date": "Tuesday, June 27, 2017",
+      "round": "J",
+      "value": "DD: $1,200",
+      "file": "show_7562.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7594-f81485461c633e35",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE WORLD FACTBOOK SAYS...",
+    "question": "It \"spent more than $5 billion to repair oil infrastructure damaged during 1990-91\"",
+    "answer": "Kuwait",
+    "aliases": [],
+    "source": {
+      "show_number": "7594",
+      "air_date": "Thursday, September 21, 2017",
+      "round": "J",
+      "value": "$800",
+      "file": "show_7594.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from kuwait, oil"
+    }
+  },
+  {
+    "id": "j-7724-d5cb469cb424fe0b",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "The wind rustling through a forest of this tall grass has been named one of the top 100 sounds in Japan",
+    "answer": "bamboo",
+    "aliases": [],
+    "source": {
+      "show_number": "7724",
+      "air_date": "Thursday, March 22, 2018",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_7724.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from japan, forest"
+    }
+  },
+  {
+    "id": "j-7791-5ded12991e390e88",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "KUWAIT, KUWAIT",
+    "question": "Iraq first asserted a claim to Kuwait in 1938, the same year this was discovered in Burgan",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "7791",
+      "air_date": "Monday, June 25, 2018",
+      "round": "J",
+      "value": "$200",
+      "file": "show_7791.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from kuwait, iraq, oil"
+    }
+  },
+  {
+    "id": "j-7791-8af938367154845e",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "KUWAIT, KUWAIT",
+    "question": "Before desalination plants, Kuwaitis imported water or drew it from these wells named for a French province",
+    "answer": "artesian wells",
+    "aliases": [],
+    "source": {
+      "show_number": "7791",
+      "air_date": "Monday, June 25, 2018",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_7791.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7843-90290c8e9ab63374",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BALI, HI!",
+    "question": "Bali is renowned for its scenic terraces farming this major crop",
+    "answer": "rice",
+    "aliases": [],
+    "source": {
+      "show_number": "7843",
+      "air_date": "Wednesday, October 17, 2018",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_7843.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7869-86fd26b4886af950",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DAMS",
+    "question": "Construction of this numerically named dam on the Yangtze forced more than 1 million people to relocate",
+    "answer": "Three Gorges",
+    "aliases": [],
+    "source": {
+      "show_number": "7869",
+      "air_date": "Thursday, November 22, 2018",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_7869.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7938-95fc41b82399869e",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "A LONG, LONG TIME AGO",
+    "question": "This always frozen subsoil started forming around the time of Earth's first glaciation, 2 billion-plus years ago",
+    "answer": "permafrost",
+    "aliases": [],
+    "source": {
+      "show_number": "7938",
+      "air_date": "Wednesday, February 27, 2019",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_7938.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7990-e110e34c78feec48",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATURAL LANDMARKS",
+    "question": "There's stone in the name of this material seen in Kunming , a stone forest in China",
+    "answer": "limestone",
+    "aliases": [],
+    "source": {
+      "show_number": "7990",
+      "air_date": "Friday, May 10, 2019",
+      "round": "J",
+      "value": "$400",
+      "file": "show_7990.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: china, forest"
+    }
+  },
+  {
+    "id": "j-8022-92c80afb51ace1a7",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "INTERNATIONAL PARKS",
+    "question": "Badaling National Forest Park contains the most visited section of all the miles of this edifice",
+    "answer": "the Great Wall of China",
+    "aliases": [],
+    "source": {
+      "show_number": "8022",
+      "air_date": "Tuesday, June 25, 2019",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_8022.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from china, forest"
+    }
+  },
+  {
+    "id": "j-803-88698ba782ecf048",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIA",
+    "question": "Australia's began in 1851, some 2 years after California's",
+    "answer": "gold rush",
+    "aliases": [],
+    "source": {
+      "show_number": "803",
+      "air_date": "Wednesday, February 17, 1988",
+      "round": "J",
+      "value": "$300",
+      "file": "show_803.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8079-b0920d3eca4c7ee3",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WHERE DO YOU STAN?",
+    "question": "Tajikistan's abundant wildlife includes bears & an Asiatic species of these wild canines also found in Africa",
+    "answer": "jackals",
+    "aliases": [],
+    "source": {
+      "show_number": "8079",
+      "air_date": "Thursday, October 24, 2019",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_8079.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8117-c73d184f215ad666",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ASIA",
+    "question": "From the Russian, the vast plain that covers much of Siberia is called not the stair but this",
+    "answer": "the steppe",
+    "aliases": [],
+    "source": {
+      "show_number": "8117",
+      "air_date": "Tuesday, December 17, 2019",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_8117.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8151-bd63f11526e77fa3",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ASIAN GEOGRAPHY",
+    "question": "This 150- by 2.5-mile area created in 1953 is now home to more than 100 endangered & protected species",
+    "answer": "DMZ (the demilitarized zone between North & South Korea)",
+    "aliases": [],
+    "source": {
+      "show_number": "8151",
+      "air_date": "Monday, February 3, 2020",
+      "round": "FJ",
+      "value": "None",
+      "file": "show_8151.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.87,
+      "reason": "Geographic terms: asian, korea, species, geography"
+    }
+  },
+  {
+    "id": "j-8176-f6b6a68cd7859ace",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HOW ABOUT DESERT?",
+    "question": "Large mammals of the Gobi Desert include gazelles, antelope & this humped ruminant",
+    "answer": "the (Bactrian) camel",
+    "aliases": [],
+    "source": {
+      "show_number": "8176",
+      "air_date": "Monday, March 9, 2020",
+      "round": "J",
+      "value": "$200",
+      "file": "show_8176.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8177-af9421d87b89581d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BRR! IT'S COLD OUT THERE",
+    "question": "The coldest temp ever recorded on Earth, -144 F., was found by researchers studying satellite data of this continent",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "8177",
+      "air_date": "Tuesday, March 10, 2020",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_8177.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8350-66a2ca11737344ee",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GLOBETROTTING",
+    "question": "This Asian capital was given its current name by its ruling Nguyen Dynasty in 1831",
+    "answer": "Hanoi",
+    "aliases": [],
+    "source": {
+      "show_number": "8350",
+      "air_date": "Friday, March 5, 2021",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_8350.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from asian, current"
+    }
+  },
+  {
+    "id": "j-8451-847cf92f96ac847e",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ARABIA",
+    "question": "Animals in the region include camels, a main mode of transport, & these 2 farm animals known there as khiraf & ma'iz",
+    "answer": "sheep & goats",
+    "aliases": [],
+    "source": {
+      "show_number": "8451",
+      "air_date": "Monday, July 26, 2021",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_8451.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8454-5519285116a562e9",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HERE, THERE & EVERYWHERE",
+    "question": "Fly over the southern portion of this 1,250-mile-long natural wonder to see the heart-shaped formation here",
+    "answer": "Great Barrier Reef",
+    "aliases": [],
+    "source": {
+      "show_number": "8454",
+      "air_date": "Thursday, July 29, 2021",
+      "round": "J",
+      "value": "$600",
+      "file": "show_8454.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8464-c8693033d6d3b6d2",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "UNUSUAL ISLANDS",
+    "question": "Miyake islanders have worn masks to thwart this element, atomic No.16, prevalent in the air due to gassy Mount Oyama",
+    "answer": "sulfur",
+    "aliases": [],
+    "source": {
+      "show_number": "8464",
+      "air_date": "Thursday, August 12, 2021",
+      "round": "J",
+      "value": "DD: $1,000",
+      "file": "show_8464.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.82,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8481-1dec367f0c4519a9",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "RIVERS OF ASIA",
+    "question": "In this frigid region, Russia's Lena River rises near Lake Baikal & flows over 2,700 miles north to the Laptev Sea",
+    "answer": "Siberia",
+    "aliases": [],
+    "source": {
+      "show_number": "8481",
+      "air_date": "Monday, October 4, 2021",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_8481.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.72,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8589-aacb5ae25a0fdfe3",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "The Latin for \"water\" gives us this word for a layer of rock that contains water",
+    "answer": "an aquifer",
+    "aliases": [],
+    "source": {
+      "show_number": "8589",
+      "air_date": "Thursday, March 3, 2022",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_8589.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8589-ec0e343ed2367519",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "Made of coral, this 2-word structure usually runs parallel to the shore",
+    "answer": "a barrier reef",
+    "aliases": [],
+    "source": {
+      "show_number": "8589",
+      "air_date": "Thursday, March 3, 2022",
+      "round": "J",
+      "value": "$200",
+      "file": "show_8589.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-861-d2500332dc72a5b9",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "PLANET EARTH",
+    "question": "The greenhouse effect that traps heat is produced by a layer of this gas in the atmosphere",
+    "answer": "carbon dioxide",
+    "aliases": [],
+    "source": {
+      "show_number": "861",
+      "air_date": "Monday, May 9, 1988",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_861.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8626-1e47577752cb7218",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OUT IN THE OCEAN",
+    "question": "These deep-sea vents, named for the magma-heated water they emit, are islands of life in the ocean floor",
+    "answer": "hydrothermal vents",
+    "aliases": [],
+    "source": {
+      "show_number": "8626",
+      "air_date": "Monday, April 25, 2022",
+      "round": "J",
+      "value": "$800",
+      "file": "show_8626.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8626-ef7345f63b63906f",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OUT IN THE OCEAN",
+    "question": "Sailors gave the name \"Roaring Forties\" not to a decade but to a windy region between 40 & 50 degrees south this",
+    "answer": "latitude",
+    "aliases": [],
+    "source": {
+      "show_number": "8626",
+      "air_date": "Monday, April 25, 2022",
+      "round": "J",
+      "value": "$200",
+      "file": "show_8626.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8658-b8b95af033979726",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AROUND THE WORLD",
+    "question": "The northern lights are cool, but at Mt. Wellington in Tasmania, you can see the southern lights, also called the \"aurora\" this",
+    "answer": "australis",
+    "aliases": [],
+    "source": {
+      "show_number": "8658",
+      "air_date": "Wednesday, June 8, 2022",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_8658.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.78,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8741-58467da411d643f1",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE SOUTHERN HEMISPHERE",
+    "question": "This geographical line runs around the globe at approximately 23 degrees 27 minutes south latitude",
+    "answer": "the Tropic of Capricorn",
+    "aliases": [],
+    "source": {
+      "show_number": "8741",
+      "air_date": "Monday, November 14, 2022",
+      "round": "J",
+      "value": "$600",
+      "file": "show_8741.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8743-ae66ac36938026c5",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "COLD AROUND THE GLOBE",
+    "question": "With zero inches of annual precipitation, the McMurdo Dry Valleys on this continent rank as the driest area on Earth",
+    "answer": "Antarctica",
+    "aliases": [],
+    "source": {
+      "show_number": "8743",
+      "air_date": "Wednesday, November 16, 2022",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_8743.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8758-597f625b46ec923c",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GINGER ZEE TALKS METEOROLOGY",
+    "question": "( Ginger Zee presents the clue. ) In early 2020, I was in Australia to cover its unprecedented wildfires & learn how the hottest & driest year on record had parched giant stretches of these native trees filled with extremely flammable oil",
+    "answer": "eucalyptus trees",
+    "aliases": [],
+    "source": {
+      "show_number": "8758",
+      "air_date": "Wednesday, December 7, 2022",
+      "round": "J",
+      "value": "DD: $3,400",
+      "file": "show_8758.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from australia, oil"
+    }
+  },
+  {
+    "id": "j-8791-a8b5c8cdefd0955e",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AFGHANISTAN & PAKISTAN",
+    "question": "In 2022 the new Taliban regime banned growing these flowers that sustain many Afghan farmers, but 2022 was a bumper crop",
+    "answer": "poppies",
+    "aliases": [],
+    "source": {
+      "show_number": "8791",
+      "air_date": "Monday, January 23, 2023",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_8791.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from pakistan, afghanistan, crop"
+    }
+  },
+  {
+    "id": "j-8823-5f8474a539f0d222",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IT HAPPENED IN ASIA",
+    "question": "Xi Zhongxun, father of current Chinese leader Xi Jinping, was persecuted during this brutal process of \"renewal\" that started in 1966",
+    "answer": "the Cultural Revolution",
+    "aliases": [],
+    "source": {
+      "show_number": "8823",
+      "air_date": "Wednesday, March 8, 2023",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_8823.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: chinese, asia, current"
+    }
+  },
+  {
+    "id": "j-8860-ceda6cfdbf310e00",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "KUWAIT FOR ME!",
+    "question": "Before the dominance of the oil industry, Kuwait was a center of diving offshore for these precious objects, often at depths over 100 feet",
+    "answer": "pearls",
+    "aliases": [],
+    "source": {
+      "show_number": "8860",
+      "air_date": "Friday, April 28, 2023",
+      "round": "J",
+      "value": "$600",
+      "file": "show_8860.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from kuwait, oil"
+    }
+  },
+  {
+    "id": "j-8943-68424545858b5a5a",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "This temperature oscillation in the equatorial Pacific Ocean was also a nickname of the young Rafael Nadal",
+    "answer": "El Niño",
+    "aliases": [],
+    "source": {
+      "show_number": "8943",
+      "air_date": "Wednesday, October 4, 2023",
+      "round": "J",
+      "value": "$400",
+      "file": "show_8943.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8943-836dda348336ec94",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "It's not just oil -- Saudi Arabia has reserves of over 300 trillion cubic feet of this",
+    "answer": "natural gas",
+    "aliases": [],
+    "source": {
+      "show_number": "8943",
+      "air_date": "Wednesday, October 4, 2023",
+      "round": "J",
+      "value": "$600",
+      "file": "show_8943.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from saudi arabia, natural gas, oil"
+    }
+  },
+  {
+    "id": "j-9009-44c21437f2d92b6c",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "An aquifer, which contains this 11-letter stuff, can be depleted but can also be overfilled like in pumping for gas extraction",
+    "answer": "groundwater",
+    "aliases": [],
+    "source": {
+      "show_number": "9009",
+      "air_date": "Thursday, January 4, 2024",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_9009.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9036-9df259c5fdbc2431",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OCEANOGRAPHY",
+    "question": "There are about 6,000 species of this color algae, division Rhodophyta, including laver & dulse",
+    "answer": "red algae",
+    "aliases": [],
+    "source": {
+      "show_number": "9036",
+      "air_date": "Monday, February 12, 2024",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_9036.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-918-21dd693c31cb0816",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GEOGRAPHY",
+    "question": "Continent most associated with the weather patterns called monsoons",
+    "answer": "Asia",
+    "aliases": [],
+    "source": {
+      "show_number": "918",
+      "air_date": "Wednesday, September 7, 1988",
+      "round": "J",
+      "value": "$200",
+      "file": "show_918.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: asia, weather, continent, geography"
+    }
+  },
+  {
+    "id": "j-9214-b8af503824821f1d",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TURKEY DAY",
+    "question": "Yagli gures, one of the most popular sports in Turkey, is a variety of this one, but with the grapplers covered in oil",
+    "answer": "wrestling",
+    "aliases": [],
+    "source": {
+      "show_number": "9214",
+      "air_date": "Thursday, November 28, 2024",
+      "round": "J",
+      "value": "$400",
+      "file": "show_9214.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from turkey, oil"
+    }
+  },
+  {
+    "id": "j-9276-8b2ea3903271c3dd",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "Trees aren't the focus in Kyoto's Arashiyama Forest ; it's stacked tall with a grassy grove of this",
+    "answer": "bamboo",
+    "aliases": [],
+    "source": {
+      "show_number": "9276",
+      "air_date": "Monday, February 24, 2025",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_9276.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9276-f444bd20f16300f8",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "\"T\" is for this type of Siberian forest, meaning \"land of the little sticks\" in the native tongue",
+    "answer": "taiga",
+    "aliases": [],
+    "source": {
+      "show_number": "9276",
+      "air_date": "Monday, February 24, 2025",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_9276.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9286-329c08544fc29ed0",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIAN HISTORY",
+    "question": "In 1797, this Spanish breed of sheep was introduced & within a few decades wool became Australia's major export",
+    "answer": "Merino",
+    "aliases": [],
+    "source": {
+      "show_number": "9286",
+      "air_date": "Monday, March 10, 2025",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_9286.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9286-388bdf2c8c2f68ba",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIAN HISTORY",
+    "question": "The 1851 discovery of this transformed the city of Ballarat, a place that's pivotal in a Sherlock Holmes story",
+    "answer": "gold",
+    "aliases": [],
+    "source": {
+      "show_number": "9286",
+      "air_date": "Monday, March 10, 2025",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_9286.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9294-b6e9f0e292ddca7e",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "YANGTZE!",
+    "question": "Parts of the Yangtze are home to the giant type of this amphibian, which can weigh over 100 pounds & wails like a crying infant",
+    "answer": "salamander",
+    "aliases": [],
+    "source": {
+      "show_number": "9294",
+      "air_date": "Thursday, March 20, 2025",
+      "round": "J",
+      "value": "$600",
+      "file": "show_9294.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9318-781265abdb870ea6",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD GEOGRAPHY",
+    "question": "Like Patagonia, New Zealand's Central Otago region claims the most southerly of these planted areas that bring joy to oenophiles",
+    "answer": "a vineyard",
+    "aliases": [],
+    "source": {
+      "show_number": "9318",
+      "air_date": "Wednesday, April 23, 2025",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_9318.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-934-658276fcb7a655d1",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TRAVEL & TOURISM",
+    "question": "In Lhasa, Tibet, many vehicles are equipped with oxygen bags to counteract the effects of this",
+    "answer": "altitude",
+    "aliases": [],
+    "source": {
+      "show_number": "934",
+      "air_date": "Thursday, September 29, 1988",
+      "round": "J",
+      "value": "$200",
+      "file": "show_934.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9362-46b3aab1a325f457",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "COLORFUL GEOGRAPHY",
+    "question": "Amid a real estate boom in the 1950s, an Australian tourist destination called the South Coast was rechristened this",
+    "answer": "the Gold Coast",
+    "aliases": [],
+    "source": {
+      "show_number": "9362",
+      "air_date": "Tuesday, June 24, 2025",
+      "round": "DJ",
+      "value": "DD: $3,000",
+      "file": "show_9362.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9372-21dc67c5a670d019",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HOT TIME IN THE OLD TOWN",
+    "question": "2024 was brutal in Bangkok, as the oceanic pattern known by this childish name helped induce deadly heat levels",
+    "answer": "El Niño",
+    "aliases": [],
+    "source": {
+      "show_number": "9372",
+      "air_date": "Tuesday, July 8, 2025",
+      "round": "J",
+      "value": "$600",
+      "file": "show_9372.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9373-5f64b2c1c3cf65bf",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "On a global scale this process of heat transfer sees warm air rise & cold air sink, driving much of weather & climate",
+    "answer": "convection",
+    "aliases": [],
+    "source": {
+      "show_number": "9373",
+      "air_date": "Wednesday, July 9, 2025",
+      "round": "DJ",
+      "value": "DD: $4,000",
+      "file": "show_9373.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.88,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9373-bd76e5e5b7d47ee3",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "Spring these, higher than usual, happen because the Sun adds its gravitational pull to that of the Moon",
+    "answer": "tides",
+    "aliases": [],
+    "source": {
+      "show_number": "9373",
+      "air_date": "Wednesday, July 9, 2025",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_9373.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9421-637f148d9013745e",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "RAINFOREST, MEET DESERT",
+    "question": "Each summer, one of these rainy seasons briefly transforms the Salalah region of Oman from desert into a pop-up rainforest",
+    "answer": "monsoon season",
+    "aliases": [],
+    "source": {
+      "show_number": "9421",
+      "air_date": "Monday, October 27, 2025",
+      "round": "J",
+      "value": "$200",
+      "file": "show_9421.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: oman, monsoon, rainforest, region, desert"
+    }
+  },
+  {
+    "id": "j-9546-937e398e38e84efc",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIAN GEOGRAPHY",
+    "question": "Aka the Never-Never, this 2.1-million-square-mile region is where explorer Ludwig Leichhardt & his team disappeared in 1848",
+    "answer": "the Outback",
+    "aliases": [],
+    "source": {
+      "show_number": "9546",
+      "air_date": "Monday, April 20, 2026",
+      "round": "J",
+      "value": "$800",
+      "file": "show_9546.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9574-5f249dea664c30de",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LET'S TALK ABOUT THE WEATHER",
+    "question": "This precipitation in the form of lumps or balls of ice is a 4-letter word",
+    "answer": "hail",
+    "aliases": [],
+    "source": {
+      "show_number": "9574",
+      "air_date": "Thursday, May 28, 2026",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_9574.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9574-7ad3fdacf2e37c97",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LET'S TALK ABOUT THE WEATHER",
+    "question": "This \"point\" is the temperature at which water vapor begins to condense; the higher it is, the muggier it feels",
+    "answer": "the dew point",
+    "aliases": [],
+    "source": {
+      "show_number": "9574",
+      "air_date": "Thursday, May 28, 2026",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_9574.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.78,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9574-87eaf01658702bf4",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LET'S TALK ABOUT THE WEATHER",
+    "question": "Abbreviated \"As\", it's the mid-level layer of cloud seen here",
+    "answer": "altostratus",
+    "aliases": [],
+    "source": {
+      "show_number": "9574",
+      "air_date": "Thursday, May 28, 2026",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_9574.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9574-8a234e19512dfedf",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LET'S TALK ABOUT THE WEATHER",
+    "question": "In meteorology, it means the boundary between 2 air masses of different densities",
+    "answer": "a front",
+    "aliases": [],
+    "source": {
+      "show_number": "9574",
+      "air_date": "Thursday, May 28, 2026",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_9574.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.72,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9583-5843d12e9882f0b5",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MINE, ALL MINE",
+    "question": "Deeper than the Empire State Building is tall, Siberia's Mirny mine is owned & operated by the world's largest producer of these",
+    "answer": "diamonds",
+    "aliases": [],
+    "source": {
+      "show_number": "9583",
+      "air_date": "Wednesday, June 10, 2026",
+      "round": "J",
+      "value": "$400",
+      "file": "show_9583.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9617-f6cacf2559931ef9",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "There are almost no clouds & no weather in this second atmospheric layer up from Earth's surface",
+    "answer": "the stratosphere",
+    "aliases": [],
+    "source": {
+      "show_number": "9617",
+      "air_date": "Tuesday, September 15, 2026",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_9534.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-999-342cf9de307595a5",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AUSTRALIA",
+    "question": "In Aussie English, it's called a \"jumbuck\", & we're not pulling the wool over your eyes",
+    "answer": "sheep",
+    "aliases": [],
+    "source": {
+      "show_number": "999",
+      "air_date": "Thursday, December 29, 1988",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_999.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.65,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-None-1fe6b193404dc7f1",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DRY PLACES",
+    "question": "Sections of land blocked from moist air by mountain ranges are called rain these areas of darkness",
+    "answer": "shadows",
+    "aliases": [],
+    "source": {
+      "show_number": "None",
+      "air_date": "None",
+      "round": "DJ",
+      "value": "800",
+      "file": "show_37.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-None-8ed61cef8cca3c99",
+    "category": "Asia + Middle East + Oceania/Pacific",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DRY PLACES",
+    "question": "Since it's near this line of latitude, 23 degrees, 27 minutes north of the equator, Aswan is hot & dry nearly all the time",
+    "answer": "the Tropic of Cancer",
+    "aliases": [],
+    "source": {
+      "show_number": "None",
+      "air_date": "None",
+      "round": "DJ",
+      "value": "1200",
+      "file": "show_37.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  }
+]

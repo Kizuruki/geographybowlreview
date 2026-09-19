@@ -1,0 +1,4223 @@
+[
+  {
+    "id": "j-1087-cc4a026ccb8ea705",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ARIZONA",
+    "question": "Arizona counts for 2/3 of U.S. production of this metal, & that's a lot of pipes & wires",
+    "answer": "copper",
+    "aliases": [],
+    "source": {
+      "show_number": "1087",
+      "air_date": "Tuesday, May 2, 1989",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1087.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "Arizona's copper production — resource geography."
+    }
+  },
+  {
+    "id": "j-1115-b1c8112a9765d7fd",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ALASKA",
+    "question": "In the early 19th c. this was Alaska's main export, but it's now a small percentage of the economy",
+    "answer": "fur",
+    "aliases": [],
+    "source": {
+      "show_number": "1115",
+      "air_date": "Friday, June 9, 1989",
+      "round": "J",
+      "value": "$500",
+      "file": "show_1115.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.83,
+      "reason": "Historic Alaskan export and natural-resource geography (fur)."
+    }
+  },
+  {
+    "id": "j-1115-f869a971305b903c",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ALASKA",
+    "question": "This Alaskan variety of grizzly bear is one of the world's largest land carnivores",
+    "answer": "Kodiak",
+    "aliases": [],
+    "source": {
+      "show_number": "1115",
+      "air_date": "Friday, June 9, 1989",
+      "round": "J",
+      "value": "$400",
+      "file": "show_1115.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "Kodiak bear is Alaskan fauna/biogeography."
+    }
+  },
+  {
+    "id": "j-1132-ac8bf6e4741612f6",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "About 1/3 of this continent is rain forest",
+    "answer": "South America",
+    "aliases": [],
+    "source": {
+      "show_number": "1132",
+      "air_date": "Tuesday, July 4, 1989",
+      "round": "J",
+      "value": "$300",
+      "file": "show_1132.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.96,
+      "reason": "Continent's rainforest fraction; biome knowledge."
+    }
+  },
+  {
+    "id": "j-1137-6667ebafed836013",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "U.S. CITIES",
+    "question": "Many encyclopedias say the rapid, post-WWII growth of Phoenix can be credited to this invention",
+    "answer": "air conditioning",
+    "aliases": [],
+    "source": {
+      "show_number": "1137",
+      "air_date": "Tuesday, July 11, 1989",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_1137.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.84,
+      "reason": "Connects urban growth to hot-climate technology."
+    }
+  },
+  {
+    "id": "j-1160-d69a95a990b4e32e",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE WEST INDIES",
+    "question": "Stalks of this, the West Indies' chief crop, can reach 15 feet in height",
+    "answer": "sugarcane",
+    "aliases": [],
+    "source": {
+      "show_number": "1160",
+      "air_date": "Friday, September 22, 1989",
+      "round": "J",
+      "value": "$200",
+      "file": "show_1160.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Asks about region's chief crop (resource/agriculture)"
+    }
+  },
+  {
+    "id": "j-1164-27c3afdd2256cd36",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MEXICO",
+    "question": "Mexico leads the world in the production of this precious metal",
+    "answer": "silver",
+    "aliases": [],
+    "source": {
+      "show_number": "1164",
+      "air_date": "Thursday, September 28, 1989",
+      "round": "J",
+      "value": "$500",
+      "file": "show_1164.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "Mexico's leading mineral production (resource geography)."
+    }
+  },
+  {
+    "id": "j-1192-1dd1ec4f910b0626",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ARGENTINA",
+    "question": "Largest bird of the Pampas, it can be tamed & kept as a farmyard pet",
+    "answer": "Rhea",
+    "aliases": [],
+    "source": {
+      "show_number": "1192",
+      "air_date": "Tuesday, November 7, 1989",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_1192.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.88,
+      "reason": "Pampas fauna — biome/biogeography"
+    }
+  },
+  {
+    "id": "j-1192-e52f4df227f9a660",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ARGENTINA",
+    "question": "Jesuits were the 1st to cultivate this species of holly that's made into a tea-like drink",
+    "answer": "Mate",
+    "aliases": [],
+    "source": {
+      "show_number": "1192",
+      "air_date": "Tuesday, November 7, 1989",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_1192.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "Yerba mate as a regional crop/resource"
+    }
+  },
+  {
+    "id": "j-1207-7a02f6767e2c247f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "The rain forests in this state's Olympic National Park resemble those of the tropics",
+    "answer": "Washington",
+    "aliases": [],
+    "source": {
+      "show_number": "1207",
+      "air_date": "Tuesday, November 28, 1989",
+      "round": "J",
+      "value": "$500",
+      "file": "show_1207.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "References rainforest biome in a U.S. state."
+    }
+  },
+  {
+    "id": "j-1224-03953f4316e73667",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BRAZIL",
+    "question": "In 1870 Brazil grew about half the world's supply of this; now it's about 30%",
+    "answer": "Coffee",
+    "aliases": [],
+    "source": {
+      "show_number": "1224",
+      "air_date": "Thursday, December 21, 1989",
+      "round": "J",
+      "value": "$300",
+      "file": "show_1224.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "Brazilian agricultural resource; economic geography"
+    }
+  },
+  {
+    "id": "j-1224-be763aa8036e4b86",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BRAZIL",
+    "question": "What Brazilians call the \"Selva\"; conservationists are concerned because it's shrinking",
+    "answer": "The Rain Forest",
+    "aliases": [],
+    "source": {
+      "show_number": "1224",
+      "air_date": "Thursday, December 21, 1989",
+      "round": "J",
+      "value": "$400",
+      "file": "show_1224.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "Rainforest biome; environmental geography"
+    }
+  },
+  {
+    "id": "j-1237-92b9ba18ffea2dca",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NEVADA",
+    "question": "Nevada's state trees are the single-leafed pinion & this pine, the oldest of which may be 5,000 years old",
+    "answer": "bristlecone",
+    "aliases": [],
+    "source": {
+      "show_number": "1237",
+      "air_date": "Tuesday, January 9, 1990",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_1237.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Nevada state tree—biome/resource tied to location."
+    }
+  },
+  {
+    "id": "j-1344-793ac492097267ac",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MONTANA",
+    "question": "There's a national range near Missoula to protect a herd of these animals",
+    "answer": "bison",
+    "aliases": [],
+    "source": {
+      "show_number": "1344",
+      "air_date": "Thursday, June 7, 1990",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1344.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "Wildlife (bison) protected near Missoula"
+    }
+  },
+  {
+    "id": "j-1425-1eccaf545fa642e6",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BRAZIL",
+    "question": "Colombia is second while Brazil is the world's largest exporter of this commodity",
+    "answer": "coffee",
+    "aliases": [],
+    "source": {
+      "show_number": "1425",
+      "air_date": "Friday, November 9, 1990",
+      "round": "J",
+      "value": "$200",
+      "file": "show_1425.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "Commodity export tied to regional resources."
+    }
+  },
+  {
+    "id": "j-1477-920c6887c06d0d16",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ALASKA",
+    "question": "It comprises most of the state's commercial fishing catch",
+    "answer": "salmon",
+    "aliases": [],
+    "source": {
+      "show_number": "1477",
+      "air_date": "Tuesday, January 22, 1991",
+      "round": "J",
+      "value": "$200",
+      "file": "show_1477.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "Alaska fishery resource; salmon dominates commercial catch."
+    }
+  },
+  {
+    "id": "j-1488-3fadeaa6638f0378",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MEXICO",
+    "question": "State-owned Pemex controls the production of this resource in Mexico",
+    "answer": "petroleum (or oil)",
+    "aliases": [],
+    "source": {
+      "show_number": "1488",
+      "air_date": "Wednesday, February 6, 1991",
+      "round": "J",
+      "value": "$500",
+      "file": "show_1488.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "Mexico's state-controlled oil industry"
+    }
+  },
+  {
+    "id": "j-1496-d47b214b043cf0ed",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE CONTINENTS",
+    "question": "The world's largest tropical rain forest occupies about 2/5 of this continent",
+    "answer": "South America",
+    "aliases": [],
+    "source": {
+      "show_number": "1496",
+      "air_date": "Monday, February 18, 1991",
+      "round": "J",
+      "value": "$200",
+      "file": "show_1496.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: south america, forest, continent, largest"
+    }
+  },
+  {
+    "id": "j-1509-04ab7981275a9f05",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OREGON",
+    "question": "This fir is the chief source of timber in the state",
+    "answer": "the Douglas fir",
+    "aliases": [],
+    "source": {
+      "show_number": "1509",
+      "air_date": "Thursday, March 7, 1991",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_1509.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Chief timber source in Oregon (natural resource)"
+    }
+  },
+  {
+    "id": "j-1550-ae1454242f883a62",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MEXICO",
+    "question": "It was first cultivated in Mexico & is still the main crop there",
+    "answer": "maize (or corn)",
+    "aliases": [],
+    "source": {
+      "show_number": "1550",
+      "air_date": "Friday, May 3, 1991",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_1550.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.93,
+      "reason": "Asks about a crop origin and main crop in Mexico."
+    }
+  },
+  {
+    "id": "j-1587-5e44f75dedc92213",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "U.S. GOVERNORS",
+    "question": "New Alaska governor, who as Secretary of the Interior, insisted oil companies pay for their spills",
+    "answer": "Walter Hickel",
+    "aliases": [],
+    "source": {
+      "show_number": "1587",
+      "air_date": "Tuesday, June 25, 1991",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_1587.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from alaska, oil"
+    }
+  },
+  {
+    "id": "j-1593-6efec77c645e1c77",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BRAZIL",
+    "question": "Native to the rain forest, these edible seeds are 65-70% fat",
+    "answer": "Brazil nuts",
+    "aliases": [],
+    "source": {
+      "show_number": "1593",
+      "air_date": "Wednesday, July 3, 1991",
+      "round": "J",
+      "value": "$200",
+      "file": "show_1593.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Native product of South American rainforest"
+    }
+  },
+  {
+    "id": "j-1593-8fa227224a2c3343",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BRAZIL",
+    "question": "First planted in Rio in the 1770s, by 1830 it was Brazil's top export",
+    "answer": "coffee",
+    "aliases": [],
+    "source": {
+      "show_number": "1593",
+      "air_date": "Wednesday, July 3, 1991",
+      "round": "J",
+      "value": "$400",
+      "file": "show_1593.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "Brazil's export; resource/economic geography."
+    }
+  },
+  {
+    "id": "j-1619-f304c748be378f2d",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SOUTH AMERICA",
+    "question": "Chile's most important export is this metal used in electrical wiring",
+    "answer": "copper",
+    "aliases": [],
+    "source": {
+      "show_number": "1619",
+      "air_date": "Thursday, September 19, 1991",
+      "round": "J",
+      "value": "$100",
+      "file": "show_1619.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.99,
+      "reason": "Chile's main export resource (copper)"
+    }
+  },
+  {
+    "id": "j-1661-1ef0d3a2b7d7e353",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BIRD ORIGINS",
+    "question": "The rhea is native to this continent where it associates with guanacos & forms mixed herds",
+    "answer": "South America",
+    "aliases": [],
+    "source": {
+      "show_number": "1661",
+      "air_date": "Monday, November 18, 1991",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_1661.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "Continent identification of a species' native range."
+    }
+  },
+  {
+    "id": "j-1661-5c2901a537796553",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BIRD ORIGINS",
+    "question": "The oo of this U.S. state may be extinct though it's believed one was sighted in 1981",
+    "answer": "Hawaii",
+    "aliases": [],
+    "source": {
+      "show_number": "1661",
+      "air_date": "Monday, November 18, 1991",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_1661.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "State tied to a native bird species' range."
+    }
+  },
+  {
+    "id": "j-1692-09d12eefc2a49a05",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD FACTS",
+    "question": "Costa Rica is a source of this, the world's lightest commercial wood",
+    "answer": "balsa",
+    "aliases": [],
+    "source": {
+      "show_number": "1692",
+      "air_date": "Tuesday, December 31, 1991",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_1692.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.95,
+      "reason": "Costa Rica as source of commercial wood"
+    }
+  },
+  {
+    "id": "j-1722-7dbd849cb2f7f3b4",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL MONUMENTS",
+    "question": "The highest shade temperature recorded here was 134° F. at Furnace Creek Ranch in 1913",
+    "answer": "Death Valley",
+    "aliases": [],
+    "source": {
+      "show_number": "1722",
+      "air_date": "Tuesday, February 11, 1992",
+      "round": "J",
+      "value": "$100",
+      "file": "show_1722.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-1742-9ca7241ab7728ed8",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TRAVEL & TOURISM",
+    "question": "This California city's famous zoo in Balboa Park houses over 800 species",
+    "answer": "San Diego",
+    "aliases": [],
+    "source": {
+      "show_number": "1742",
+      "air_date": "Tuesday, March 10, 1992",
+      "round": "J",
+      "value": "$400",
+      "file": "show_1742.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from california, species"
+    }
+  },
+  {
+    "id": "j-1783-01d5d7f08800e92a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "Mount Hood National Forest is headquartered in this largest Oregon city",
+    "answer": "Portland",
+    "aliases": [],
+    "source": {
+      "show_number": "1783",
+      "air_date": "Wednesday, May 6, 1992",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_1783.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: oregon, forest, city, largest"
+    }
+  },
+  {
+    "id": "j-1786-61c7e6b150b091aa",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL PARKS",
+    "question": "Although called a \"Forest\", this Arizona park has few standing trees",
+    "answer": "the Petrified Forest",
+    "aliases": [],
+    "source": {
+      "show_number": "1786",
+      "air_date": "Monday, May 11, 1992",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_1786.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: arizona, forest"
+    }
+  },
+  {
+    "id": "j-1786-d3677e0c6df154e2",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE CONTINENTS",
+    "question": "It's home to the world's largest tropical rain forest",
+    "answer": "South America",
+    "aliases": [],
+    "source": {
+      "show_number": "1786",
+      "air_date": "Monday, May 11, 1992",
+      "round": "J",
+      "value": "$100",
+      "file": "show_1786.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.97,
+      "reason": "Approved category; labels from south america, forest"
+    }
+  },
+  {
+    "id": "j-1853-d1369e13e7f3ce6f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CENTRAL AMERICA",
+    "question": "In 1974, Hurricane Fifi destroyed three-quarters of Honduras' crop of this fruit, a major export",
+    "answer": "bananas",
+    "aliases": [],
+    "source": {
+      "show_number": "1853",
+      "air_date": "Wednesday, September 30, 1992",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_1853.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: honduras, central america, crop"
+    }
+  },
+  {
+    "id": "j-1879-9c2bb211a7f94580",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LATIN AMERICA",
+    "question": "The Humboldt Current keeps the temperatures in this Peruvian capital pleasant",
+    "answer": "Lima",
+    "aliases": [],
+    "source": {
+      "show_number": "1879",
+      "air_date": "Thursday, November 5, 1992",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1879.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-1963-95d91f9c01d82ca4",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MUSEUMS",
+    "question": "This Malibu, California museum, named for its oil magnate founder, is the world's richest",
+    "answer": "the Getty Museum",
+    "aliases": [],
+    "source": {
+      "show_number": "1963",
+      "air_date": "Wednesday, March 3, 1993",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_1963.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from california, oil"
+    }
+  },
+  {
+    "id": "j-1971-d4b002e9c2d6151b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD GEOGRAPHY",
+    "question": "The chief source of revenue from this Chilean desert is copper mining",
+    "answer": "the Atacama Desert",
+    "aliases": [],
+    "source": {
+      "show_number": "1971",
+      "air_date": "Monday, March 15, 1993",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_1971.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.88,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-1975-4f3d641f3be6ef15",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD FACTS",
+    "question": "In Venezuela aluminum ranks second only to this as the most valuable export",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "1975",
+      "air_date": "Friday, March 19, 1993",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_1975.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from venezuela, oil"
+    }
+  },
+  {
+    "id": "j-1991-d4a20cf68a28c5f1",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE CARIBBEAN",
+    "question": "About half of Barbados' farmland is devoted to this crop, its chief agricultural product",
+    "answer": "sugarcane",
+    "aliases": [],
+    "source": {
+      "show_number": "1991",
+      "air_date": "Monday, April 12, 1993",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_1991.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: caribbean, barbados, crop"
+    }
+  },
+  {
+    "id": "j-1996-2313297865b42aea",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "18th CENTURY AMERICA",
+    "question": "This crop used to make tafia, a type of rum, was first grown in America in 1751",
+    "answer": "sugar cane",
+    "aliases": [],
+    "source": {
+      "show_number": "1996",
+      "air_date": "Monday, April 19, 1993",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_1996.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2058-d7627069da9f935e",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL PARKS",
+    "question": "This Arizona forest features the world's largest concentration of fossilized trees",
+    "answer": "Petrified Forest",
+    "aliases": [],
+    "source": {
+      "show_number": "2058",
+      "air_date": "Wednesday, July 14, 1993",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_2058.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.87,
+      "reason": "Geographic terms: arizona, forest, largest"
+    }
+  },
+  {
+    "id": "j-2060-a22ac72ddf130529",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL FORESTS",
+    "question": "This symbol of fire prevention was found in New Mexico's Lincoln National Forest",
+    "answer": "Smokey the Bear",
+    "aliases": [],
+    "source": {
+      "show_number": "2060",
+      "air_date": "Friday, July 16, 1993",
+      "round": "J",
+      "value": "$300",
+      "file": "show_2060.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from mexico, new mexico, forest"
+    }
+  },
+  {
+    "id": "j-2085-43fd11c1832ec5bc",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE WEST INDIES",
+    "question": "In the mid-1600s plantation owners in Barbados switched from tobacco to this more profitable crop",
+    "answer": "sugar (sugarcane)",
+    "aliases": [],
+    "source": {
+      "show_number": "2085",
+      "air_date": "Friday, October 1, 1993",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_2085.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from barbados, crop"
+    }
+  },
+  {
+    "id": "j-2086-a3a304beace47934",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL PARKS",
+    "question": "This park encompasses the southernmost land on the U.S. mainland",
+    "answer": "Everglades",
+    "aliases": [],
+    "source": {
+      "show_number": "2086",
+      "air_date": "Monday, October 4, 1993",
+      "round": "J",
+      "value": "DD: $1,500",
+      "file": "show_2086.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2093-78f00792055771c3",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD FACTS",
+    "question": "More than 2/3 of Argentines live on this fertile plain that covers about 1/5 of the country",
+    "answer": "the Pampas",
+    "aliases": [],
+    "source": {
+      "show_number": "2093",
+      "air_date": "Wednesday, October 13, 1993",
+      "round": "J",
+      "value": "$100",
+      "file": "show_2093.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2100-b4cc92ffa44561f5",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SOUTH AMERICAN CITIES",
+    "question": "Sao Paulo grew in the 19th century after it was found that its soil was perfect for growing this",
+    "answer": "coffee",
+    "aliases": [],
+    "source": {
+      "show_number": "2100",
+      "air_date": "Friday, October 22, 1993",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_2100.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2186-0fe11f286a8c4653",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TRAVEL & TOURISM",
+    "question": "El Yunque in this commonwealth is the only tropical rain forest within the U.S. Forest Service",
+    "answer": "Puerto Rico",
+    "aliases": [],
+    "source": {
+      "show_number": "2186",
+      "air_date": "Monday, February 21, 1994",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_2186.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from puerto rico, forest"
+    }
+  },
+  {
+    "id": "j-2254-bc8b332ca670793a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ANIMAL EVENTS",
+    "question": "Capitan, New Mexico holds an annual \"Stampede\" named for this forest fire survivor who was found nearby",
+    "answer": "Smokey Bear",
+    "aliases": [],
+    "source": {
+      "show_number": "2254",
+      "air_date": "Thursday, May 26, 1994",
+      "round": "J",
+      "value": "$400",
+      "file": "show_2254.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from mexico, new mexico, forest"
+    }
+  },
+  {
+    "id": "j-2573-d60f3ee48739e033",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "U.S. GEOGRAPHY",
+    "question": "Virtually no trees grow in this 1100-mile-long Alaskan island chain, but there are grasses & flowering plants",
+    "answer": "the Aleutians",
+    "aliases": [],
+    "source": {
+      "show_number": "2573",
+      "air_date": "Wednesday, November 8, 1995",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_2573.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2586-eccdd1d02b4475f1",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ISLANDS",
+    "question": "Noted for their wildlife, these islands are also known as the Archipielago de Colon",
+    "answer": "the Galapagos",
+    "aliases": [],
+    "source": {
+      "show_number": "2586",
+      "air_date": "Monday, November 27, 1995",
+      "round": "J",
+      "value": "DD: $300",
+      "file": "show_2586.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: galapagos, wildlife"
+    }
+  },
+  {
+    "id": "j-2632-818a8b1c4e1d5762",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL PARKS",
+    "question": "The Hall of Mosses Trail lies in the Hoh Rain Forest of this Pacific Northwest park",
+    "answer": "Olympic National Park",
+    "aliases": [],
+    "source": {
+      "show_number": "2632",
+      "air_date": "Tuesday, January 30, 1996",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_2632.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2679-1ba59d1c276d638a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL PARKS OF THE WORLD",
+    "question": "Argentina & Brazil have national parks to preserve the wildlife & beauty of these extensive waterfalls",
+    "answer": "Iguazu Falls",
+    "aliases": [],
+    "source": {
+      "show_number": "2679",
+      "air_date": "Thursday, April 4, 1996",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_2679.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: argentina, brazil, wildlife"
+    }
+  },
+  {
+    "id": "j-2682-f462103e3c78c79f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DESERTS",
+    "question": "This Chilean desert's main source of revenue is copper mining",
+    "answer": "the Atacama",
+    "aliases": [],
+    "source": {
+      "show_number": "2682",
+      "air_date": "Tuesday, April 9, 1996",
+      "round": "DJ",
+      "value": "$1000",
+      "file": "show_2682.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2700-49577b7564019eba",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD GEOGRAPHY",
+    "question": "The 3 continents crossed by the Tropic of Capricorn",
+    "answer": "South America, Africa & Australia",
+    "aliases": [],
+    "source": {
+      "show_number": "2700",
+      "air_date": "Friday, May 3, 1996",
+      "round": "J",
+      "value": "$300",
+      "file": "show_2700.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2714-08cfbae58f7c9c07",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "PERU",
+    "question": "The Peru Current, also called this, is responsible for the nation's unusual coastal climate",
+    "answer": "the Humboldt Current",
+    "aliases": [],
+    "source": {
+      "show_number": "2714",
+      "air_date": "Thursday, May 23, 1996",
+      "round": "DJ",
+      "value": "DD: $1,000",
+      "file": "show_2714.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.87,
+      "reason": "Geographic terms: peru, current, climate, climate, nation"
+    }
+  },
+  {
+    "id": "j-2763-1304bfa33cff4ef0",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE USA",
+    "question": "This structure is the greatest single source of water power in the U.S.",
+    "answer": "the Grand Coulee Dam",
+    "aliases": [],
+    "source": {
+      "show_number": "2763",
+      "air_date": "Wednesday, September 11, 1996",
+      "round": "FJ",
+      "value": "None",
+      "file": "show_2763.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2770-3692d3fa1cc4d4f8",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "\"GREAT\" GEOGRAPHY",
+    "question": "Lewis & Clark National Forest is headquartered in this west central Montana city",
+    "answer": "Great Falls",
+    "aliases": [],
+    "source": {
+      "show_number": "2770",
+      "air_date": "Friday, September 20, 1996",
+      "round": "J",
+      "value": "$200",
+      "file": "show_2770.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: montana, forest, geography, city"
+    }
+  },
+  {
+    "id": "j-2825-4db400c0f814c351",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD FACTS",
+    "question": "A humid city, Rio de Janeiro lies just north of this tropic line",
+    "answer": "the Tropic of Capricorn",
+    "aliases": [],
+    "source": {
+      "show_number": "2825",
+      "air_date": "Friday, December 6, 1996",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_2825.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-2970-636a25a5c9950d2b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "The fossilized trees in this Arizona site date back to the Triassic period",
+    "answer": "Petrified Forest",
+    "aliases": [],
+    "source": {
+      "show_number": "2970",
+      "air_date": "Friday, June 27, 1997",
+      "round": "J",
+      "value": "$200",
+      "file": "show_2970.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from arizona, forest"
+    }
+  },
+  {
+    "id": "j-2991-f5b5ccb8b6db6e3f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TRIBES",
+    "question": "The Chinook religion was based around this fish's annual run",
+    "answer": "salmon",
+    "aliases": [],
+    "source": {
+      "show_number": "2991",
+      "air_date": "Monday, September 8, 1997",
+      "round": "J",
+      "value": "$300",
+      "file": "show_2991.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.82,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3124-6c64c9d07c0763e9",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EVERYBODY TALKS ABOUT IT...",
+    "question": "Talk about dry! In 1971, after 400 years, parts of this Chilean desert finally got some rain",
+    "answer": "the Atacama Desert",
+    "aliases": [],
+    "source": {
+      "show_number": "3124",
+      "air_date": "Thursday, March 12, 1998",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_3124.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3221-c499ad1dc93df603",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IT'S A BREEZE",
+    "question": "Also called the snow eater, this strong Rocky Mountain wind shares its name with a type of salmon",
+    "answer": "Chinook",
+    "aliases": [],
+    "source": {
+      "show_number": "3221",
+      "air_date": "Monday, September 14, 1998",
+      "round": "J",
+      "value": "$400",
+      "file": "show_3221.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-329-4691d33f52f16b03",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "VIRGIN ISLANDS",
+    "question": "October holiday which celebrates end of the hurricane season, not the Plymouth Pilgrims",
+    "answer": "Thanksgiving",
+    "aliases": [],
+    "source": {
+      "show_number": "329",
+      "air_date": "Thursday, December 12, 1985",
+      "round": "J",
+      "value": "$200",
+      "file": "show_329.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3517-3fd4084e824e7618",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "4-LETTER CAPITALS",
+    "question": "Just 12 degrees south of the Equator, this Peruvian capital's temperatures are moderated by the Humboldt Current",
+    "answer": "Lima",
+    "aliases": [],
+    "source": {
+      "show_number": "3517",
+      "air_date": "Tuesday, December 14, 1999",
+      "round": "J",
+      "value": "$200",
+      "file": "show_3517.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3533-7d3b57c5bf771f46",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HAVE A (COUNTY) SEAT",
+    "question": "This seat of Chaves County, New Mexico is known for the 1947 crash of a weather balloon -- or something",
+    "answer": "Roswell",
+    "aliases": [],
+    "source": {
+      "show_number": "3533",
+      "air_date": "Wednesday, January 5, 2000",
+      "round": "J",
+      "value": "DD: $1,000",
+      "file": "show_3533.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from mexico, new mexico, weather"
+    }
+  },
+  {
+    "id": "j-356-87c3f3bc24851543",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MEXICO",
+    "question": "Most widely grown crop in Mexico",
+    "answer": "corn (or maize)",
+    "aliases": [],
+    "source": {
+      "show_number": "356",
+      "air_date": "Monday, January 20, 1986",
+      "round": "J",
+      "value": "$100",
+      "file": "show_356.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from mexico, crop"
+    }
+  },
+  {
+    "id": "j-3603-ef0b123f96c785f4",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CONTINENTS BY DESERT",
+    "question": "Sonoran, Chihuahuan",
+    "answer": "North America",
+    "aliases": [],
+    "source": {
+      "show_number": "3603",
+      "air_date": "Wednesday, April 12, 2000",
+      "round": "J",
+      "value": "$100",
+      "file": "show_3603.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-3608-a14685be5e18f043",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ISLANDS OF THE ATLANTIC",
+    "question": "In 1998 oil drilling operations began in the waters off these islands claimed by Argentina & Great Britain",
+    "answer": "Falkland/Malvinas Islands",
+    "aliases": [],
+    "source": {
+      "show_number": "3608",
+      "air_date": "Wednesday, April 19, 2000",
+      "round": "J",
+      "value": "$100",
+      "file": "show_3608.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: argentina, oil"
+    }
+  },
+  {
+    "id": "j-3664-310662ce92fe2fa2",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CAPITAL",
+    "question": "Rainfall is rare in this capital of Peru",
+    "answer": "Lima",
+    "aliases": [],
+    "source": {
+      "show_number": "3664",
+      "air_date": "Thursday, July 6, 2000",
+      "round": "J",
+      "value": "$100",
+      "file": "show_3664.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from peru, rainfall"
+    }
+  },
+  {
+    "id": "j-3673-32fc0797bee3a0fb",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ALASKA",
+    "question": "4 different species of bears live in Alaska: Kodiak, grizzly, black & this",
+    "answer": "polar bears",
+    "aliases": [],
+    "source": {
+      "show_number": "3673",
+      "air_date": "Wednesday, July 19, 2000",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_3673.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from alaska, species"
+    }
+  },
+  {
+    "id": "j-369-eea9435f5ce1e036",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BRAZIL",
+    "question": "1985 film set in Brazil that featured the fierce people, the invisible people, & the bat people",
+    "answer": "The Emerald Forest",
+    "aliases": [],
+    "source": {
+      "show_number": "369",
+      "air_date": "Thursday, February 6, 1986",
+      "round": "J",
+      "value": "$500",
+      "file": "show_369.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from brazil, forest"
+    }
+  },
+  {
+    "id": "j-3862-27faf9d1cbca2e39",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "I DON'T GIVE A DAM",
+    "question": "The Grand Coulee Dam's reservoir, Roosevelt Lake in this state stretches 150 mi. toward Canada's border",
+    "answer": "Washington",
+    "aliases": [],
+    "source": {
+      "show_number": "3862",
+      "air_date": "Tuesday, May 22, 2001",
+      "round": "J",
+      "value": "$200",
+      "file": "show_3862.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4236-71db91b33cc2a12d",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "RIVERS",
+    "question": "The forest around it is called the \"Lungs of the World\" because it supplies so much of the Earth's oxygen",
+    "answer": "Amazon",
+    "aliases": [],
+    "source": {
+      "show_number": "4236",
+      "air_date": "Monday, January 20, 2003",
+      "round": "DJ",
+      "value": "DD: $2,000",
+      "file": "show_4236.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: amazon, forest"
+    }
+  },
+  {
+    "id": "j-4280-ac9c2e4bf26e7304",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WYOMING",
+    "question": "Carbon County really digs this solid fuel, really",
+    "answer": "coal",
+    "aliases": [],
+    "source": {
+      "show_number": "4280",
+      "air_date": "Friday, March 21, 2003",
+      "round": "J",
+      "value": "$600",
+      "file": "show_4280.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from wyoming, coal"
+    }
+  },
+  {
+    "id": "j-433-13a724fed8974601",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "\"C\" CITIES",
+    "question": "The historic Teapot Dome is among the oil fields surrounding this Wyoming city",
+    "answer": "Casper",
+    "aliases": [],
+    "source": {
+      "show_number": "433",
+      "air_date": "Wednesday, May 7, 1986",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_433.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: wyoming, oil, cities, city"
+    }
+  },
+  {
+    "id": "j-4348-65e6cc5fbabaeafe",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "COUNTRIES' NO. 1 EXPORTS",
+    "question": "From Guatemala, this crop, also an ice cream flavor",
+    "answer": "coffee",
+    "aliases": [],
+    "source": {
+      "show_number": "4348",
+      "air_date": "Wednesday, June 25, 2003",
+      "round": "J",
+      "value": "$600",
+      "file": "show_4348.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.87,
+      "reason": "Geographic terms: guatemala, crop, countries"
+    }
+  },
+  {
+    "id": "j-4406-669764c0257a2aae",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ALASKA",
+    "question": "Before it was Alaska's capital, Juneau developed around the discovery of this resource",
+    "answer": "Gold",
+    "aliases": [],
+    "source": {
+      "show_number": "4406",
+      "air_date": "Monday, November 3, 2003",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_4406.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from alaska, resource"
+    }
+  },
+  {
+    "id": "j-455-6e4a1ea61cbc8d2d",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WASHINGTON D.C.",
+    "question": "It's said walking out into this season's humid weather in D.C. is like \"stepping into the breath of a large dog\"",
+    "answer": "summer",
+    "aliases": [],
+    "source": {
+      "show_number": "455",
+      "air_date": "Friday, June 6, 1986",
+      "round": "J",
+      "value": "$100",
+      "file": "show_455.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from washington, weather"
+    }
+  },
+  {
+    "id": "j-4588-68df6bd447c591a2",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL PARKS",
+    "question": "4 parks are outside the continental U.S.: 2 in Hawaii, 1 in American Samoa & 1 here featuring Carib Indian relics",
+    "answer": "the U.S. Virgin Islands",
+    "aliases": [],
+    "source": {
+      "show_number": "4588",
+      "air_date": "Wednesday, July 14, 2004",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_4588.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4627-21a345c70d42f59f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "YELLOWSTONE NATIONAL PARK",
+    "question": "( All four Clue Crew members listen to an animal howl as they sit around the campfire at dusk in Yellowstone National Park. Sarah reads. ) You can hear the call of this animal which was re-introduced to Yellowstone in the 1990s",
+    "answer": "a wolf",
+    "aliases": [],
+    "source": {
+      "show_number": "4627",
+      "air_date": "Tuesday, October 19, 2004",
+      "round": "J",
+      "value": "$400",
+      "file": "show_4627.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4673-53a226a4188265f2",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL FORESTS",
+    "question": "In 1950 this animal that became the symbol of forest fire prevention was found in New Mexico's Lincoln National Forest",
+    "answer": "Smokey the Bear",
+    "aliases": [],
+    "source": {
+      "show_number": "4673",
+      "air_date": "Wednesday, December 22, 2004",
+      "round": "J",
+      "value": "$400",
+      "file": "show_4673.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from mexico, new mexico, forest"
+    }
+  },
+  {
+    "id": "j-4755-cc6fc5ea10578396",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HAVE YOU HERD?",
+    "question": "Herds of this antelope lookalike, the only member of its family, once ranged from Canada to Mexico",
+    "answer": "pronghorns",
+    "aliases": [],
+    "source": {
+      "show_number": "4755",
+      "air_date": "Friday, April 15, 2005",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_4755.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-4876-81f7a9515c4dbe47",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WELCOME TO WYOMING",
+    "question": "The scandalous Teapot Dome is part of the area that got Casper into this business in the 1890s",
+    "answer": "the oil business",
+    "aliases": [],
+    "source": {
+      "show_number": "4876",
+      "air_date": "Monday, November 21, 2005",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_4876.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from wyoming, oil"
+    }
+  },
+  {
+    "id": "j-495-96ce3f279c24a2e8",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ANCIENT AMERICA",
+    "question": "As far back as 5000 B.C., this was the most important crop grown in what is now Mexico",
+    "answer": "maize (corn)",
+    "aliases": [],
+    "source": {
+      "show_number": "495",
+      "air_date": "Friday, October 31, 1986",
+      "round": "J",
+      "value": "$300",
+      "file": "show_495.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: mexico, crop"
+    }
+  },
+  {
+    "id": "j-4970-a35304877ccbbbcf",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NV",
+    "question": "This current leader in the Senate became the youngest lt. governor in Nevada history at the age of 30",
+    "answer": "Harry Reid",
+    "aliases": [],
+    "source": {
+      "show_number": "4970",
+      "air_date": "Friday, March 31, 2006",
+      "round": "J",
+      "value": "DD: $1,000",
+      "file": "show_4970.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from nevada, current"
+    }
+  },
+  {
+    "id": "j-5162-bdb3e0de7ae11603",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IDENTIFY THE CONTINENT",
+    "question": "It has the world's largest tropical rain forest",
+    "answer": "South America",
+    "aliases": [],
+    "source": {
+      "show_number": "5162",
+      "air_date": "Tuesday, February 6, 2007",
+      "round": "J",
+      "value": "$800",
+      "file": "show_5162.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: south america, forest, continent, largest"
+    }
+  },
+  {
+    "id": "j-5192-49fe80186a63d09a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "In 1891 this Natl. Park's Timberland Reserve was established in Wyoming as the USA's first Natl. Forest",
+    "answer": "Yellowstone",
+    "aliases": [],
+    "source": {
+      "show_number": "5192",
+      "air_date": "Tuesday, March 20, 2007",
+      "round": "J",
+      "value": "$800",
+      "file": "show_5192.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from wyoming, forest"
+    }
+  },
+  {
+    "id": "j-5307-b6753f4d134a4151",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CHRISTOPHER COLUMBUS",
+    "question": "One of the only 2 current U.S. territories visited by Columbus, who reached both in 1493",
+    "answer": "Puerto Rico (or the Virgin Islands)",
+    "aliases": [],
+    "source": {
+      "show_number": "5307",
+      "air_date": "Tuesday, October 9, 2007",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_5307.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from puerto rico, current"
+    }
+  },
+  {
+    "id": "j-5345-4a3eac079ed9ea28",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WESTWARD EXPANSION OF THE U.S.",
+    "question": "This 1862 act gave 160 acres of free land to anyone who had lived on it & improved it for 5 years",
+    "answer": "the Homestead Act",
+    "aliases": [],
+    "source": {
+      "show_number": "5345",
+      "air_date": "Friday, November 30, 2007",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_5345.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5416-06f88c07d5c19fa5",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HOW'S THE WEATHER?",
+    "question": "High clouds may bring this type of damaging precipitation, especially to the \"alley\" for it in the Rockies",
+    "answer": "hail",
+    "aliases": [],
+    "source": {
+      "show_number": "5416",
+      "air_date": "Monday, March 10, 2008",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_5416.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5432-d46415fe28e841a2",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "COLD",
+    "question": "Of 12°, -12° or -112° F., the lowest-ever recorded temperature in Hawaii, back in 1979",
+    "answer": "12 degrees",
+    "aliases": [],
+    "source": {
+      "show_number": "5432",
+      "air_date": "Tuesday, April 1, 2008",
+      "round": "J",
+      "value": "$200",
+      "file": "show_5432.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from hawaii, temperature"
+    }
+  },
+  {
+    "id": "j-5469-fa03f1f05c9fedca",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "POTPOURRI AROUND THE WORLD",
+    "question": "The Virgin Islands celebrate Thanksgiving in October to give thanks to the end of this weather \"season\"",
+    "answer": "hurricane season",
+    "aliases": [],
+    "source": {
+      "show_number": "5469",
+      "air_date": "Thursday, May 22, 2008",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_5469.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5483-e8e02e73d4d8e351",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE CONTINENT...",
+    "question": "...that has the largest rain forest area in the world",
+    "answer": "South America",
+    "aliases": [],
+    "source": {
+      "show_number": "5483",
+      "air_date": "Wednesday, June 11, 2008",
+      "round": "J",
+      "value": "$600",
+      "file": "show_5483.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: south america, forest, continent, largest"
+    }
+  },
+  {
+    "id": "j-5500-878461aedf69f1db",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "\"SAG\"",
+    "question": "Giant succulent of the American Southwest",
+    "answer": "the saguaro cactus",
+    "aliases": [],
+    "source": {
+      "show_number": "5500",
+      "air_date": "Friday, July 4, 2008",
+      "round": "J",
+      "value": "$800",
+      "file": "show_5500.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.65,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5511-4772eedcea907a46",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "JUNEAU",
+    "question": "The annual fishing derby for this fish features one tagged specimen worth $100,000",
+    "answer": "salmon",
+    "aliases": [],
+    "source": {
+      "show_number": "5511",
+      "air_date": "Monday, July 21, 2008",
+      "round": "DJ",
+      "value": "DD: $12,000",
+      "file": "show_5511.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5511-a6807a8b7bce8953",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "JUNEAU",
+    "question": "More than 40% of Juneau consists of this type of woodland area more often associated with the Amazon",
+    "answer": "the rainforest",
+    "aliases": [],
+    "source": {
+      "show_number": "5511",
+      "air_date": "Monday, July 21, 2008",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_5511.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from amazon, rainforest"
+    }
+  },
+  {
+    "id": "j-5627-44ac7b5666fb655b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HAWAII",
+    "question": "These winds don't bring coffee, they bring warm & muggy weather to the islands",
+    "answer": "the Kona winds",
+    "aliases": [],
+    "source": {
+      "show_number": "5627",
+      "air_date": "Tuesday, February 10, 2009",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_5627.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from hawaii, weather"
+    }
+  },
+  {
+    "id": "j-5805-189375fd89fb0ae1",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "Established in 1891 as the USA's first national forest, Shoshone National Forest lies in Wyoming adjacent to this natl. park",
+    "answer": "Yellowstone",
+    "aliases": [],
+    "source": {
+      "show_number": "5805",
+      "air_date": "Friday, December 4, 2009",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_5805.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from wyoming, forest"
+    }
+  },
+  {
+    "id": "j-5808-372864d00843bdd1",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GALAPAGOS WILDLIFE",
+    "question": "( Alex reports from the Galapagos Islands, Ecuador. ) The keel of the breastbone, where strong wing muscles would attach, is reduced on the flightless one of these; with no predators, in an isolated environment, it has become earthbound",
+    "answer": "the cormorant",
+    "aliases": [],
+    "source": {
+      "show_number": "5808",
+      "air_date": "Wednesday, December 9, 2009",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_5808.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from galapagos, ecuador, wildlife, environment"
+    }
+  },
+  {
+    "id": "j-5808-3f68031b00539ed2",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GALAPAGOS WILDLIFE",
+    "question": "( Alex reports from the Galapagos Islands, Ecuador. ) Contending with cold water & hot land, the Galapagos penguin is the only species to occur north of this line, the midpoint of the Tropics",
+    "answer": "the equator",
+    "aliases": [],
+    "source": {
+      "show_number": "5808",
+      "air_date": "Wednesday, December 9, 2009",
+      "round": "DJ",
+      "value": "DD: $4,000",
+      "file": "show_5808.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from galapagos, ecuador, wildlife, species"
+    }
+  },
+  {
+    "id": "j-5808-b2691d7febea1e66",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GALAPAGOS WILDLIFE",
+    "question": "( Alex reports from the Galapagos Islands, Ecuador. ) One of three varieties found in the Galapagos, the blue-footed type of this bird really stands out against the drab rocks",
+    "answer": "booby",
+    "aliases": [],
+    "source": {
+      "show_number": "5808",
+      "air_date": "Wednesday, December 9, 2009",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_5808.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from galapagos, ecuador, wildlife"
+    }
+  },
+  {
+    "id": "j-5857-a2df4bbae94aeffa",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ALASKA",
+    "question": "Northeast Alaska is dominated by ANWR, short for the Arctic this, which covers 19 million acres",
+    "answer": "the National Wildlife Refuge",
+    "aliases": [],
+    "source": {
+      "show_number": "5857",
+      "air_date": "Tuesday, February 16, 2010",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_5857.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from alaska, wildlife"
+    }
+  },
+  {
+    "id": "j-5861-b9ca924ecdf67611",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "\"NORTH\"ERN GEOGRAPHY",
+    "question": "In 1968 vast oil reserves were found in this Alaskan coastal region between the Arctic Ocean & Brooks Range",
+    "answer": "the North Slope",
+    "aliases": [],
+    "source": {
+      "show_number": "5861",
+      "air_date": "Monday, February 22, 2010",
+      "round": "J",
+      "value": "$800",
+      "file": "show_5861.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5879-670063d79ab1877c",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE CONTINENT WHERE YOU'LL FIND...",
+    "question": "The Sonoran Desert",
+    "answer": "North America",
+    "aliases": [],
+    "source": {
+      "show_number": "5879",
+      "air_date": "Thursday, March 18, 2010",
+      "round": "J",
+      "value": "$200",
+      "file": "show_5879.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5908-988e452fd7ef31e4",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE COUGAR",
+    "question": "The cougar's range overlaps with that of this slightly larger central & South American cousin",
+    "answer": "the jaguar",
+    "aliases": [],
+    "source": {
+      "show_number": "5908",
+      "air_date": "Wednesday, April 28, 2010",
+      "round": "J",
+      "value": "$600",
+      "file": "show_5908.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.77,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5947-25b8e32537f11782",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WE GOTTA GO NOW",
+    "question": "Climate change & deforestation are threats to Monteverde Cloud Forest Preserve in this Central American nation",
+    "answer": "Costa Rica",
+    "aliases": [],
+    "source": {
+      "show_number": "5947",
+      "air_date": "Tuesday, June 22, 2010",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_5947.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: costa rica, forest, climate, climate, nation"
+    }
+  },
+  {
+    "id": "j-5958-3dbc31ed6c966273",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL GEOGRAPHIC KIDS",
+    "question": "The photo here was taken in a national park; the distinctive trees are named for this biblical man",
+    "answer": "Joshua",
+    "aliases": [],
+    "source": {
+      "show_number": "5958",
+      "air_date": "Wednesday, July 7, 2010",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_5958.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-5965-0296868cc7d22888",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE WEST INDIES",
+    "question": "The West Indies' leading crop, it was introduced to the region in 1506 in Santo Domingo",
+    "answer": "sugar",
+    "aliases": [],
+    "source": {
+      "show_number": "5965",
+      "air_date": "Friday, July 16, 2010",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_5965.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6192-175a041bc9e44d87",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL FOREST STATES",
+    "question": "Olympic National Forest",
+    "answer": "Washington",
+    "aliases": [],
+    "source": {
+      "show_number": "6192",
+      "air_date": "Tuesday, July 12, 2011",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_6192.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: washington, forest"
+    }
+  },
+  {
+    "id": "j-6192-689e762c5b7bee9c",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL FOREST STATES",
+    "question": "Prescott National Forest",
+    "answer": "Arizona",
+    "aliases": [],
+    "source": {
+      "show_number": "6192",
+      "air_date": "Tuesday, July 12, 2011",
+      "round": "J",
+      "value": "$800",
+      "file": "show_6192.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: arizona, forest"
+    }
+  },
+  {
+    "id": "j-6192-f579347d2b66f26a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATIONAL FOREST STATES",
+    "question": "Pike National Forest",
+    "answer": "Colorado",
+    "aliases": [],
+    "source": {
+      "show_number": "6192",
+      "air_date": "Tuesday, July 12, 2011",
+      "round": "J",
+      "value": "$600",
+      "file": "show_6192.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: colorado, forest"
+    }
+  },
+  {
+    "id": "j-6313-752b1ee00de977bd",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE AMAZON",
+    "question": "With 80\" a year, Sena Madureira in the Amazon basin has lots of the \"rain\" typical of this ecosystem",
+    "answer": "a rain forest",
+    "aliases": [],
+    "source": {
+      "show_number": "6313",
+      "air_date": "Wednesday, February 15, 2012",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_6313.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from amazon, ecosystem, forest"
+    }
+  },
+  {
+    "id": "j-6313-b6b57e64377c047b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE AMAZON",
+    "question": "Similar to hemp, an important Amazon crop is this plant illustrated here , whose fibers are spun into gunny sacks",
+    "answer": "jute",
+    "aliases": [],
+    "source": {
+      "show_number": "6313",
+      "air_date": "Wednesday, February 15, 2012",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_6313.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from amazon, crop"
+    }
+  },
+  {
+    "id": "j-6425-7e449961e71eadc0",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "The world's largest tropical rain forest, it covers parts of 6 countries, including Brazil & Peru",
+    "answer": "the Amazon forest",
+    "aliases": [],
+    "source": {
+      "show_number": "6425",
+      "air_date": "Friday, July 20, 2012",
+      "round": "J",
+      "value": "$200",
+      "file": "show_6425.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: amazon, brazil, peru, forest, countries"
+    }
+  },
+  {
+    "id": "j-6428-1becef1ac3772454",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FLORA OF CENTRAL AMERICA",
+    "question": "( Sarah of the Clue Crew reports from Barro Colorado Reserve in Panama. ) Some species of tropical fig start as a seed that lands atop another tree; the fig sends its roots downward, enveloping & choking the host tree, giving the fig this deadly name",
+    "answer": "a strangler fig",
+    "aliases": [],
+    "source": {
+      "show_number": "6428",
+      "air_date": "Wednesday, July 25, 2012",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_6428.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: panama, colorado, central america, species"
+    }
+  },
+  {
+    "id": "j-6431-6855301271870d76",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NATURAL DISASTERS",
+    "question": "Storms known as cyclones or typhoons in the Pacific are called these when they form in the Atlantic",
+    "answer": "hurricanes",
+    "aliases": [],
+    "source": {
+      "show_number": "6431",
+      "air_date": "Monday, July 30, 2012",
+      "round": "J",
+      "value": "$400",
+      "file": "show_6431.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.65,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6542-dd4439596d1bec03",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE WEATHER & GEOGRAPHY REPORT",
+    "question": "Want variety? Over two days in 1916 the temperature in Browning , in this state, went from 44 to -56 degrees",
+    "answer": "Montana",
+    "aliases": [],
+    "source": {
+      "show_number": "6542",
+      "air_date": "Tuesday, February 12, 2013",
+      "round": "J",
+      "value": "$400",
+      "file": "show_6542.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: montana, weather, temperature, state, geography"
+    }
+  },
+  {
+    "id": "j-6558-306dabede6ead85f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ALASKAN WILDLIFE",
+    "question": "( Sarah of the Clue Crew goes whale watching at Wachusett Cove in Alaska. ) Humpbacks uniquely hunt using what's called a bubble net; the whales release a circle of bubbles under a school of fish, & as the air rises, a net forms, trapping the fish; the whales then swim up the net with open mouths, filtering food through these jawlike plates",
+    "answer": "baleen",
+    "aliases": [],
+    "source": {
+      "show_number": "6558",
+      "air_date": "Wednesday, March 6, 2013",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_6558.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from alaska, wildlife"
+    }
+  },
+  {
+    "id": "j-6582-beb3f52733ca994f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MEXICAN HISTORY",
+    "question": "The serendipitous sighting of seepage helped Weetman Pearson become the pioneer of this industry in Mexico",
+    "answer": "oil",
+    "aliases": [],
+    "source": {
+      "show_number": "6582",
+      "air_date": "Tuesday, April 9, 2013",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_6582.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from mexico, mexican, oil"
+    }
+  },
+  {
+    "id": "j-6584-d8cf7d995840aaaf",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "A PLACE IN THE SUN",
+    "question": "There's a 71% chance of sun in this city's neighborhoods, like Makiki & Waikiki",
+    "answer": "Honolulu",
+    "aliases": [],
+    "source": {
+      "show_number": "6584",
+      "air_date": "Thursday, April 11, 2013",
+      "round": "J",
+      "value": "$200",
+      "file": "show_6584.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.88,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6584-f924e69a6aca9a2a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "A PLACE IN THE SUN",
+    "question": "Almost all your days will be sunny in San Pedro de this Chilean desert",
+    "answer": "Atacama",
+    "aliases": [],
+    "source": {
+      "show_number": "6584",
+      "air_date": "Thursday, April 11, 2013",
+      "round": "J",
+      "value": "$400",
+      "file": "show_6584.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6600-39bd9a385126bffc",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CALIFORNIA",
+    "question": "From 1934 to 1938 Al Capone enjoyed the California weather & lifestyle at this location",
+    "answer": "Alcatraz",
+    "aliases": [],
+    "source": {
+      "show_number": "6600",
+      "air_date": "Friday, May 3, 2013",
+      "round": "J",
+      "value": "$800",
+      "file": "show_6600.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from california, weather"
+    }
+  },
+  {
+    "id": "j-6645-17d0451dee20405d",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BRAZILIAN GEOGRAPHY",
+    "question": "The selva is this vast, ecologically important area where it sounds like you'll need your umbrella",
+    "answer": "the rainforest",
+    "aliases": [],
+    "source": {
+      "show_number": "6645",
+      "air_date": "Friday, July 5, 2013",
+      "round": "J",
+      "value": "$400",
+      "file": "show_6645.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6689-b064993e445158b9",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "U.S. GOVERNORS",
+    "question": "Seen here , she's the current governor of Arizona",
+    "answer": "Jan Brewer",
+    "aliases": [],
+    "source": {
+      "show_number": "6689",
+      "air_date": "Thursday, October 17, 2013",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_6689.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from arizona, current"
+    }
+  },
+  {
+    "id": "j-6765-c912ee0a9cc93d1e",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IN THE NATIONAL PARK",
+    "question": "Deer Key, Crocodile Point",
+    "answer": "Everglades",
+    "aliases": [],
+    "source": {
+      "show_number": "6765",
+      "air_date": "Friday, January 31, 2014",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_6765.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6872-2fb839c4a30ae767",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "\"P\"LACES",
+    "question": "North America's largest oil field lies in the area surrounding this Alaskan bay",
+    "answer": "Prudhoe Bay",
+    "aliases": [],
+    "source": {
+      "show_number": "6872",
+      "air_date": "Tuesday, July 1, 2014",
+      "round": "DJ",
+      "value": "DD: $5,000",
+      "file": "show_6872.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6882-078d26875446005a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "YELLOWSTONE NATIONAL PARK",
+    "question": "These largest North American land mammals seem mellow but cause more injuries to humans in the park than bears do",
+    "answer": "bison",
+    "aliases": [],
+    "source": {
+      "show_number": "6882",
+      "air_date": "Tuesday, July 15, 2014",
+      "round": "J",
+      "value": "DD: $1,400",
+      "file": "show_6882.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6882-aaf69acad9522c2b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "YELLOWSTONE NATIONAL PARK",
+    "question": "About 80% of Yellowstone is forest, & 80% of that is the lodgepole type of this tree",
+    "answer": "pine",
+    "aliases": [],
+    "source": {
+      "show_number": "6882",
+      "air_date": "Tuesday, July 15, 2014",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_6882.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6886-be389e51d72532e6",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CURRENT SENATORS' STATES",
+    "question": "California: Feinstein & her",
+    "answer": "Barbara Boxer",
+    "aliases": [],
+    "source": {
+      "show_number": "6886",
+      "air_date": "Monday, July 21, 2014",
+      "round": "J",
+      "value": "$800",
+      "file": "show_6886.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: california, current"
+    }
+  },
+  {
+    "id": "j-6886-d43c31a09a93ac6b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CURRENT SENATORS' STATES",
+    "question": "Arizona: Flake & him",
+    "answer": "John McCain",
+    "aliases": [],
+    "source": {
+      "show_number": "6886",
+      "air_date": "Monday, July 21, 2014",
+      "round": "J",
+      "value": "$200",
+      "file": "show_6886.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: arizona, current"
+    }
+  },
+  {
+    "id": "j-6900-25cfe5243d0755ca",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "YOU GOT THE MINE, I GOT THE SHAFT",
+    "question": "Wyoming's Black Thunder Mine is one of North America's largest producers of this fossil fuel",
+    "answer": "coal",
+    "aliases": [],
+    "source": {
+      "show_number": "6900",
+      "air_date": "Friday, September 19, 2014",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_6900.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from wyoming, coal"
+    }
+  },
+  {
+    "id": "j-6922-19f7f928a360603b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE FESTIVE CARIBBEAN",
+    "question": "Barbados' Crop Over Festival celebrates the harvest of this crop; of course, it's followed later by a rum fest",
+    "answer": "sugarcane",
+    "aliases": [],
+    "source": {
+      "show_number": "6922",
+      "air_date": "Tuesday, October 21, 2014",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_6922.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: caribbean, barbados, crop"
+    }
+  },
+  {
+    "id": "j-6947-61ecab5b23133173",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "PUERTO RICO",
+    "question": "Sail over the rainforest on \"The Beast\", one of the world's highest of these at 853 feet",
+    "answer": "a zip line",
+    "aliases": [],
+    "source": {
+      "show_number": "6947",
+      "air_date": "Tuesday, November 25, 2014",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_6947.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from puerto rico, rainforest"
+    }
+  },
+  {
+    "id": "j-6953-716a002addc81195",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CALIFORNIA",
+    "question": "( Sarah of the Clue Crew reports from the California Academy of Sciences in San Francisco. ) From this vantage point at the California Academy of Sciences, I completely understand why this species was the king of its prehistoric age",
+    "answer": "the T. rex ( Tyrannosaurus rex )",
+    "aliases": [],
+    "source": {
+      "show_number": "6953",
+      "air_date": "Wednesday, December 3, 2014",
+      "round": "J",
+      "value": "$400",
+      "file": "show_6953.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from california, species"
+    }
+  },
+  {
+    "id": "j-6979-99897df2e0eaf991",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD OF WATER",
+    "question": "( Kelly of the Clue Crew shows water on the monitor. ) Two distinct colors occur in the Alaskan waters when the sea water meets melting snows from glacial valleys , which are rich with this fine, 8-letter detritus",
+    "answer": "sediment",
+    "aliases": [],
+    "source": {
+      "show_number": "6979",
+      "air_date": "Thursday, January 8, 2015",
+      "round": "J",
+      "value": "$800",
+      "file": "show_6979.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-6988-eab4b139aeac6ebd",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DANGEROUS WEATHER",
+    "question": "( Sarah of the Clue Crew shows time-elapse satellite imagery of a storm on the monitor. ) On October 22, 2012, it began as a tropical depression over the Caribbean, Jamaica got it as a hurricane two days later & by October 29th, this superstorm had a 1,000-mile-wide diameter as it reached the eastern United States",
+    "answer": "Sandy",
+    "aliases": [],
+    "source": {
+      "show_number": "6988",
+      "air_date": "Wednesday, January 21, 2015",
+      "round": "J",
+      "value": "$400",
+      "file": "show_6988.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from jamaica, caribbean, weather"
+    }
+  },
+  {
+    "id": "j-7008-688857b3206648b9",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OCEANOGRAPHY",
+    "question": "Wakame, an invasive form of this brown seaweed, is threatening native species in the San Francisco Bay",
+    "answer": "kelp",
+    "aliases": [],
+    "source": {
+      "show_number": "7008",
+      "air_date": "Wednesday, February 18, 2015",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_7008.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7054-ab00a1af95247bcf",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BOLIVIA YOU ME",
+    "question": "The family of Pres. Evo Morales farmed this 4-letter crop common in Bolivia, & not for its use in cola",
+    "answer": "coca",
+    "aliases": [],
+    "source": {
+      "show_number": "7054",
+      "air_date": "Thursday, April 23, 2015",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_7054.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from bolivia, crop"
+    }
+  },
+  {
+    "id": "j-7063-42db48492c4a68e3",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CENTRAL AMERICA",
+    "question": "A rain forest area called the Darien Gap is an obstacle to the completion of this highway system of almost 30,000 miles",
+    "answer": "the Pan-American Highway",
+    "aliases": [],
+    "source": {
+      "show_number": "7063",
+      "air_date": "Wednesday, May 6, 2015",
+      "round": "J",
+      "value": "$200",
+      "file": "show_7063.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: central america, forest"
+    }
+  },
+  {
+    "id": "j-7070-7163829f923d2de9",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THAT'S SWELL",
+    "question": "With its numbers increasing, the California gray whale has been taken off this federal list",
+    "answer": "the endangered species list",
+    "aliases": [],
+    "source": {
+      "show_number": "7070",
+      "air_date": "Friday, May 15, 2015",
+      "round": "J",
+      "value": "$200",
+      "file": "show_7070.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from california, species"
+    }
+  },
+  {
+    "id": "j-7134-6b71bb5c0c3ae18f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AMERICAN LAKES",
+    "question": "In the 19th c., this 22-mile-long lake in the Sierra Nevada lost most of the forest around it, used for timber in the Comstock mines",
+    "answer": "Lake Tahoe",
+    "aliases": [],
+    "source": {
+      "show_number": "7134",
+      "air_date": "Thursday, September 24, 2015",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_7134.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.87,
+      "reason": "Geographic terms: nevada, forest, timber, lake"
+    }
+  },
+  {
+    "id": "j-7137-439e03721f91e54c",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "YOSEMITE NATIONAL PARK 125th ANNIVERSARY",
+    "question": "Larger animal life includes mule deer, black bears, mountain lions & this stocky species of sheep",
+    "answer": "bighorn",
+    "aliases": [],
+    "source": {
+      "show_number": "7137",
+      "air_date": "Tuesday, September 29, 2015",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_7137.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7137-bf7fa111ab33b19c",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "YOSEMITE NATIONAL PARK 125th ANNIVERSARY",
+    "question": "Yosemite Valley is home to groves of these giant conifers that lend their name to another national park 100 miles south",
+    "answer": "sequoias",
+    "aliases": [],
+    "source": {
+      "show_number": "7137",
+      "air_date": "Tuesday, September 29, 2015",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_7137.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7170-42ad0735e83edce0",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DESERTS",
+    "question": "In 2013 the world's largest solar energy plant went online in this desert at Ivanpah Dry Lake, Calif.",
+    "answer": "the Mojave",
+    "aliases": [],
+    "source": {
+      "show_number": "7170",
+      "air_date": "Friday, November 13, 2015",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_7170.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7207-1dd51139a514b33c",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DANGEROUS WEATHER",
+    "question": "Ones that fell in New Mexico really were the size of golf balls",
+    "answer": "hail",
+    "aliases": [],
+    "source": {
+      "show_number": "7207",
+      "air_date": "Tuesday, January 5, 2016",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_7207.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from mexico, new mexico, weather"
+    }
+  },
+  {
+    "id": "j-7270-2a460b86677ec9ab",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LITERARY LATIN AMERICA",
+    "question": "Colombian writer Jose Eustasio Rivera's 1924 novel \"The Vortex\" was set in the rubber plantations of this rain forest",
+    "answer": "the Amazon",
+    "aliases": [],
+    "source": {
+      "show_number": "7270",
+      "air_date": "Friday, April 1, 2016",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_7270.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: amazon, forest"
+    }
+  },
+  {
+    "id": "j-7274-49cb31c793a93bad",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MOVIE TITLES IN OTHER COUNTRIES",
+    "question": "To Mexican audiences, Daniel Day-Lewis starred in \"Bloody Oil\" -- this movie",
+    "answer": "There Will Be Blood",
+    "aliases": [],
+    "source": {
+      "show_number": "7274",
+      "air_date": "Thursday, April 7, 2016",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_7274.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.87,
+      "reason": "Geographic terms: mexican, oil, countries"
+    }
+  },
+  {
+    "id": "j-7349-b951aeeaa26dfdea",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "A SUMMER COLD",
+    "question": "M.K. could stand for mighty kold or this observatory that dealt with a very un-Hawaiian-like 24 degrees in July of 2011",
+    "answer": "Mauna Kea",
+    "aliases": [],
+    "source": {
+      "show_number": "7349",
+      "air_date": "Thursday, July 21, 2016",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_7349.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7380-969716f5b35a4c6a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FOOD FESTIVALS",
+    "question": "This Hawaiian island celebrates its famous sweet onion with a festival featuring a recipe contest",
+    "answer": "Maui",
+    "aliases": [],
+    "source": {
+      "show_number": "7380",
+      "air_date": "Friday, October 14, 2016",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_7380.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7472-488120b42caf431f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "STATES BY COUNTIES",
+    "question": "Missoula, Mineral",
+    "answer": "Montana",
+    "aliases": [],
+    "source": {
+      "show_number": "7472",
+      "air_date": "Tuesday, February 21, 2017",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_7472.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: montana, mineral"
+    }
+  },
+  {
+    "id": "j-7506-093dbfd02ae4044a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CAVES",
+    "question": "Until 1925 visitors to Carlsbad Caverns were lowered by buckets also used to remove this bat dung, a fertilizer",
+    "answer": "guano",
+    "aliases": [],
+    "source": {
+      "show_number": "7506",
+      "air_date": "Monday, April 10, 2017",
+      "round": "J",
+      "value": "$800",
+      "file": "show_7506.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 1.0,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7557-737294d32d5a7b9d",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "BLOWIN' IN THE WIND",
+    "question": "Speeding up evaporation, winds are strong in many deserts, like this one that's home to most Joshua trees",
+    "answer": "the Mojave Desert",
+    "aliases": [],
+    "source": {
+      "show_number": "7557",
+      "air_date": "Tuesday, June 20, 2017",
+      "round": "DJ",
+      "value": "DD: $4,400",
+      "file": "show_7557.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.75,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7724-76c5947f1b0d92cf",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "California's Sequoia National Forest is home to the world's largest-in-volume tree, named for this general",
+    "answer": "Sherman",
+    "aliases": [],
+    "source": {
+      "show_number": "7724",
+      "air_date": "Thursday, March 22, 2018",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_7724.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from california, forest"
+    }
+  },
+  {
+    "id": "j-7724-b327942947093c98",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FORESTS",
+    "question": "As its name indicates, this type of forest such as Monteverde in Costa Rica is higher than a rain forest & cooler",
+    "answer": "a cloud forest",
+    "aliases": [],
+    "source": {
+      "show_number": "7724",
+      "air_date": "Thursday, March 22, 2018",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_7724.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from costa rica, forest"
+    }
+  },
+  {
+    "id": "j-7745-2c8261235fb8c4b7",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "U.S. FORESTS",
+    "question": "Gallatin National Forest in Montana has \"blue ribbon\" streams for catching these fish, so bring your fly rod",
+    "answer": "trout",
+    "aliases": [],
+    "source": {
+      "show_number": "7745",
+      "air_date": "Friday, April 20, 2018",
+      "round": "J",
+      "value": "$800",
+      "file": "show_7745.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from montana, forest"
+    }
+  },
+  {
+    "id": "j-7758-97aca8ac40d8c1df",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "PLANET EARTH",
+    "question": "Home to 10% of the world's known species, this rainforest covers 1.2 billion acres, 60% of it in Brazil",
+    "answer": "the Amazon rainforest",
+    "aliases": [],
+    "source": {
+      "show_number": "7758",
+      "air_date": "Wednesday, May 9, 2018",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_7758.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from amazon, brazil, rainforest, species"
+    }
+  },
+  {
+    "id": "j-7871-d510162dcb027948",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "The drift of 60,000 Nikes lost from a container ship helped establish that the California one flows into the N. Equatorial one",
+    "answer": "the current",
+    "aliases": [],
+    "source": {
+      "show_number": "7871",
+      "air_date": "Monday, November 26, 2018",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_7871.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from california, current"
+    }
+  },
+  {
+    "id": "j-7889-ebb72e718c1a38d2",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "CLUES ACROSS AMERICA",
+    "question": "( Hi, I'm Erin Christiansen from KGUN9. ) Not far from Tucson, Sabino Canyon is home to many cacti including this one that grows taller than any other native type",
+    "answer": "the saguaro",
+    "aliases": [],
+    "source": {
+      "show_number": "7889",
+      "air_date": "Thursday, December 20, 2018",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_7889.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7906-02405c9e49398c4f",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WINDMILLS",
+    "question": "Great Plains windmills were mainly used not for grinding meal but for pumping this life necessity up from the ground",
+    "answer": "water",
+    "aliases": [],
+    "source": {
+      "show_number": "7906",
+      "air_date": "Monday, January 14, 2019",
+      "round": "J",
+      "value": "$200",
+      "file": "show_7906.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.92,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7935-86ae8c5f50af852c",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE ARCTIC",
+    "question": "On a seal it forms a 3-4\" thick layer & the Inuit make lollipops for children from it",
+    "answer": "blubber",
+    "aliases": [],
+    "source": {
+      "show_number": "7935",
+      "air_date": "Friday, February 22, 2019",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_7935.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-7943-f4fd3cb0c718169b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AROUND THE PACIFIC",
+    "question": "Also called the sea parrot, this diving bird lives in large colonies in the north Pacific",
+    "answer": "a puffin",
+    "aliases": [],
+    "source": {
+      "show_number": "7943",
+      "air_date": "Wednesday, March 6, 2019",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_7943.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.7,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-795-6227c51ca3e35c44",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE AMAZON",
+    "question": "Large scale use of the Amazon's vast rubber crop was made possible by this process, invented in 1839",
+    "answer": "vulcanization",
+    "aliases": [],
+    "source": {
+      "show_number": "795",
+      "air_date": "Friday, February 5, 1988",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_795.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from amazon, crop"
+    }
+  },
+  {
+    "id": "j-8031-cdd43070b445fcdc",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "VISIT A NATIONAL PARK",
+    "question": "In 2019 vandalism during the govt. shutdown damaged many of these trees in their Mojave national park",
+    "answer": "Joshua trees",
+    "aliases": [],
+    "source": {
+      "show_number": "8031",
+      "air_date": "Monday, July 8, 2019",
+      "round": "J",
+      "value": "DD: $4,600",
+      "file": "show_8031.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-809-2c319f8a0e7fc349",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IDAHO",
+    "question": "Ash from this '80 event created a mulch layer resulting in a 30% crop increase in some parts of Idaho",
+    "answer": "the eruption of Mount St. Helens",
+    "aliases": [],
+    "source": {
+      "show_number": "809",
+      "air_date": "Thursday, February 25, 1988",
+      "round": "DJ",
+      "value": "DD: $2,000",
+      "file": "show_809.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from idaho, crop"
+    }
+  },
+  {
+    "id": "j-809-89b6809001661123",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "IDAHO",
+    "question": "Not surprisingly, it's Idaho's leading crop",
+    "answer": "potatoes",
+    "aliases": [],
+    "source": {
+      "show_number": "809",
+      "air_date": "Thursday, February 25, 1988",
+      "round": "DJ",
+      "value": "$200",
+      "file": "show_809.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from idaho, crop"
+    }
+  },
+  {
+    "id": "j-8176-84dcd5b37b91e83a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "HOW ABOUT DESERT?",
+    "question": "Vegetation in the Mojave Desert of the sW U.S. is sparse, but includes this \"tree\", a variety of yucca that can reach 30 feet high",
+    "answer": "the Joshua tree",
+    "aliases": [],
+    "source": {
+      "show_number": "8176",
+      "air_date": "Monday, March 9, 2020",
+      "round": "J",
+      "value": "$800",
+      "file": "show_8176.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-819-81533d3a5d63e1ee",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SOUTH AMERICA",
+    "question": "The longest of these on record, 400 years, ended in Chile's Desierto de Atacama in 1971",
+    "answer": "a drought",
+    "aliases": [],
+    "source": {
+      "show_number": "819",
+      "air_date": "Thursday, March 10, 1988",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_819.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: chile, south america, drought"
+    }
+  },
+  {
+    "id": "j-8331-1cd9819231022cd2",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "STATES BY NATIONAL FOREST",
+    "question": "Sequoia National Forest",
+    "answer": "California",
+    "aliases": [],
+    "source": {
+      "show_number": "8331",
+      "air_date": "Monday, February 8, 2021",
+      "round": "J",
+      "value": "$400",
+      "file": "show_8331.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: california, forest"
+    }
+  },
+  {
+    "id": "j-8345-686a437d22a5bc01",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AROUND THE WORLD",
+    "question": "After the Canboulay Riots of the 1880s, the British banned traditional drums on Trinidad, leading to the creation of these from oil drums",
+    "answer": "steel drums",
+    "aliases": [],
+    "source": {
+      "show_number": "8345",
+      "air_date": "Friday, February 26, 2021",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_8345.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: trinidad, oil"
+    }
+  },
+  {
+    "id": "j-8403-8caf3b861d93d3b3",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE SOUTHERN HEMISPHERE",
+    "question": "Go south from Concepción, Paraguay or Rehoboth, Namibia & you're crossing this tropic line",
+    "answer": "the Tropic of Capricorn",
+    "aliases": [],
+    "source": {
+      "show_number": "8403",
+      "air_date": "Wednesday, May 19, 2021",
+      "round": "J",
+      "value": "$400",
+      "file": "show_8403.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8461-414aee4715cc7a49",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "AROUND THE USA",
+    "question": "The purple seats near the top of Coors Field tell you you've reached this geographic designation",
+    "answer": "mile high",
+    "aliases": [],
+    "source": {
+      "show_number": "8461",
+      "air_date": "Monday, August 9, 2021",
+      "round": "J",
+      "value": "DD: $4,400",
+      "file": "show_8461.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.78,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8498-ab9ed300a01d90cd",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE FOREST FOR THE TREES",
+    "question": "The Amazon rainforest makes up about 40% of the area of this nation larger than the area of the 48 contiguous U.S. states",
+    "answer": "Brazil",
+    "aliases": [],
+    "source": {
+      "show_number": "8498",
+      "air_date": "Wednesday, October 27, 2021",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_8498.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from amazon, brazil, forest, rainforest"
+    }
+  },
+  {
+    "id": "j-8533-b439c9ff33b002fe",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SOUTHERN CALIFORNIA HISTORY",
+    "question": "This event off Huntington Beach in 2021 brought memories of the 3-million-gallon disaster off Santa Barbara in 1969",
+    "answer": "an oil spill",
+    "aliases": [],
+    "source": {
+      "show_number": "8533",
+      "air_date": "Wednesday, December 15, 2021",
+      "round": "J",
+      "value": "$200",
+      "file": "show_8533.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from california, oil"
+    }
+  },
+  {
+    "id": "j-8548-6fde5cf097ad2d09",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "RAIN",
+    "question": "In Arizona, the months of June to September are referred to as this season with heavy rain, high winds & flash flooding",
+    "answer": "monsoon season",
+    "aliases": [],
+    "source": {
+      "show_number": "8548",
+      "air_date": "Wednesday, January 5, 2022",
+      "round": "J",
+      "value": "$600",
+      "file": "show_8548.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from arizona, monsoon"
+    }
+  },
+  {
+    "id": "j-8642-57f908f8cd4cbaf0",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "INDIGENOUS PEOPLES",
+    "question": "The Nation of the Tohono O'odham, whose name means this \"people\", is in the Sonoran one",
+    "answer": "a desert",
+    "aliases": [],
+    "source": {
+      "show_number": "8642",
+      "air_date": "Tuesday, May 17, 2022",
+      "round": "J",
+      "value": "$400",
+      "file": "show_8642.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8675-6a94ef6f17b10000",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD GEOGRAPHY",
+    "question": "Mont Bellevue de l'Inini is the highest point in this European possession largely covered by the Amazon rainforest",
+    "answer": "French Guiana",
+    "aliases": [],
+    "source": {
+      "show_number": "8675",
+      "air_date": "Friday, July 1, 2022",
+      "round": "FJ",
+      "value": "None",
+      "file": "show_8675.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: amazon, rainforest, highest, geography"
+    }
+  },
+  {
+    "id": "j-8680-9676b14bccf94173",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "GONE EXTINCT",
+    "question": "Humans brought an end to the Caribbean monk species of these flippered mammals that we often think of in colder climates",
+    "answer": "seals",
+    "aliases": [],
+    "source": {
+      "show_number": "8680",
+      "air_date": "Friday, July 8, 2022",
+      "round": "DJ",
+      "value": "$1600",
+      "file": "show_8680.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from caribbean, species"
+    }
+  },
+  {
+    "id": "j-8685-8ed6c33b8bcfd6a1",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "MEXICAN HISTORY",
+    "question": "From the 1940s to the 1960s, millions of Mexicans known as braceros got temporary U.S. permits to work in this sector",
+    "answer": "agriculture",
+    "aliases": [],
+    "source": {
+      "show_number": "8685",
+      "air_date": "Friday, July 15, 2022",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_8685.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from mexican, agriculture"
+    }
+  },
+  {
+    "id": "j-8758-ab706d1a5af54197",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LIFE'S PEAKS & VALLEYS",
+    "question": "In 2021 this national park reported its hottest-ever June, with an average day/night temperature of 102.8",
+    "answer": "Death Valley",
+    "aliases": [],
+    "source": {
+      "show_number": "8758",
+      "air_date": "Wednesday, December 7, 2022",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_8758.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8775-fdf4e2e1c293e98a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "U.S. BODIES OF WATER",
+    "question": "Continuing a downward trend, in July 2022 it was at 27% capacity, its lowest level since 1937 when it was first being filled",
+    "answer": "Lake Mead",
+    "aliases": [],
+    "source": {
+      "show_number": "8775",
+      "air_date": "Friday, December 30, 2022",
+      "round": "FJ",
+      "value": "None",
+      "file": "show_8775.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.88,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-8800-bef2b6a931b7d09e",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE NATIONAL PARK SYSTEM",
+    "question": "As seen here , parts of trees that have become fossilized are features of this national park in Arizona",
+    "answer": "the Petrified Forest",
+    "aliases": [],
+    "source": {
+      "show_number": "8800",
+      "air_date": "Friday, February 3, 2023",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_8800.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from arizona, forest"
+    }
+  },
+  {
+    "id": "j-8825-4a43406e2991ea9b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LET'S VISIT NICARAGUA",
+    "question": "Current president Daniel Ortega was part of this revolutionary movement that took power in the 1970s",
+    "answer": "the Sandinistas",
+    "aliases": [],
+    "source": {
+      "show_number": "8825",
+      "air_date": "Friday, March 10, 2023",
+      "round": "J",
+      "value": "$400",
+      "file": "show_8825.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from nicaragua, current"
+    }
+  },
+  {
+    "id": "j-8838-1ee359544c0266f0",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "PLANES, TRAINS",
+    "question": "Running above 15,000 feet, the Peruvian Central Railway carries oxygen for passengers suffering from soroche, this sickness",
+    "answer": "altitude sickness",
+    "aliases": [],
+    "source": {
+      "show_number": "8838",
+      "air_date": "Wednesday, March 29, 2023",
+      "round": "DJ",
+      "value": "$800",
+      "file": "show_8838.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-895-6fd08023314fb599",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "SOUTH AMERICA",
+    "question": "Since Brazil must import oil, farmers raise sugarcane that distilleries turn into this fuel",
+    "answer": "alcohol",
+    "aliases": [],
+    "source": {
+      "show_number": "895",
+      "air_date": "Friday, June 24, 1988",
+      "round": "J",
+      "value": "$200",
+      "file": "show_895.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: south america, brazil, oil"
+    }
+  },
+  {
+    "id": "j-8962-d228b2e83d5ca9cb",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE TROPIC OF CAPRICORN",
+    "question": "In 2000 a monument marking the Tropic of Capricorn was built in this Chilean desert",
+    "answer": "Atacama",
+    "aliases": [],
+    "source": {
+      "show_number": "8962",
+      "air_date": "Tuesday, October 31, 2023",
+      "round": "J",
+      "value": "$1000",
+      "file": "show_8962.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.8,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9065-44c408657cbde4ec",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TIME FOR DESERT",
+    "question": "In 2016, NASA began testing a new prototype rover & its life-detecting instruments in this South American desert",
+    "answer": "the Atacama",
+    "aliases": [],
+    "source": {
+      "show_number": "9065",
+      "air_date": "Friday, March 22, 2024",
+      "round": "DJ",
+      "value": "$1200",
+      "file": "show_9065.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9065-9f106039821d05c9",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "TIME FOR DESERT",
+    "question": "Parts of Texas are covered by this vast desert named for Mexico's largest state",
+    "answer": "the Chihuahuan Desert (Chihuahua)",
+    "aliases": [],
+    "source": {
+      "show_number": "9065",
+      "air_date": "Friday, March 22, 2024",
+      "round": "DJ",
+      "value": "DD: $4,000",
+      "file": "show_9065.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9149-ecf4aba24f098fc7",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "WORLD HERITAGE SITES",
+    "question": "6 sites in Colombia make up a \"cultural landscape\" devoted to the growing & processing of this crop",
+    "answer": "coffee",
+    "aliases": [],
+    "source": {
+      "show_number": "9149",
+      "air_date": "Thursday, July 18, 2024",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_9149.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from colombia, crop"
+    }
+  },
+  {
+    "id": "j-9162-a30b4e5be500bdd2",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "PLACING SOME GEOGRAPHY",
+    "question": "January temperature averages are in the 70s in this Chilean capital, but bring a coat in July, when the figure is in the 30s",
+    "answer": "Santiago",
+    "aliases": [],
+    "source": {
+      "show_number": "9162",
+      "air_date": "Tuesday, September 17, 2024",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_9162.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.84,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9177-536fd9c5642c9b28",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "OREGON",
+    "question": "The Malheur Forest is home to one of the world's largest living organisms, rhymingly called \"The Humongous\" this",
+    "answer": "Fungus",
+    "aliases": [],
+    "source": {
+      "show_number": "9177",
+      "air_date": "Tuesday, October 8, 2024",
+      "round": "J",
+      "value": "$600",
+      "file": "show_9177.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from oregon, forest"
+    }
+  },
+  {
+    "id": "j-9249-9631cdb427f65b88",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DAMS",
+    "question": "17 giant turbines create more than 2,000 megawatts of this kind of power inside Hoover Dam",
+    "answer": "hydroelectric",
+    "aliases": [],
+    "source": {
+      "show_number": "9249",
+      "air_date": "Thursday, January 16, 2025",
+      "round": "J",
+      "value": "$600",
+      "file": "show_9249.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9249-b7cadb3bbd0421f6",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "DAMS",
+    "question": "Hatcheries funded by the Grand Coulee Dam help restock the populations of steelhead trout & the Chinook type of this",
+    "answer": "salmon",
+    "aliases": [],
+    "source": {
+      "show_number": "9249",
+      "air_date": "Thursday, January 16, 2025",
+      "round": "J",
+      "value": "$200",
+      "file": "show_9249.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9285-4e0074369a3d6b70",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "EARTH SCIENCE",
+    "question": "This 8-letter depth of the white stuff affects our water supply out West; 110% of normal in the Sierras in April 2024, woo-hoo!",
+    "answer": "snowpack",
+    "aliases": [],
+    "source": {
+      "show_number": "9285",
+      "air_date": "Friday, March 7, 2025",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_9285.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9300-af54f69a60b553ec",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "U.S. GEOGRAPHY",
+    "question": "In July 2024 this park near the Mojave Desert reached at least 125 degrees on 9 consecutive days",
+    "answer": "Death Valley",
+    "aliases": [],
+    "source": {
+      "show_number": "9300",
+      "air_date": "Friday, March 28, 2025",
+      "round": "J",
+      "value": "$200",
+      "file": "show_9300.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.85,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-9355-e621d9225ebd826b",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "JAMAICA",
+    "question": "Jamaica 's economy is dominated by tourism, remittances & exports of this mineral, the chief ore of aluminum",
+    "answer": "bauxite",
+    "aliases": [],
+    "source": {
+      "show_number": "9355",
+      "air_date": "Friday, June 13, 2025",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_9355.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from jamaica, mineral"
+    }
+  },
+  {
+    "id": "j-9363-9b2cfed154a5495e",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "ON THE MAP",
+    "question": "The only tropical rainforest in the U.S. national forest system is El Yunque on this island",
+    "answer": "Puerto Rico",
+    "aliases": [],
+    "source": {
+      "show_number": "9363",
+      "air_date": "Wednesday, June 25, 2025",
+      "round": "J",
+      "value": "$200",
+      "file": "show_9363.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.9,
+      "reason": "Geographic terms: puerto rico, forest, rainforest, map, island"
+    }
+  },
+  {
+    "id": "j-9418-b409967f39dabebb",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "FRIENDS IN DRY PLACES",
+    "question": "Cecilia should take you stargazing here ; with the lowest precipitation of any non-polar desert, odds are you'll have a clear night",
+    "answer": "the Atacama",
+    "aliases": [],
+    "source": {
+      "show_number": "9418",
+      "air_date": "Wednesday, October 22, 2025",
+      "round": "DJ",
+      "value": "$2000",
+      "file": "show_9418.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.9,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-954-ed03eb9493b2a8a1",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "THE CARIBBEAN",
+    "question": "Native to Trinidad, this type of band uses instruments made from discarded oil drums",
+    "answer": "steel drum",
+    "aliases": [],
+    "source": {
+      "show_number": "954",
+      "air_date": "Thursday, October 27, 1988",
+      "round": "DJ",
+      "value": "$600",
+      "file": "show_954.json"
+    },
+    "classification": {
+      "method": "rules",
+      "confidence": 0.84,
+      "reason": "Geographic terms: caribbean, trinidad, oil"
+    }
+  },
+  {
+    "id": "j-9568-275c80cc1c193fb8",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "U.S. NATIONAL PARKS",
+    "question": "In 1995, these predators were reintroduced into Yellowstone to help restore an unbalanced ecosystem",
+    "answer": "(gray) wolves",
+    "aliases": [],
+    "source": {
+      "show_number": "9568",
+      "air_date": "Wednesday, May 20, 2026",
+      "round": "DJ",
+      "value": "$400",
+      "file": "show_9568.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.82,
+      "reason": "AI classification"
+    }
+  },
+  {
+    "id": "j-None-e8df38e5027b195c",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "NORTH AMERICAN COLLEGES & UNIVERSITIES",
+    "question": "This school that's less than 10 miles from where you're standing changed the \"at\" in its name to the current comma in the 1950s",
+    "answer": "the University of California, Los Angeles",
+    "aliases": [],
+    "source": {
+      "show_number": "None",
+      "air_date": "None",
+      "round": "DJ",
+      "value": "800",
+      "file": "show_25.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from california, current"
+    }
+  },
+  {
+    "id": "j-None-f4d8f9de047d0a1a",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LET'S MAKE LIKE A TREE & BRANCH",
+    "question": "The U.S. Forest Service says this crop of cloned aspens in Utah is believed to be the largest organism ever found",
+    "answer": "Pando",
+    "aliases": [],
+    "source": {
+      "show_number": "None",
+      "air_date": "None",
+      "round": "J",
+      "value": "1000",
+      "file": "show_59.json"
+    },
+    "classification": {
+      "method": "category-rules",
+      "confidence": 0.96,
+      "reason": "Approved category; labels from utah, crop, forest"
+    }
+  },
+  {
+    "id": "j-None-f5fc58a8821e25aa",
+    "category": "Western U.S. + Latin America/Caribbean",
+    "subcategory": "Climate, Biomes & Resources",
+    "topic": "LET'S MAKE LIKE A TREE & BRANCH",
+    "question": "A professor at Cal Poly Humboldt collected aquatic crustaceans living in fern mats in the canopies of these tall trees",
+    "answer": "redwoods",
+    "aliases": [],
+    "source": {
+      "show_number": "None",
+      "air_date": "None",
+      "round": "J",
+      "value": "200",
+      "file": "show_59.json"
+    },
+    "classification": {
+      "method": "ai",
+      "confidence": 0.82,
+      "reason": "AI classification"
+    }
+  }
+]
