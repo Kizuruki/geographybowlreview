@@ -942,7 +942,7 @@ async function renderAdminFlags() {
     $('adminFlagsCount').textContent = (pending || []).length;
     $('adminFlagsList').innerHTML = pending.length
       ? pending.map((f) => `
-        <div class="leader-row" data-flag-id="${escapeHTML(f.id)}">
+        <div class="flag-row" data-flag-id="${escapeHTML(f.id)}">
           <div style="flex:1">
             <strong>${escapeHTML(f.category)} — ${escapeHTML(f.subcategory)}</strong>
             <div class="small">${escapeHTML(f.questionText)}</div>
