@@ -90,6 +90,7 @@ function updateAuthUI() {
   $('ttsToggle').checked = Boolean(data.settings.tts);
   $('ttsInGame').checked = Boolean(data.settings.tts);
   updateHomeCounts();
+  updateAdminUI();
 }
 
 function openModal(id) { $(id).classList.add('open'); }
@@ -739,6 +740,10 @@ function bindEvents() {
   $('spacedBtn').addEventListener('click',()=>{const data=loadUserData();const ids=Object.entries(data.spaced).filter(([,item])=>Number(item.dueAt)<=Date.now()).map(([id])=>id);startQuestionIdsMode('spaced',ids,'Spaced Repetition')});
   $('masteredBtn').addEventListener('click',showMastered);
   $('statsBtn').addEventListener('click',showStats);
+  $('reportQuestionBtn').addEventListener('click', openReportModal);
+  $('reportSubmitBtn').addEventListener('click', submitReport);
+  $('adminFlagsBtn').addEventListener('click', openAdminFlagsPanel);
+  $('closeAdminFlagsBtn').addEventListener('click', closeAdminFlagsPanel);
   $('statsModeFilter').addEventListener('change',renderStats);
   $('statsCategoryFilter').addEventListener('change',renderStats);
   $('compendiumBtn').addEventListener('click',openCompendium);
@@ -818,11 +823,183 @@ async function init() {
   updateAuthUI();
   try {
     const bank = await loadQuestionBank();
-    QUESTIONS = bank.questions;
+    const removedIds = await fetchRemovedQuestionIds();
+    REMOVED_QUESTION_IDS = new Set(removedIds);
+    QUESTIONS = bank.questions.filter((q) => !REMOVED_QUESTION_IDS.has(q.id));
     $('questionsStatus').textContent = `${QUESTIONS.length} geography questions loaded from ${bank.source} • ${CATEGORIES.length} regions × ${SUBCATEGORIES.length} shared subcategories`;
   } catch (error) {
     $('questionsStatus').textContent = `Could not load questions: ${error.message}`;
     $('questionsStatus').style.color = '#b91c1c';
+  }
+}
+
+/* ---- Admin check (mirrors History Bowl's isKizuruki()) ------ */
+const ADMIN_USERNAME = 'kizuruki';
+function isAdmin() { return currentUser === ADMIN_USERNAME; }
+ 
+/* ---- Admin key, same prompt-and-cache pattern as History
+   Bowl's getSiteAdminKey() — since this hits admin-only Worker
+   routes, gated server-side, not just by the username check
+   above (the username check only controls whether the UI shows). */
+const GEO_ADMIN_KEY_SESSION = 'geoBowlAdminKey_v1';
+function getAdminKey() {
+  let key = sessionStorage.getItem(GEO_ADMIN_KEY_SESSION) || '';
+  if (!key) {
+    key = (prompt('Enter admin key:') || '').trim();
+    if (key) sessionStorage.setItem(GEO_ADMIN_KEY_SESSION, key);
+  }
+  return key;
+}
+ 
+/* ---- Removed-question tracking ------------------------------
+   Fetched once at load so every visitor's QUESTIONS pool excludes
+   anything an admin has permanently removed — this is what makes
+   "never shows up in anything again" true site-wide, not just in
+   the browser that reported it. */
+let REMOVED_QUESTION_IDS = new Set();
+ 
+async function fetchRemovedQuestionIds() {
+  try {
+    const res = await fetch(`${WORKER_URL}/geo-flags/removed`);
+    if (!res.ok) return [];
+    const data = await res.json();
+    return Array.isArray(data.removed) ? data.removed : [];
+  } catch {
+    return [];
+  }
+}
+ 
+/* ---- Report modal --------------------------------------------- */
+function openReportModal() {
+  if (!state?.current) return;
+  $('reportReason').value = '';
+  $('reportError').textContent = '';
+  openModal('reportModal');
+}
+ 
+async function submitReport() {
+  const q = state?.current;
+  if (!q) { closeModal('reportModal'); return; }
+  const reason = $('reportReason').value.trim();
+  $('reportSubmitBtn').disabled = true;
+  try {
+    const res = await fetch(`${WORKER_URL}/geo-flags`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        questionId: q.id,
+        category: q.category,
+        subcategory: q.subcategory,
+        topic: q.topic,
+        question: q.question,
+        answer: q.answer,
+        reason,
+        reportedBy: currentUser,
+      }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || data.success === false) {
+      $('reportError').textContent = data.message || 'Could not submit report.';
+      $('reportSubmitBtn').disabled = false;
+      return;
+    }
+    closeModal('reportModal');
+    showFeedback('Thanks — this question was flagged for review.', 'info');
+  } catch {
+    $('reportError').textContent = 'Could not reach the server.';
+  }
+  $('reportSubmitBtn').disabled = false;
+}
+ 
+/* ---- Admin flags panel ----------------------------------------- */
+function updateAdminUI() {
+  const card = $('adminFlagsCard');
+  if (!card) return;
+  card.classList.toggle('hidden', !isAdmin());
+  if (isAdmin()) refreshAdminFlagsCount();
+}
+ 
+async function refreshAdminFlagsCount() {
+  try {
+    const res = await fetch(`${WORKER_URL}/geo-flags`, { headers: { 'x-admin-key': getAdminKey() } });
+    if (!res.ok) return;
+    const data = await res.json();
+    const pending = (data.flags || []).filter((f) => f.status === 'pending');
+    $('adminFlagsCount').textContent = pending.length;
+  } catch {
+    /* silent — the panel itself will show the error when opened */
+  }
+}
+ 
+function openAdminFlagsPanel() {
+  $('gameArea').classList.add('hidden');
+  $('homeScreen').classList.add('hidden');
+  $('leaderboardPanel').classList.add('hidden');
+  $('adminFlagsPanel').classList.remove('hidden');
+  renderAdminFlags();
+}
+ 
+function closeAdminFlagsPanel() {
+  $('adminFlagsPanel').classList.add('hidden');
+  $('homeScreen').classList.remove('hidden');
+}
+ 
+async function renderAdminFlags() {
+  $('adminFlagsList').innerHTML = '<div class="empty-state">Loading…</div>';
+  try {
+    const res = await fetch(`${WORKER_URL}/geo-flags`, { headers: { 'x-admin-key': getAdminKey() } });
+    if (!res.ok) {
+      $('adminFlagsList').innerHTML = '<div class="empty-state">Could not load flags — check your admin key.</div>';
+      return;
+    }
+    const data = await res.json();
+    const pending = (data.flags || []).filter((f) => f.status === 'pending');
+    $('adminFlagsCount').textContent = pending.length;
+    $('adminFlagsList').innerHTML = pending.length
+      ? pending.map((f) => `
+        <div class="leader-row" data-flag-id="${escapeHTML(f.id)}">
+          <div style="flex:1">
+            <strong>${escapeHTML(f.category)} — ${escapeHTML(f.subcategory)}</strong>
+            <div class="small">${escapeHTML(f.question)}</div>
+            <div class="small muted">Answer: ${escapeHTML(f.answer)}</div>
+            ${f.reason ? `<div class="small">Reported reason: ${escapeHTML(f.reason)}</div>` : ''}
+            <div class="small muted">Reported by ${escapeHTML(f.reportedBy || f.reported_by || 'guest')} × ${f.reportCount || f.report_count || 1}</div>
+          </div>
+          <div class="button-wrap">
+            <button class="btn success" type="button" data-action="verify" data-id="${escapeHTML(f.id)}">✅ Keep (mark verified)</button>
+            <button class="btn danger" type="button" data-action="remove" data-id="${escapeHTML(f.id)}">🗑️ Remove for good</button>
+          </div>
+        </div>
+      `).join('')
+      : '<div class="empty-state">No pending reports.</div>';
+    $('adminFlagsList').querySelectorAll('button[data-action]').forEach((btn) => {
+      btn.addEventListener('click', () => resolveFlag(btn.dataset.id, btn.dataset.action));
+    });
+  } catch {
+    $('adminFlagsList').innerHTML = '<div class="empty-state">Could not reach the server.</div>';
+  }
+}
+ 
+async function resolveFlag(flagId, action) {
+  try {
+    const res = await fetch(`${WORKER_URL}/geo-flags/${encodeURIComponent(flagId)}/resolve`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-admin-key': getAdminKey() },
+      body: JSON.stringify({ action }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || data.success === false) {
+      alert(data.message || 'Could not resolve report.');
+      return;
+    }
+    if (action === 'remove' && data.questionId) {
+      REMOVED_QUESTION_IDS.add(data.questionId);
+      QUESTIONS = QUESTIONS.filter((q) => q.id !== data.questionId);
+      updateHomeCounts();
+    }
+    renderAdminFlags();
+  } catch {
+    alert('Could not reach the server.');
   }
 }
 
