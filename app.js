@@ -13,7 +13,7 @@ const SUBCATEGORIES = [
   'Mountains, Landforms & Geology',
   'Climate, Biomes & Resources'
 ];
-
+const WORKER_URL = 'https://patient-base-c952.javalutionization.workers.dev';
 const DATA_VERSION = 2;
 const CURRENT_USER_KEY = 'geoBowlCurrentUserV2';
 const ACCOUNTS_KEY = 'geoBowlAccountsV2';
@@ -144,6 +144,7 @@ function updateHomeCounts() {
 }
 
 function openSetup(mode, presetCategory='all') {
+  if (!QUESTIONS.length) { alert('Questions have not loaded yet.'); return; }
   setupMode = mode;
   const body = $('setupBody');
   if (mode === 'practice') {
@@ -371,6 +372,12 @@ function recordHumanAttempt(correct,responseMs) {
       if (state.mode === 'spaced') data.spaced[question.id] = {interval:1,dueAt:Date.now()+86400000};
     }
   });
+  if (currentUser !== 'guest') {
+    fetch(`${WORKER_URL}/geo-stats/${encodeURIComponent(currentUser)}`, {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({category:question.category, subcategory:question.subcategory, mode:state.mode, correct})
+    }).catch(() => {});
+  }
   updateScoreboard();
 }
 
@@ -634,31 +641,41 @@ function setTTS(enabled) {
   if (!enabled) window.speechSynthesis?.cancel(); else speakQuestion();
 }
 
-async function registerAccount() {
-  const username = $('loginUsername').value.trim();
-  const password = $('loginPassword').value;
-  const key = username.toLowerCase();
-  if (username.length < 2 || password.length < 4) { $('loginError').textContent = 'Use at least 2 characters for the username and 4 for the password.'; return; }
-  const map = accounts();
-  if (map[key]) { $('loginError').textContent = 'That username already exists on this browser.'; return; }
-  map[key] = {display:username,hash:await hashPassword(password)};
-  localStorage.setItem(ACCOUNTS_KEY,JSON.stringify(map));
-  currentUser = key;
-  localStorage.setItem(CURRENT_USER_KEY,currentUser);
-  saveUserData(blankUserData());
+async function authRequest(action, username, password) {
+  const res = await fetch(`${WORKER_URL}/auth/${action}`, {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({username, password})
+  });
+  return res.json();
+}
+
+function finishLogin(username) {
+  currentUser = username;
+  localStorage.setItem(CURRENT_USER_KEY, currentUser);
   closeModal('loginModal');
   updateAuthUI();
 }
 
-async function loginAccount() {
-  const username = $('loginUsername').value.trim().toLowerCase();
+async function registerAccount() {
+  const username = $('loginUsername').value.trim();
   const password = $('loginPassword').value;
-  const account = accounts()[username];
-  if (!account || account.hash !== await hashPassword(password)) { $('loginError').textContent = 'Username or password is incorrect on this browser.'; return; }
-  currentUser = username;
-  localStorage.setItem(CURRENT_USER_KEY,currentUser);
-  closeModal('loginModal');
-  updateAuthUI();
+  if (username.length < 2 || password.length < 4) { $('loginError').textContent = 'Use at least 2 characters for the username and 4 for the password.'; return; }
+  try {
+    const data = await authRequest('register', username, password);
+    if (!data.success) { $('loginError').textContent = data.message || 'Registration failed.'; return; }
+    finishLogin(username);
+  } catch { $('loginError').textContent = 'Could not reach the server.'; }
+}
+
+async function loginAccount() {
+  const username = $('loginUsername').value.trim();
+  const password = $('loginPassword').value;
+  if (!username || !password) { $('loginError').textContent = 'Enter a username and password.'; return; }
+  try {
+    const data = await authRequest('login', username, password);
+    if (!data.success) { $('loginError').textContent = data.message || 'Invalid credentials.'; return; }
+    finishLogin(username);
+  } catch { $('loginError').textContent = 'Could not reach the server.'; }
 }
 
 function logout() {
@@ -720,39 +737,46 @@ function validQuestion(question) {
   return question && typeof question.id === 'string' && typeof question.question === 'string' && typeof question.answer === 'string' && CATEGORIES.some((category)=>category.name===question.category) && SUBCATEGORIES.includes(question.subcategory);
 }
 
+async function fetchJSON(url) {
+  const response = await fetch(url, {cache: 'no-cache'});
+  if (!response.ok) throw new Error(`${url} → HTTP ${response.status}`);
+  const text = await response.text();
+  if (text.trimStart().startsWith('<')) throw new Error(`${url} returned an HTML page instead of JSON (wrong path or filename)`);
+  return JSON.parse(text);
+}
+
 async function loadQuestionBank() {
+  const base = 'question_data/categories/';   // must match your real folder name exactly
   try {
     const banks = await Promise.all(CATEGORIES.map(async (category) => {
-      const response = await fetch(`question_data/categories/${category.file}`);
-      if (!response.ok) throw new Error(`Could not load ${category.file}`);
-      const items = await response.json();
+      const items = await fetchJSON(base + category.file);
       if (!Array.isArray(items)) throw new Error(`${category.file} is not a question array`);
       return items;
     }));
-    const unique = new Map(banks.flat().filter(validQuestion).map((question)=>[question.id,question]));
-    if (!unique.size) throw new Error('The classified regional files are empty.');
+    const unique = new Map(banks.flat().filter(validQuestion).map((q) => [q.id, q]));
+    if (!unique.size) throw new Error('The classified files contained no valid questions.');
     return {questions:[...unique.values()],source:'classified regional files'};
   } catch (classifiedError) {
     console.error('Classified files failed:', classifiedError);
-    const response = await fetch('questions.json');
-    if (!response.ok) throw classifiedError;
-    const fallback = await response.json();
-    const questions = Array.isArray(fallback) ? fallback.filter(validQuestion) : [];
-    if (!questions.length) throw classifiedError;
-    return {questions,source:'fallback question bank'};
+    try {
+      const fallback = await fetchJSON('questions.json');
+      const questions = Array.isArray(fallback) ? fallback.filter(validQuestion) : [];
+      if (questions.length) return {questions,source:'fallback question bank'};
+    } catch {}
+    throw classifiedError;
   }
 }
-
+  
 async function init() {
+  bindEvents();
+  renderSpecialties();
+  updateAuthUI();
   try {
     const bank = await loadQuestionBank();
     QUESTIONS = bank.questions;
     $('questionsStatus').textContent = `${QUESTIONS.length} geography questions loaded from ${bank.source} • ${CATEGORIES.length} regions × ${SUBCATEGORIES.length} shared subcategories`;
-    bindEvents();
-    renderSpecialties();
-    updateAuthUI();
   } catch (error) {
-    $('questionsStatus').textContent = error.message;
+    $('questionsStatus').textContent = `Could not load questions: ${error.message}`;
     $('questionsStatus').style.color = '#b91c1c';
   }
 }
