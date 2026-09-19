@@ -89,6 +89,12 @@
               <p class="muted">Filter accuracy, response time, and recent activity by mode and region.</p>
               <div><button class="btn" type="button" id="statsBtn">View Stats</button></div>
             </article>
+            <article class="card hidden" id="adminFlagsCard">
+              <span class="card-icon">🚩</span>
+              <h3>Flagged Questions (Admin)</h3>
+              <p class="muted">Review geography-authenticity reports from players.</p>
+              <div><button class="btn" type="button" id="adminFlagsBtn">Review Flags <span id="adminFlagsCount">0</span></button></div>
+            </article>
           </div>
         </section>
 
@@ -187,6 +193,7 @@
           <button id="showAnswerBtn" class="btn outline" type="button">Show Answer</button>
           <button id="nextBtn" class="btn success hidden" type="button">Next Question</button>
           <button id="pauseBtn" class="btn secondary" type="button">Pause</button>
+          <button id="reportQuestionBtn" class="btn outline" type="button">🚩 Report</button>
           <label class="check-line"><input type="checkbox" id="addToPdfCheckbox"> Add this question to PDF</label>
           <label class="check-line"><input type="checkbox" id="ttsInGame"> Read questions aloud</label>
         </div>
@@ -201,7 +208,14 @@
       <div class="tabs" id="leaderboardTabs"></div>
       <div class="leaderboard" id="leaderboardList"></div>
     </section>
-
+    
+    <section id="adminFlagsPanel" class="admin-panel hidden">
+      <div class="panel-heading">
+        <div><h2>🚩 Flagged Questions</h2><p class="muted">Reported as possibly not geography. Review and resolve.</p></div>
+        <button class="btn secondary" type="button" id="closeAdminFlagsBtn">Close</button>
+      </div>
+      <div id="adminFlagsList" class="leaderboard"></div>
+    </section>
     <footer>Geography Bowl Review • Five regional specialties • One equal-value round</footer>
   </div>
 
@@ -286,6 +300,21 @@
     </div>
   </div>
 
+  <div class="modal" id="reportModal" role="dialog" aria-modal="true" aria-labelledby="reportTitle">
+    <div class="modal-card narrow">
+      <div class="modal-heading">
+        <h2 id="reportTitle">Report Question</h2>
+        <button class="modal-close" data-close="reportModal" aria-label="Close">×</button>
+      </div>
+      <p class="muted">Flag this question if it doesn't belong in a geography competition (e.g. it's really testing history, pop culture, etc). An admin will review it before it's ever removed.</p>
+      <label class="field">Reason (optional)<textarea id="reportReason" rows="3" placeholder="Why doesn't this belong?"></textarea></label>
+      <p class="form-error" id="reportError"></p>
+      <div class="modal-actions">
+        <button class="btn secondary" data-close="reportModal" type="button">Cancel</button>
+        <button class="btn" id="reportSubmitBtn" type="button">Submit Report</button>
+      </div>
+    </div>
+  </div>
   <div id="printPacket" class="print-packet"></div>
   <script src="app.js" defer></script>
 </body>
