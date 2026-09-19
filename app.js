@@ -723,7 +723,7 @@ function validQuestion(question) {
 async function loadQuestionBank() {
   try {
     const banks = await Promise.all(CATEGORIES.map(async (category) => {
-      const response = await fetch(`question-data/categories/${category.file}`);
+      const response = await fetch(`question_data/categories/${category.file}`);
       if (!response.ok) throw new Error(`Could not load ${category.file}`);
       const items = await response.json();
       if (!Array.isArray(items)) throw new Error(`${category.file} is not a question array`);
@@ -733,6 +733,7 @@ async function loadQuestionBank() {
     if (!unique.size) throw new Error('The classified regional files are empty.');
     return {questions:[...unique.values()],source:'classified regional files'};
   } catch (classifiedError) {
+    console.error('Classified files failed:', classifiedError);
     const response = await fetch('questions.json');
     if (!response.ok) throw classifiedError;
     const fallback = await response.json();
