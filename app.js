@@ -1,9 +1,17 @@
 const CATEGORIES = [
-  {name:'Eastern/Central U.S. + Canada',subs:['Northeast & New England','Southeast & Appalachia','Midwest & Great Lakes','Mississippi & Interior','Canada']},
-  {name:'Western U.S. + Latin America/Caribbean',subs:['Pacific Coast','Mountain West & Southwest','Alaska & Hawaii','Mexico, Central America & Caribbean','South America']},
-  {name:'Europe + Russia',subs:['British Isles','Western Europe','Southern & Mediterranean Europe','Central & Eastern Europe','Balkans','Russia & Post-Soviet Europe']},
-  {name:'Africa + Mediterranean',subs:['North Africa','West Africa','Central Africa','East & Horn of Africa','Southern Africa','African Islands & Mediterranean']},
-  {name:'Asia + Middle East + Oceania/Pacific',subs:['East Asia','South Asia','Southeast Asia','Central Asia','Middle East','Australia & New Zealand','Pacific Islands']}
+  {name:'Eastern/Central U.S. + Canada',file:'eastern-central-us-canada.json'},
+  {name:'Western U.S. + Latin America/Caribbean',file:'western-us-latin-america-caribbean.json'},
+  {name:'Europe + Russia',file:'europe-russia.json'},
+  {name:'Africa + Mediterranean',file:'africa-mediterranean.json'},
+  {name:'Asia + Middle East + Oceania/Pacific',file:'asia-middle-east-oceania-pacific.json'}
+];
+
+const SUBCATEGORIES = [
+  'Cities, Capitals & Landmarks',
+  'Countries, Borders & Cultures',
+  'Rivers, Lakes & Oceans',
+  'Mountains, Landforms & Geology',
+  'Climate, Biomes & Resources'
 ];
 
 const DATA_VERSION = 2;
@@ -119,10 +127,8 @@ function categoryOptions(selected='all') {
   return `<option value="all">All regions</option>${CATEGORIES.map((category) => `<option value="${escapeHTML(category.name)}" ${selected === category.name ? 'selected' : ''}>${escapeHTML(category.name)}</option>`).join('')}`;
 }
 
-function subcategoryOptions(categoryName, selected='all') {
-  const category = CATEGORIES.find((item) => item.name === categoryName);
-  const values = category ? category.subs : [...new Set(QUESTIONS.map((q) => q.subcategory))].sort();
-  return `<option value="all">All subcategories</option>${values.map((value) => `<option value="${escapeHTML(value)}" ${selected === value ? 'selected' : ''}>${escapeHTML(value)}</option>`).join('')}`;
+function subcategoryOptions(_categoryName, selected='all') {
+  return `<option value="all">All subcategories</option>${SUBCATEGORIES.map((value) => `<option value="${escapeHTML(value)}" ${selected === value ? 'selected' : ''}>${escapeHTML(value)}</option>`).join('')}`;
 }
 
 function questionPool(category='all', subcategory='all') {
@@ -707,15 +713,40 @@ function bindEvents() {
 }
 
 function renderSpecialties() {
-  $('specialtyList').innerHTML = CATEGORIES.map((category,index)=>`<li><strong>Player ${String.fromCharCode(65+index)} — ${escapeHTML(category.name)}:</strong> ${category.subs.map(escapeHTML).join(' • ')}</li>`).join('');
+  $('specialtyList').innerHTML = CATEGORIES.map((category,index)=>`<li><strong>Player ${String.fromCharCode(65+index)} — ${escapeHTML(category.name)}:</strong> ${SUBCATEGORIES.map(escapeHTML).join(' • ')}</li>`).join('');
+}
+
+function validQuestion(question) {
+  return question && typeof question.id === 'string' && typeof question.question === 'string' && typeof question.answer === 'string' && CATEGORIES.some((category)=>category.name===question.category) && SUBCATEGORIES.includes(question.subcategory);
+}
+
+async function loadQuestionBank() {
+  try {
+    const banks = await Promise.all(CATEGORIES.map(async (category) => {
+      const response = await fetch(`question-data/categories/${category.file}`);
+      if (!response.ok) throw new Error(`Could not load ${category.file}`);
+      const items = await response.json();
+      if (!Array.isArray(items)) throw new Error(`${category.file} is not a question array`);
+      return items;
+    }));
+    const unique = new Map(banks.flat().filter(validQuestion).map((question)=>[question.id,question]));
+    if (!unique.size) throw new Error('The classified regional files are empty.');
+    return {questions:[...unique.values()],source:'classified regional files'};
+  } catch (classifiedError) {
+    const response = await fetch('questions.json');
+    if (!response.ok) throw classifiedError;
+    const fallback = await response.json();
+    const questions = Array.isArray(fallback) ? fallback.filter(validQuestion) : [];
+    if (!questions.length) throw classifiedError;
+    return {questions,source:'fallback question bank'};
+  }
 }
 
 async function init() {
   try {
-    const response = await fetch('questions.json');
-    if (!response.ok) throw new Error('Question bank failed to load.');
-    QUESTIONS = await response.json();
-    $('questionsStatus').textContent = `${QUESTIONS.length} geography questions loaded • ${CATEGORIES.length} balanced regional specialties`;
+    const bank = await loadQuestionBank();
+    QUESTIONS = bank.questions;
+    $('questionsStatus').textContent = `${QUESTIONS.length} geography questions loaded from ${bank.source} • ${CATEGORIES.length} regions × ${SUBCATEGORIES.length} shared subcategories`;
     bindEvents();
     renderSpecialties();
     updateAuthUI();
