@@ -36,6 +36,8 @@ let setupMode = 'practice';
 let selectedAILevel = 5;
 let leaderboardTab = 'full';
 let filteredCompendium = [];
+const COMPENDIUM_PAGE_SIZE = 20;
+let compendiumRenderedCount = 0;
 let sessionToken = 0;
 
 function blankUserData() {
@@ -599,18 +601,87 @@ function renderCompendium() {
   const category = $('compendiumCategory').value || 'all';
   const subcategory = $('compendiumSubcategory').value || 'all';
   const topic = $('compendiumTopic').value || 'all';
-  filteredCompendium = QUESTIONS.filter((q)=>{
-    const haystack = normalize(`${q.question} ${q.answer} ${q.category} ${q.subcategory} ${q.topic}`);
-    return (category==='all'||q.category===category)&&(subcategory==='all'||q.subcategory===subcategory)&&(topic==='all'||q.topic===topic)&&(!search||haystack.includes(search));
+
+  filteredCompendium = QUESTIONS.filter((q) => {
+    const haystack = normalize(
+      `${q.question} ${q.answer} ${q.category} ${q.subcategory} ${q.topic}`
+    );
+
+    return (
+      (category === 'all' || q.category === category) &&
+      (subcategory === 'all' || q.subcategory === subcategory) &&
+      (topic === 'all' || q.topic === topic) &&
+      (!search || haystack.includes(search))
+    );
   });
-  $('compendiumCount').textContent = `${filteredCompendium.length} question${filteredCompendium.length===1?'':'s'}`;
-  $('compendiumList').innerHTML = filteredCompendium.length?filteredCompendium.map((q)=>`<details class="compendium-item"><summary><span class="compendium-tags"><span>${escapeHTML(q.category)}</span><span>${escapeHTML(q.subcategory)}</span><span>${escapeHTML(q.topic)}</span></span>${escapeHTML(q.question)}</summary><p>${escapeHTML(q.answer)}</p></details>`).join(''):'<div class="empty-state">No questions match these filters.</div>';
+
+  compendiumRenderedCount = 0;
+
+  const list = $('compendiumList');
+  list.scrollTop = 0;
+  list.innerHTML = '';
+
+  if (!filteredCompendium.length) {
+    $('compendiumCount').textContent = '0 questions';
+    list.innerHTML =
+      '<div class="empty-state">No questions match these filters.</div>';
+    return;
+  }
+
+  appendCompendiumPage();
+}
+
+function appendCompendiumPage() {
+  if (compendiumRenderedCount >= filteredCompendium.length) return;
+
+  const nextQuestions = filteredCompendium.slice(
+    compendiumRenderedCount,
+    compendiumRenderedCount + COMPENDIUM_PAGE_SIZE
+  );
+
+  $('compendiumList').insertAdjacentHTML(
+    'beforeend',
+    nextQuestions
+      .map(
+        (q) => `
+          <details class="compendium-item">
+            <summary>
+              <span class="compendium-tags">
+                <span>${escapeHTML(q.category)}</span>
+                <span>${escapeHTML(q.subcategory)}</span>
+                <span>${escapeHTML(q.topic)}</span>
+              </span>
+              ${escapeHTML(q.question)}
+            </summary>
+            <p>${escapeHTML(q.answer)}</p>
+          </details>
+        `
+      )
+      .join('')
+  );
+
+  compendiumRenderedCount += nextQuestions.length;
+
+  $('compendiumCount').textContent =
+    `Showing ${compendiumRenderedCount} of ${filteredCompendium.length} ` +
+    `question${filteredCompendium.length === 1 ? '' : 's'}`;
+}
+
+function handleCompendiumScroll() {
+  const list = $('compendiumList');
+
+  if (
+    list.scrollTop + list.clientHeight >=
+    list.scrollHeight - 240
+  ) {
+    appendCompendiumPage();
+  }
 }
 
 function exportPDF() {
   const ids = new Set(loadUserData().pdfQueue);
   const questions = QUESTIONS.filter((q) => ids.has(q.id));
-  if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 20-question packet first.'); return; }
+  if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 22-question packet first.'); return; }
   if (typeof window.jspdf === 'undefined') { alert('PDF library is still loading. Please try again in a moment.'); return; }
   const sanitize = (s) => String(s ?? '').replace(/\r\n?/g, '\n').replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
   const { jsPDF } = window.jspdf;
@@ -632,12 +703,38 @@ function exportPDF() {
   pdf.setFontSize(16); pdf.setFont(undefined,'bold'); pdf.text('Geography Bowl Practice Packet', margin, yPos); yPos += 10;
   const today = new Date().toLocaleDateString();
   pdf.setFontSize(10); pdf.setFont(undefined,'normal'); pdf.text(`${questions.length} questions • Generated ${today}`, margin, yPos); yPos += 16;
-  pdf.setFontSize(13); pdf.setFont(undefined,'normal');
-  questions.forEach((q,i) => {
-    const text = `${i + 1}. ${sanitize(q.question)}`;
-    const lh = lhFromFont(pdf); const req = pdf.splitTextToSize(text, maxWidth).length * lh + 14;
-    if (needsNewPage(req)) addNewPage();
-    addWrappedText(text, margin, maxWidth); yPos += 2; pdf.text('_'.repeat(underscoreLen), margin, yPos); yPos += 12;
+  questions.forEach((q, i) => {
+    const categoryText =
+      `Jeopardy category: ${sanitize(q.topic || 'Geography')}`;
+    const questionText =
+      `${i + 1}. ${sanitize(q.question)}`;
+  
+    pdf.setFontSize(9);
+    const categoryHeight =
+      pdf.splitTextToSize(categoryText, maxWidth).length *
+      lhFromFont(pdf);
+  
+    pdf.setFontSize(13);
+    const questionHeight =
+      pdf.splitTextToSize(questionText, maxWidth).length *
+      lhFromFont(pdf);
+  
+    const requiredSpace = categoryHeight + questionHeight + 14;
+  
+    if (needsNewPage(requiredSpace)) addNewPage();
+  
+    pdf.setFontSize(9);
+    pdf.setFont(undefined, 'bold');
+    addWrappedText(categoryText, margin, maxWidth);
+    yPos += 2;
+  
+    pdf.setFontSize(13);
+    pdf.setFont(undefined, 'normal');
+    addWrappedText(questionText, margin, maxWidth);
+    yPos += 2;
+  
+    pdf.text('_'.repeat(underscoreLen), margin, yPos);
+    yPos += 12;
   });
 
   addNewPage();
@@ -750,7 +847,7 @@ function bindEvents() {
   $('compendiumSearch').addEventListener('input',renderCompendium);
   $('compendiumCategory').addEventListener('change',()=>{$('compendiumSubcategory').innerHTML=subcategoryOptions($('compendiumCategory').value);renderCompendium()});
   $('compendiumSubcategory').addEventListener('change',renderCompendium);
-  $('compendiumTopic').addEventListener('change',renderCompendium);
+  $('compendiumList').addEventListener('scroll',handleCompendiumScroll);
   $('practiceCompendiumBtn').addEventListener('click',()=>{if(!filteredCompendium.length)return;closeModal('compendiumModal');startGame({mode:'compendium',pool:[...filteredCompendium],label:'Compendium Practice',teamNames:['Score','']})});
   $('tipsBtn').addEventListener('click',()=>openModal('tipsModal'));
   $('exportPdfBtn').addEventListener('click',exportPDF);
