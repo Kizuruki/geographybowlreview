@@ -847,6 +847,7 @@ function bindEvents() {
   $('compendiumSearch').addEventListener('input',renderCompendium);
   $('compendiumCategory').addEventListener('change',()=>{$('compendiumSubcategory').innerHTML=subcategoryOptions($('compendiumCategory').value);renderCompendium()});
   $('compendiumSubcategory').addEventListener('change',renderCompendium);
+  $('compendiumTopic').addEventListener('change',renderCompendium);
   $('compendiumList').addEventListener('scroll',handleCompendiumScroll);
   $('practiceCompendiumBtn').addEventListener('click',()=>{if(!filteredCompendium.length)return;closeModal('compendiumModal');startGame({mode:'compendium',pool:[...filteredCompendium],label:'Compendium Practice',teamNames:['Score','']})});
   $('tipsBtn').addEventListener('click',()=>openModal('tipsModal'));
