@@ -49,7 +49,7 @@
             <article class="card" id="fullGameCard">
               <span class="card-icon">🏆</span>
               <h3>Full Game Simulation</h3>
-              <p class="muted">Two local teams alternate questions for 20 minutes, with steals and two throwouts each.</p>
+              <p class="muted">Two local teams alternate questions for 20 minutes, with steals and one challenge each.</p>
               <div><button class="btn" type="button" id="fullGameBtn">Start Full Game</button></div>
             </article>
             <article class="card" id="aiCard">
@@ -118,10 +118,10 @@
             <article class="card">
               <span class="card-icon">📄</span>
               <h3>Practice PDFs</h3>
-              <p class="muted"><span id="pdfCount">0</span> questions currently queued. Print a question packet with an answer key.</p>
+              <p class="muted"><span id="pdfCount">0</span> questions currently queued. Print a 21-question packet with an answer key.</p>
               <div class="button-wrap">
                 <button class="btn" type="button" id="exportPdfBtn">Export</button>
-                <button class="btn outline" type="button" id="generatePdfBtn">Generate 22</button>
+                <button class="btn outline" type="button" id="generatePdfBtn">Generate 21</button>
                 <button class="btn secondary" type="button" id="clearPdfBtn">Clear</button>
               </div>
             </article>
@@ -155,7 +155,7 @@
         <div class="team-score active" id="team0Panel">
           <div class="team-name" id="team0Name">Score</div>
           <div class="score" id="team0Score">0</div>
-          <div class="small" id="team0Throwouts">2 throwouts left</div>
+          <div class="small" id="team0Throwouts">1 challenge left</div>
         </div>
         <div class="team-score center-score">
           <div class="team-name">Round</div>
@@ -175,7 +175,7 @@
         <div class="team-score" id="team1Panel">
           <div class="team-name" id="team1Name">Opponent</div>
           <div class="score" id="team1Score">0</div>
-          <div class="small" id="team1Throwouts">2 throwouts left</div>
+          <div class="small" id="team1Throwouts">1 challenge left</div>
         </div>
       </div>
 
@@ -197,7 +197,7 @@
         </div>
         <div id="feedback" class="feedback"></div>
         <div class="controls">
-          <button id="throwoutBtn" class="btn danger" type="button">Throw Out (2)</button>
+          <button id="throwoutBtn" class="btn danger" type="button">Challenge (1)</button>
           <button id="showAnswerBtn" class="btn outline" type="button">Show Answer</button>
           <button id="nextBtn" class="btn success hidden" type="button">Next Question</button>
           <button id="pauseBtn" class="btn secondary" type="button">Pause</button>
@@ -294,9 +294,9 @@
         <ul>
           <li>Every question is worth one point and there is one round.</li>
           <li>Full Game and AI Challenge end after 20 minutes.</li>
-          <li>A wrong first attempt automatically passes to the other team after a short throwout window.</li>
-          <li>Each team has two throwouts. Press Throw Out before answering or during the short window after a miss.</li>
-          <li>A thrown-out question is replaced for the same team and cannot be stolen.</li>
+          <li>A wrong first attempt automatically passes to the other team after a short challenge window.</li>
+          <li>Each team has one challenge. Press Challenge before answering or during the short window after a miss.</li>
+          <li>A challenged question is replaced for the same team and cannot be stolen.</li>
         </ul>
       </div>
     </div>
