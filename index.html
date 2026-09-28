@@ -93,7 +93,10 @@
               <span class="card-icon">🚩</span>
               <h3>Flagged Questions (Admin)</h3>
               <p class="muted">Review geography-authenticity reports from players.</p>
-              <div><button class="btn" type="button" id="adminFlagsBtn">Review Flags <span id="adminFlagsCount">0</span></button></div>
+              <div class="button-wrap">
+                <button class="btn" type="button" id="adminFlagsBtn">Review Flags <span id="adminFlagsCount">0</span></button>
+                <button class="btn outline" type="button" onclick="openUserActivityDashboard()">📈 User Activity</button>
+              </div>
             </article>
           </div>
         </section>
@@ -229,8 +232,9 @@
 
   <div class="modal" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
     <div class="modal-card narrow">
-      <div class="modal-heading"><h2 id="loginTitle">Local Profile</h2><button class="modal-close" data-close="loginModal" aria-label="Close">×</button></div>
-      <p class="muted">Profiles keep separate progress on this browser. They are not synced online.</p>
+      <div class="modal-heading"><h2 id="loginTitle">Login / Register</h2><button class="modal-close" id="loginCloseBtn" data-close="loginModal" aria-label="Close">×</button></div>
+      <p class="muted">Uses the same account as the History Bowl site.</p>
+      <p class="muted hidden" id="loginGateNote"><strong>Please log in or create a free account to use the study program.</strong></p>
       <label class="field">Username<input type="text" id="loginUsername" maxlength="24" autocomplete="username"></label>
       <label class="field">Password<input type="password" id="loginPassword" autocomplete="current-password"></label>
       <p class="form-error" id="loginError"></p>
@@ -317,5 +321,6 @@
   </div>
   <div id="printPacket" class="print-packet"></div>
   <script src="app.js" defer></script>
+  <script src="admin-activity.js" defer></script>
 </body>
 </html>

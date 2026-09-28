@@ -96,7 +96,18 @@ function updateAuthUI() {
 }
 
 function openModal(id) { $(id).classList.add('open'); }
-function closeModal(id) { $(id).classList.remove('open'); }
+function closeModal(id) {
+  if (id === 'loginModal' && currentUser === 'guest') return; // login is required
+  $(id).classList.remove('open');
+}
+
+function showLoginGate() {
+  $('loginGateNote').classList.remove('hidden');
+  $('loginCloseBtn').classList.add('hidden');
+  $('loginError').textContent = '';
+  openModal('loginModal');
+  setTimeout(() => $('loginUsername').focus(), 50);
+}
 
 function showFeedback(message, type='info') {
   $('feedback').textContent = message;
@@ -285,7 +296,20 @@ function updateScoreboard() {
 }
 
 function nextQuestionFromQueue() {
-  if (!state.queue.length) state.queue = shuffle(state.pool);
+  if (!state.queue.length) {
+    if (state.mode === 'missed' || state.mode === 'spaced') {
+      // Start the next pass with only the questions that are still missed /
+      // still due. Anything answered correctly drops out instead of repeating.
+      const data = loadUserData();
+      const keep = new Set(state.mode === 'missed'
+        ? data.missed
+        : Object.entries(data.spaced || {}).filter(([, item]) => Number(item.dueAt) <= Date.now()).map(([id]) => id));
+      state.pool = state.pool.filter((q) => keep.has(q.id));
+      if (!state.pool.length) return null;
+      if (state.questionCount > 0) state.passNotice = `Round complete — ${state.pool.length} still to go. Going through just those again.`;
+    }
+    state.queue = shuffle(state.pool);
+  }
   return state.queue.pop();
 }
 
@@ -298,6 +322,7 @@ function loadQuestion(changeOwner=true) {
   state.isSteal = false;
   state.phase = 'answering';
   state.current = nextQuestionFromQueue();
+  if (!state.current) { state.cleared = true; endGame(false); return; }
   state.questionCount += 1;
   state.answerStartedAt = Date.now();
   $('questionCounter').textContent = `Question ${state.questionCount}`;
@@ -308,6 +333,7 @@ function loadQuestion(changeOwner=true) {
   $('answerInput').value = '';
   $('addToPdfCheckbox').checked = false;
   clearFeedback();
+  if (state.passNotice) { showFeedback(state.passNotice, 'info'); state.passNotice = null; }
   $('nextBtn').classList.add('hidden');
   setQuestionControls();
   updateScoreboard();
@@ -501,7 +527,7 @@ function endGame(timeExpired=false) {
   sessionToken += 1;
   clearGameTimers();
   window.speechSynthesis?.cancel();
-  let title = 'Practice Complete';
+  let title = state.cleared ? (state.mode === 'missed' ? 'All Missed Questions Cleared! 🎉' : 'Review Complete! 🎉') : 'Practice Complete';
   let score = `${state.correct} / ${state.attempts}`;
   let detail = state.attempts ? `${calculateGameAccuracy()}% accuracy` : 'No answers recorded';
   if (state.competitive) {
@@ -790,6 +816,8 @@ async function authRequest(action, username, password) {
 function finishLogin(username) {
   currentUser = username;
   localStorage.setItem(CURRENT_USER_KEY, currentUser);
+  $('loginGateNote').classList.add('hidden');
+  $('loginCloseBtn').classList.remove('hidden');
   closeModal('loginModal');
   updateAuthUI();
 }
@@ -812,15 +840,17 @@ async function loginAccount() {
   try {
     const data = await authRequest('login', username, password);
     if (!data.success) { $('loginError').textContent = data.message || 'Invalid credentials.'; return; }
-    finishLogin(username);
+    finishLogin(data.username || username);
   } catch { $('loginError').textContent = 'Could not reach the server.'; }
 }
 
 function logout() {
+  if (state && !state.ended) returnHome(true);
   currentUser = 'guest';
   localStorage.setItem(CURRENT_USER_KEY,currentUser);
   $('playerNameInput').dataset.auto = 'true';
   updateAuthUI();
+  showLoginGate();
 }
 
 function bindEvents() {
@@ -869,7 +899,14 @@ function bindEvents() {
   $('loginSubmitBtn').addEventListener('click',loginAccount);
   $('loginPassword').addEventListener('keydown',(event)=>{if(event.key==='Enter')loginAccount()});
   $('endHomeBtn').addEventListener('click',()=>{closeModal('endModal');returnHome(true)});
-  $('playAgainBtn').addEventListener('click',()=>{if(!lastConfig)return;closeModal('endModal');startGame({...lastConfig,pool:[...lastConfig.pool]})});
+  $('playAgainBtn').addEventListener('click',()=>{
+    if(!lastConfig)return;
+    closeModal('endModal');
+    // Missed / spaced rebuild from the current lists instead of replaying the old pool
+    if(lastConfig.mode==='missed'){returnHome(true);$('missedBtn').click();return;}
+    if(lastConfig.mode==='spaced'){returnHome(true);$('spacedBtn').click();return;}
+    startGame({...lastConfig,pool:[...lastConfig.pool]});
+  });
 }
 
 function renderSpecialties() {
@@ -919,6 +956,7 @@ async function init() {
   bindEvents();
   renderSpecialties();
   updateAuthUI();
+  if (currentUser === 'guest') showLoginGate();
   try {
     const bank = await loadQuestionBank();
     const removedIds = await fetchRemovedQuestionIds();
