@@ -185,7 +185,7 @@ function openSetup(mode, presetCategory='all') {
     body.innerHTML = `<div class="setup-grid">
       <label class="field">Team A<input id="setupTeamA" maxlength="24" value="${escapeHTML($('playerNameInput').value.trim() || 'Team A')}"></label>
       <label class="field">Team B<input id="setupTeamB" maxlength="24" value="Team B"></label>
-      <div class="setup-note">The game draws from the full compendium, alternates first attempts, and ends after 20 minutes. Each team has two throwouts.</div>
+      <div class="setup-note">The game draws from the full compendium, alternates first attempts, and ends after 20 minutes. Each team has one challenge.</div>
     </div>`;
     $('setupConfirmBtn').textContent = 'Start Full Game';
   } else {
@@ -202,7 +202,7 @@ function openSetup(mode, presetCategory='all') {
     body.querySelectorAll('.level-btn').forEach((button) => button.addEventListener('click', () => {
       selectedAILevel = Number(button.dataset.level);
       body.querySelectorAll('.level-btn').forEach((item) => item.classList.toggle('selected', item === button));
-      $('aiLevelNote').textContent = `Level ${selectedAILevel} answers approximately ${accuracyPercent(selectedAILevel)}% correctly. The AI automatically throws out the first two questions it answers incorrectly on its own turns.`;
+      $('aiLevelNote').textContent = `Level ${selectedAILevel} answers approximately ${accuracyPercent(selectedAILevel)}% correctly. The AI automatically uses its challenge on the first question it answers incorrectly.`;
     }));
     $('setupConfirmBtn').textContent = 'Start AI Game';
   }
@@ -238,7 +238,7 @@ function startGame(config) {
   sessionToken += 1;
   const competitive = ['full','ai'].includes(config.mode);
   state = {
-    ...config,competitive,queue:shuffle(config.pool),scores:[0,0],throwouts:competitive?[2,2]:[0,0],turnOwner:0,answeringTeam:0,isSteal:false,
+    ...config,competitive,queue:shuffle(config.pool),scores:[0,0],throwouts:competitive?[1,1]:[0,0],turnOwner:0,answeringTeam:0,isSteal:false,
     phase:'ready',current:null,questionCount:0,secondsLeft:competitive?1200:null,timerId:null,actionTimerId:null,stealIntervalId:null,
     attempts:0,correct:0,responseTimes:[],answerStartedAt:0,paused:false,ended:false
   };
@@ -285,8 +285,8 @@ function updateScoreboard() {
   if (!state) return;
   $('team0Score').textContent = state.scores[0];
   $('team1Score').textContent = state.scores[1];
-  $('team0Throwouts').textContent = `${state.throwouts[0]} throwout${state.throwouts[0] === 1 ? '' : 's'} left`;
-  $('team1Throwouts').textContent = `${state.throwouts[1]} throwout${state.throwouts[1] === 1 ? '' : 's'} left`;
+  $('team0Throwouts').textContent = `${state.throwouts[0]} challenge${state.throwouts[0] === 1 ? '' : 's'} left`;
+  $('team1Throwouts').textContent = `${state.throwouts[1]} challenge${state.throwouts[1] === 1 ? '' : 's'} left`;
   $('team0Panel').classList.toggle('active',state.answeringTeam === 0);
   $('team1Panel').classList.toggle('active',state.competitive && state.answeringTeam === 1);
   const avg = state.responseTimes.length ? state.responseTimes.reduce((a,b)=>a+b,0)/state.responseTimes.length/1000 : null;
@@ -353,7 +353,7 @@ function setQuestionControls() {
   $('showAnswerBtn').classList.toggle('hidden',!practiceReveal);
   const canThrow = state.competitive && !state.isSteal && !isBotTurn() && state.answeringTeam === state.turnOwner && state.throwouts[state.turnOwner] > 0 && ['answering','steal_window'].includes(state.phase);
   $('throwoutBtn').classList.toggle('hidden',!canThrow);
-  $('throwoutBtn').textContent = `Throw Out (${state.throwouts[state.turnOwner] || 0})`;
+  $('throwoutBtn').textContent = `Challenge (${state.throwouts[state.turnOwner] || 0})`;
   $('nextBtn').classList.toggle('hidden',state.phase !== 'resolved');
   $('turnDisplay').textContent = isBotTurn() ? `${state.teamNames[1]} is answering` : state.isSteal ? `${state.teamNames[state.answeringTeam]} can steal` : state.competitive ? `${state.teamNames[state.answeringTeam]}'s question` : state.paused ? 'Practice paused' : 'Practice question';
   if (humanCanAnswer) setTimeout(()=>$('answerInput').focus(),30);
@@ -416,7 +416,7 @@ function startAutomaticStealWindow() {
   const hasThrowout = state.throwouts[state.turnOwner] > 0;
   let remaining = hasThrowout ? 3 : 1;
   const target = state.teamNames[1-state.turnOwner];
-  const updateMessage = () => showFeedback(`Incorrect. ${hasThrowout ? `Press Throw Out now or the question passes to ${target} in ${remaining}…` : `The question passes to ${target}…`}`,'incorrect');
+  const updateMessage = () => showFeedback(`Incorrect. ${hasThrowout ? `Press Challenge now or the question passes to ${target} in ${remaining}…` : `The question passes to ${target}…`}`,'incorrect');
   updateMessage();
   setQuestionControls();
   state.stealIntervalId = setInterval(() => {
@@ -450,7 +450,7 @@ function useThrowout() {
   state.phase = 'transition';
   $('answerArea').classList.add('hidden');
   $('throwoutBtn').classList.add('hidden');
-  showFeedback(`${state.teamNames[team]} throws out the question. It cannot be stolen; a replacement is coming.`,'info');
+  showFeedback(`${state.teamNames[team]} uses its challenge. It cannot be stolen; a replacement is coming.`,'info');
   updateScoreboard();
   const token = sessionToken;
   state.actionTimerId = setTimeout(()=>{ if(token===sessionToken && state && !state.ended) loadQuestion(false); },650);
@@ -471,7 +471,7 @@ function runAIAnswer() {
     } else if (!state.isSteal && state.throwouts[1] > 0) {
       state.throwouts[1] -= 1;
       state.phase = 'transition';
-      showFeedback(`${state.teamNames[1]} answers incorrectly and automatically uses throwout ${2-state.throwouts[1]} of 2. You cannot steal.`,'incorrect');
+      showFeedback(`${state.teamNames[1]} answers incorrectly and uses its challenge. You cannot steal.`,'incorrect');
       updateScoreboard();
       state.actionTimerId = setTimeout(()=>{ if(token===sessionToken && state && !state.ended) loadQuestion(false); },900);
     } else if (!state.isSteal) {
@@ -706,8 +706,10 @@ function handleCompendiumScroll() {
 
 function exportPDF() {
   const ids = new Set(loadUserData().pdfQueue);
-  const questions = QUESTIONS.filter((q) => ids.has(q.id));
-  if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 22-question packet first.'); return; }
+  const picked = QUESTIONS.filter((q) => ids.has(q.id)).slice(0, 21);
+  const questions = picked.slice(0, 21);       // regular questions
+  const challenge = picked[21] || null;        // 22nd = challenge question
+  if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 21-question packet first.'); return; }
   if (typeof window.jspdf === 'undefined') { alert('PDF library is still loading. Please try again in a moment.'); return; }
   const sanitize = (s) => String(s ?? '').replace(/\r\n?/g, '\n').replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
   const { jsPDF } = window.jspdf;
@@ -728,7 +730,7 @@ function exportPDF() {
 
   pdf.setFontSize(16); pdf.setFont(undefined,'bold'); pdf.text('Geography Bowl Practice Packet', margin, yPos); yPos += 10;
   const today = new Date().toLocaleDateString();
-  pdf.setFontSize(10); pdf.setFont(undefined,'normal'); pdf.text(`${questions.length} questions • Generated ${today}`, margin, yPos); yPos += 16;
+  pdf.setFontSize(10); pdf.setFont(undefined,'normal'); pdf.text(`${questions.length} questions${challenge ? ' + 1 challenge' : ''} • Generated ${today}`, margin, yPos); yPos += 16;
   questions.forEach((q, i) => {
     const categoryText =
       `Jeopardy category: ${sanitize(q.topic || 'Geography')}`;
@@ -762,7 +764,16 @@ function exportPDF() {
     pdf.text('_'.repeat(underscoreLen), margin, yPos);
     yPos += 12;
   });
-
+  if (challenge) {
+    pdf.setFontSize(13);
+    const need = pdf.splitTextToSize(sanitize(challenge.question), maxWidth).length * lhFromFont(pdf) + 34;
+    if (needsNewPage(need)) addNewPage();
+    yPos += 4;
+    pdf.setFontSize(14); pdf.setFont(undefined,'bold'); pdf.text('Challenge Question', margin, yPos); yPos += 8;
+    pdf.setFontSize(9); addWrappedText(`Jeopardy category: ${sanitize(challenge.topic || 'Geography')}`, margin, maxWidth); yPos += 2;
+    pdf.setFontSize(13); pdf.setFont(undefined,'normal'); addWrappedText(sanitize(challenge.question), margin, maxWidth); yPos += 2;
+    pdf.text('_'.repeat(underscoreLen), margin, yPos); yPos += 12;
+  }
   addNewPage();
   pdf.setFontSize(16); pdf.setFont(undefined,'bold'); pdf.text('Answer Key', margin, yPos); yPos += 12;
   pdf.setFontSize(13); pdf.setFont(undefined,'normal');
@@ -772,7 +783,12 @@ function exportPDF() {
     if (needsNewPage(req)) addNewPage();
     addWrappedText(text, margin, maxWidth); yPos += 4;
   });
-
+  if (challenge) {
+    const text = `Challenge. ${sanitize(challenge.answer)}  (${sanitize(challenge.category)} — ${sanitize(challenge.subcategory)})`;
+    const req = pdf.splitTextToSize(text, maxWidth).length * lhFromFont(pdf) + 4;
+    if (needsNewPage(req)) addNewPage();
+    pdf.setFont(undefined,'bold'); addWrappedText(text, margin, maxWidth); pdf.setFont(undefined,'normal'); yPos += 4;
+  }
   const file = new File([pdf.output('arraybuffer')], 'GeographyBowl_Practice.pdf', { type: 'application/pdf' });
   const url = URL.createObjectURL(file);
   const win = window.open(url, '_blank');
@@ -781,8 +797,8 @@ function exportPDF() {
 }
 
 function generatePDFQueue() {
-  mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(22,QUESTIONS.length)).map((q)=>q.id); });
-  alert('A 22-question practice packet is ready. Click Export to open the print dialog, then choose Save as PDF.');
+  mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(21,QUESTIONS.length)).map((q)=>q.id); });
+  alert('A 21-question practice packet is ready. Click Export to open the print dialog, then choose Save as PDF.');
 }
 
 function clearPDFQueue() {
