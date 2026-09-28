@@ -123,12 +123,9 @@ function normalize(value) {
   return String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\b(the|a|an)\b/g,' ').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
 }
 
-function matchesAnswer(input, question) {
-  const guess = normalize(input);
-  if (!guess) return false;
-  const choices = [question.answer,...(question.aliases || [])].map(normalize);
-  return choices.some((answer) => guess === answer || (guess.length >= 5 && answer.length >= 5 && (guess.includes(answer) || answer.includes(guess))));
-}
+   function matchesAnswer(input, question) {
+     return window.answerMatches(input, [question.answer, ...(question.aliases || [])]);
+   }
 
 function aiAccuracy(level) {
   const t = (Number(level) - 1) / 9;
