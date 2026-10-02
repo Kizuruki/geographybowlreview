@@ -703,10 +703,10 @@ function handleCompendiumScroll() {
 
 function exportPDF() {
   const ids = new Set(loadUserData().pdfQueue);
-  const picked = QUESTIONS.filter((q) => ids.has(q.id)).slice(0, 21);
-  const questions = picked.slice(0, 21);       // regular questions
-  const challenge = picked[21] || null;        // 22nd = challenge question
-  if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 21-question packet first.'); return; }
+  const picked = QUESTIONS.filter((q) => ids.has(q.id)).slice(0, 20);
+  const questions = picked.slice(0, 20);       // regular questions
+  const challenge = picked[20] || null;        // 22nd = challenge question
+  if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 20-question packet first.'); return; }
   if (typeof window.jspdf === 'undefined') { alert('PDF library is still loading. Please try again in a moment.'); return; }
   const sanitize = (s) => String(s ?? '').replace(/\r\n?/g, '\n').replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
   const { jsPDF } = window.jspdf;
@@ -794,7 +794,7 @@ function exportPDF() {
 }
 
 function generatePDFQueue() {
-  mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(21,QUESTIONS.length)).map((q)=>q.id); });
+  mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(20,QUESTIONS.length)).map((q)=>q.id); });
   alert('A 21-question practice packet is ready. Click Export to open the print dialog, then choose Save as PDF.');
 }
 
