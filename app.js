@@ -735,7 +735,7 @@ function exportPDF() {
   yPos += 12;
   questions.forEach((q, i) => {
     const categoryText =
-      `Jeopardy category: ${sanitize(q.topic || 'Geography')}`;
+      `CATEGORY: ${sanitize(q.topic || 'Geography')}`;
     const questionText =
       `${i + 1}. ${sanitize(q.question)}`;
   
