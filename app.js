@@ -730,7 +730,9 @@ function exportPDF() {
   pdf.setFont(undefined,'bold');
   pdf.text("1 challenge available (if you get a question wrong, it doesn't count against you)", margin, yPos);
   pdf.setFont(undefined,'normal');
-  yPos += 10;
+  yPos += 7;
+  pdf.text('Challenge used on #: ________', margin, yPos);
+  yPos += 12;
   questions.forEach((q, i) => {
     const categoryText =
       `Jeopardy category: ${sanitize(q.topic || 'Geography')}`;
