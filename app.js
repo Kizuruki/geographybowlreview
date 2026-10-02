@@ -703,9 +703,9 @@ function handleCompendiumScroll() {
 
 function exportPDF() {
   const ids = new Set(loadUserData().pdfQueue);
-  const picked = QUESTIONS.filter((q) => ids.has(q.id)).slice(0, 20);
+  const picked = QUESTIONS.filter((q) => ids.has(q.id)).slice(0, 21);
   const questions = picked.slice(0, 20);       // regular questions
-  const challenge = picked[20] || null;        // 22nd = challenge question
+  const challenge = picked[20] || null;        // 21st = challenge question
   if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 20-question packet first.'); return; }
   if (typeof window.jspdf === 'undefined') { alert('PDF library is still loading. Please try again in a moment.'); return; }
   const sanitize = (s) => String(s ?? '').replace(/\r\n?/g, '\n').replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
@@ -727,7 +727,16 @@ function exportPDF() {
 
   pdf.setFontSize(16); pdf.setFont(undefined,'bold'); pdf.text('Geography Bowl Practice Packet', margin, yPos); yPos += 10;
   const today = new Date().toLocaleDateString();
-  pdf.setFontSize(10); pdf.setFont(undefined,'normal'); pdf.text(`${questions.length} questions${challenge ? ' + 1 challenge' : ''} • Generated ${today}`, margin, yPos); yPos += 16;
+  pdf.setFontSize(10); pdf.setFont(undefined,'normal');
+  pdf.text(`${questions.length} questions • Generated ${today}`, margin, yPos); yPos += 6;
+  if (challenge) {
+    pdf.setFont(undefined,'bold');
+    pdf.text("1 challenge available (if you get a question wrong, it doesn't count against you)", margin, yPos);
+    pdf.setFont(undefined,'normal');
+    yPos += 10;
+  } else {
+    yPos += 10;
+  }
   questions.forEach((q, i) => {
     const categoryText =
       `Jeopardy category: ${sanitize(q.topic || 'Geography')}`;
@@ -794,7 +803,7 @@ function exportPDF() {
 }
 
 function generatePDFQueue() {
-  mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(20,QUESTIONS.length)).map((q)=>q.id); });
+  mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(21,QUESTIONS.length)).map((q)=>q.id); });
   alert('A 21-question practice packet is ready. Click Export to open the print dialog, then choose Save as PDF.');
 }
 
