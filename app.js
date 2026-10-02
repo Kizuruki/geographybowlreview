@@ -703,9 +703,7 @@ function handleCompendiumScroll() {
 
 function exportPDF() {
   const ids = new Set(loadUserData().pdfQueue);
-  const picked = QUESTIONS.filter((q) => ids.has(q.id)).slice(0, 21);
-  const questions = picked.slice(0, 20);       // regular questions
-  const challenge = picked[20] || null;        // 21st = challenge question
+  const questions = QUESTIONS.filter((q) => ids.has(q.id)).slice(0, 20);
   if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 20-question packet first.'); return; }
   if (typeof window.jspdf === 'undefined') { alert('PDF library is still loading. Please try again in a moment.'); return; }
   const sanitize = (s) => String(s ?? '').replace(/\r\n?/g, '\n').replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
@@ -729,14 +727,10 @@ function exportPDF() {
   const today = new Date().toLocaleDateString();
   pdf.setFontSize(10); pdf.setFont(undefined,'normal');
   pdf.text(`${questions.length} questions • Generated ${today}`, margin, yPos); yPos += 6;
-  if (challenge) {
-    pdf.setFont(undefined,'bold');
-    pdf.text("1 challenge available (if you get a question wrong, it doesn't count against you)", margin, yPos);
-    pdf.setFont(undefined,'normal');
-    yPos += 10;
-  } else {
-    yPos += 10;
-  }
+  pdf.setFont(undefined,'bold');
+  pdf.text("1 challenge available (if you get a question wrong, it doesn't count against you)", margin, yPos);
+  pdf.setFont(undefined,'normal');
+  yPos += 10;
   questions.forEach((q, i) => {
     const categoryText =
       `Jeopardy category: ${sanitize(q.topic || 'Geography')}`;
@@ -770,16 +764,6 @@ function exportPDF() {
     pdf.text('_'.repeat(underscoreLen), margin, yPos);
     yPos += 12;
   });
-  if (challenge) {
-    pdf.setFontSize(13);
-    const need = pdf.splitTextToSize(sanitize(challenge.question), maxWidth).length * lhFromFont(pdf) + 34;
-    if (needsNewPage(need)) addNewPage();
-    yPos += 4;
-    pdf.setFontSize(14); pdf.setFont(undefined,'bold'); pdf.text('Challenge Question', margin, yPos); yPos += 8;
-    pdf.setFontSize(9); addWrappedText(`Jeopardy category: ${sanitize(challenge.topic || 'Geography')}`, margin, maxWidth); yPos += 2;
-    pdf.setFontSize(13); pdf.setFont(undefined,'normal'); addWrappedText(sanitize(challenge.question), margin, maxWidth); yPos += 2;
-    pdf.text('_'.repeat(underscoreLen), margin, yPos); yPos += 12;
-  }
   addNewPage();
   pdf.setFontSize(16); pdf.setFont(undefined,'bold'); pdf.text('Answer Key', margin, yPos); yPos += 12;
   pdf.setFontSize(13); pdf.setFont(undefined,'normal');
@@ -789,12 +773,6 @@ function exportPDF() {
     if (needsNewPage(req)) addNewPage();
     addWrappedText(text, margin, maxWidth); yPos += 4;
   });
-  if (challenge) {
-    const text = `Challenge. ${sanitize(challenge.answer)}  (${sanitize(challenge.category)} — ${sanitize(challenge.subcategory)})`;
-    const req = pdf.splitTextToSize(text, maxWidth).length * lhFromFont(pdf) + 4;
-    if (needsNewPage(req)) addNewPage();
-    pdf.setFont(undefined,'bold'); addWrappedText(text, margin, maxWidth); pdf.setFont(undefined,'normal'); yPos += 4;
-  }
   const file = new File([pdf.output('arraybuffer')], 'GeographyBowl_Practice.pdf', { type: 'application/pdf' });
   const url = URL.createObjectURL(file);
   const win = window.open(url, '_blank');
@@ -804,7 +782,7 @@ function exportPDF() {
 
 function generatePDFQueue() {
   mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(21,QUESTIONS.length)).map((q)=>q.id); });
-  alert('A 21-question practice packet is ready. Click Export to open the print dialog, then choose Save as PDF.');
+  alert('A 20-question practice packet is ready. Click Export to open the print dialog, then choose Save as PDF.');
 }
 
 function clearPDFQueue() {
