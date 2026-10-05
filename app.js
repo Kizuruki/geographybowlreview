@@ -703,7 +703,7 @@ function handleCompendiumScroll() {
 
 function exportPDF() {
   const ids = new Set(loadUserData().pdfQueue);
-  const questions = QUESTIONS.filter((q) => ids.has(q.id)).slice(0, 20);
+  const questions = QUESTIONS.filter((q) => ids.has(q.id));
   if (!questions.length) { alert('Your PDF queue is empty. Add questions while practicing or generate a 20-question packet first.'); return; }
   if (typeof window.jspdf === 'undefined') { alert('PDF library is still loading. Please try again in a moment.'); return; }
   const sanitize = (s) => String(s ?? '').replace(/\r\n?/g, '\n').replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
