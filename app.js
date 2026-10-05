@@ -783,6 +783,8 @@ function exportPDF() {
 }
 
 function generatePDFQueue() {
+  const existing = loadUserData().pdfQueue.length;
+  if (existing && !confirm(`This will replace your ${existing} queued questions with 20 random ones. Continue?`)) return;
   mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(20,QUESTIONS.length)).map((q)=>q.id); });
   alert('A 20-question practice packet is ready. Click Export to open the print dialog, then choose Save as PDF.');
 }
