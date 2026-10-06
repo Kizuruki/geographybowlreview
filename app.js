@@ -41,7 +41,7 @@ let compendiumRenderedCount = 0;
 let sessionToken = 0;
 
 function blankUserData() {
-  return {version:DATA_VERSION,stats:[],missed:[],mastered:[],spaced:{},leaderboard:[],pdfQueue:[],settings:{tts:false}};
+  return {version:DATA_VERSION,stats:[],missed:[],mastered:[],spaced:{},leaderboard:[],pdfQueue:[],settings:{tts:false,pdfEvenSplit:false}};
 }
 
 function userKey(username=currentUser) { return `geoBowlDataV2:${username}`; }
@@ -91,6 +91,7 @@ function updateAuthUI() {
   const data = loadUserData();
   $('ttsToggle').checked = Boolean(data.settings.tts);
   $('ttsInGame').checked = Boolean(data.settings.tts);
+  $('pdfEvenSplitToggle').checked = Boolean(data.settings.pdfEvenSplit);
   updateHomeCounts();
   updateAdminUI();
 }
@@ -782,11 +783,45 @@ function exportPDF() {
   setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
 
+// Each draw: pick one of CATEGORIES uniformly (1/5), then one of SUBCATEGORIES
+// uniformly (1/5) — with 5 categories x 5 subcategories that's a 1/25 = 4%
+// chance per subcategory per draw, independent of how many questions live in
+// it. Then pick a random, not-yet-used question from that category+subcategory
+// pool. This is "even by chance", not "even by final count" — with 20 draws
+// across 25 cells some cells may end up empty, which matches picking each
+// subcategory with an equal 4% chance on every draw rather than forcing a
+// guaranteed quota per cell.
+function pickEvenSplitQuestions(count) {
+  const picked = [];
+  const usedIds = new Set();
+  const maxAttempts = count * 50;
+  let attempts = 0;
+  while (picked.length < count && attempts < maxAttempts) {
+    attempts++;
+    const category = CATEGORIES[Math.floor(Math.random() * CATEGORIES.length)].name;
+    const subcategory = SUBCATEGORIES[Math.floor(Math.random() * SUBCATEGORIES.length)];
+    const pool = QUESTIONS.filter((q) => q.category === category && q.subcategory === subcategory && !usedIds.has(q.id));
+    if (!pool.length) continue; // that cell has no unused questions left — redraw
+    const question = pool[Math.floor(Math.random() * pool.length)];
+    usedIds.add(question.id);
+    picked.push(question);
+  }
+  return picked;
+}
+
+function setPDFEvenSplit(enabled) {
+  mutateUserData((data)=>{data.settings.pdfEvenSplit=enabled;});
+  $('pdfEvenSplitToggle').checked = enabled;
+}
+
 function generatePDFQueue() {
+  const evenSplit = Boolean(loadUserData().settings.pdfEvenSplit);
   const existing = loadUserData().pdfQueue.length;
-  if (existing && !confirm(`This will replace your ${existing} queued questions with 20 random ones. Continue?`)) return;
-  mutateUserData((data)=>{ data.pdfQueue = shuffle(QUESTIONS).slice(0,Math.min(20,QUESTIONS.length)).map((q)=>q.id); });
-  alert('A 20-question practice packet is ready. Click Export to open the print dialog, then choose Save as PDF.');
+  if (existing && !confirm(`This will replace your ${existing} queued questions with 20 ${evenSplit ? 'evenly split' : 'random'} ones. Continue?`)) return;
+  const count = Math.min(20, QUESTIONS.length);
+  const selected = evenSplit ? pickEvenSplitQuestions(count) : shuffle(QUESTIONS).slice(0, count);
+  mutateUserData((data)=>{ data.pdfQueue = selected.map((q)=>q.id); });
+  alert(`A ${selected.length}-question practice packet is ready (${evenSplit ? 'evenly split across subcategories' : 'fully random'}). Click Export to open the print dialog, then choose Save as PDF.`);
 }
 
 function clearPDFQueue() {
@@ -890,6 +925,7 @@ function bindEvents() {
   $('clearPdfBtn').addEventListener('click',clearPDFQueue);
   $('ttsToggle').addEventListener('change',(event)=>setTTS(event.target.checked));
   $('ttsInGame').addEventListener('change',(event)=>setTTS(event.target.checked));
+  $('pdfEvenSplitToggle').addEventListener('change',(event)=>setPDFEvenSplit(event.target.checked));
   $('submitBtn').addEventListener('click',submitAnswer);
   $('answerInput').addEventListener('keydown',(event)=>{if(event.key==='Enter')submitAnswer()});
   $('throwoutBtn').addEventListener('click',useThrowout);
